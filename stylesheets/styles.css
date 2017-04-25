@@ -92,30 +92,73 @@ margin-top: 60px;
 
 
 
-/*.tester {
-  margin-top: 100px;
-  height: 300px;
-  width: 100%;
-  background-color: green;
-}
-
-.tect {
-  display: flex;
-  justify-content: center;
-  background-color: red;
-  height: 200px;
-  width: 100%;
-}
-
-.test{
-  background-color: yellow;
-  height: 100px;
-}
 
 
-.test-center  {
-  width: 100%;
-  height: 50px;
+
+
+            /*     Layout of Home Page     */
+
+.home         {
   text-align: center;
-  background-color: yellow;
-}*/
+  width: 100%;
+  height:90vh;
+  background-image: url("../images/disco.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+box-shadow:inset 0px 0px 90px 50px #192228;
+background-color: rgba(0,0,0,.2)
+}
+
+.home-content {
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 200px;
+  width: 100%;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  padding-top: 50px;
+}
+
+.main-top{
+  /*margin-top: 100px;*/
+}
+
+#upside-home  {
+
+  font-size: 60px;
+}
+
+.home-bars  {
+  margin-top: 100px;
+  border-bottom: 4px solid white;
+}
+
+.row-cause  {
+  width: 100%;
+}
+
+.cause-col  {
+  text-align: left;
+}
+#cause-head {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  margin-left: 120px;
+  font-size: 40px;
+
+}
+
+.main-button  {
+  margin-left: 120px;
+}
+
+#about-event-text, #main-tickets {
+  display: inline-block;
+  color: black;
+  font-size: 24px;
+  margin: 15px;
+  background-color: white;
+  padding: 7px;
+  border-radius: 3px;
+}
