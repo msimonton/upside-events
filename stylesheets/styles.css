@@ -162,3 +162,91 @@ background-color: rgba(0,0,0,.2)
   padding: 7px;
   border-radius: 3px;
 }
+
+
+
+            /*  About Page   */
+
+
+.about-content  {
+  width: 100%;
+  text-align: center;
+margin-top: 80px;
+}
+
+.about-head-row {
+  width: 100%;
+}
+
+#about-head {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  padding:0px;
+  font-size: 50px;
+
+}
+.about-pad  {
+  padding: 0px;
+}
+
+
+
+.about-bars {
+  border-bottom: 4px solid white;
+  margin-top: 45px;
+}
+
+
+.about-content-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.about-blah {
+  padding-left: 0px;
+}
+
+#about-text   {
+  font-size: 20px;
+  font-family: 'Fjalla One', sans-serif;
+  color: #989898;
+  padding-left: 0px;
+
+}
+
+#about-team {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  padding:0px;
+  font-size: 30px;
+
+}
+
+.team-bars {
+  border-bottom: 4px solid white;
+  margin-top: 35px;
+}
+
+.about-team-row {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.team-info  {
+  background-image: url('../images/leslie-old.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.team-pic-name  {
+  color: white;
+  background-color: rgba(0,0,0,.6);
+  margin-left: 29px;
+  margin-right: 29px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
