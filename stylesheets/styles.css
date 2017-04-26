@@ -2,7 +2,7 @@
             /*    Index   */
 
 body  {
-  background-color:#192228;
+  background-color:rgb(25,34,40);
   margin: 0px;
 
 }
@@ -231,6 +231,17 @@ margin-top: 80px;
 .about-team-row {
   width: 100%;
   margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.team-1:hover {
+  cursor: pointer;
+}
+
+.popover  {
+  background-color: rgba(25,34,40, .8);
+  color: white;
+  border: 1px solid grey;
 }
 
 .team-info  {
@@ -249,12 +260,11 @@ margin-top: 80px;
 }
 
 .team-pic-name  {
+  width: 100%;
   color: white;
   background-color: rgba(0,0,0,.6);
-  margin-left: 29px;
-  margin-right: 29px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+
+  padding:5px;
 
 }
 
@@ -371,6 +381,7 @@ margin-top: 80px;
   background-repeat: no-repeat;
   background-position: center;
   height: 300px;
+  border-radius: 30px;
 
 }
 

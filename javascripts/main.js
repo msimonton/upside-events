@@ -65,3 +65,8 @@
 //     upside.controller('ticketsController', function($scope) {
 //         $scope.message = 'Look! I am an about page.';
 //     });
+
+
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
