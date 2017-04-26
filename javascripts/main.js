@@ -1,70 +1,41 @@
-// var upside = angular.module('upside', ['ngRoute']);
-//
-//     // configure our routes
-//     upside.config(function($routeProvider) {
-//         $routeProvider
-//
-//             // route for the home page
-//             .when('/', {
-//                 templateUrl : 'views/home.html',
-//                 controller  : 'mainController'
-//             })
-//
-//             // route for the about page
-//             .when('/about', {
-//                 templateUrl : 'views/about.html',
-//                 controller  : 'aboutController'
-//             })
-//
-//             .when('/events', {
-//                 templateUrl : 'views/events.html',
-//                 controller  : 'eventsController'
-//             })
-//
-//             .when('/gallery', {
-//               templateUrl : 'views/gallery.html',
-//               controller  : 'galleryController'
-//             })
-//
-//             .when('/connect', {
-//                 templateUrl : 'views/sponsors.html',
-//                 controller  : 'connectController'
-//             })
-//
-//             .when('/tickets', {
-//                 templateUrl : 'views/tickets.html',
-//                 controller  : 'ticketsController'
-//             })
-//
-//             // route for the contact page
-//     });
-//
-//
-//
-//
-//     upside.controller('mainController', function($scope) {
-//         $scope.message = 'Testing';
-//     });
-//
-//     upside.controller('aboutController', function($scope) {
-//         $scope.message = 'Look! I am an about page.';
-//     });
-//
-//     upside.controller('eventsController', function($scope) {
-//         $scope.message = 'Look! I am an about page.';
-//     });
-//
-//     upside.controller('galleryController', function($scope) {
-//         $scope.message = 'Look! I am an about page.';
-//     });
-//
-//     upside.controller('connectController', function($scope) {
-//         $scope.message = 'Look! I am an about page.';
-//     });
-//
-//     upside.controller('ticketsController', function($scope) {
-//         $scope.message = 'Look! I am an about page.';
-//     });
+'use-strict'
+
+var routerApp = angular.module('routerApp', ['ui.router']);
+
+routerApp.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
+  $locationProvider.html5Mode(true)
+
+    $urlRouterProvider.otherwise('/home');
+
+    $stateProvider
+
+    .state('home', {
+    url: '/home',
+    templateUrl: 'views/home.html'
+})
+
+.state('about', {
+    url: '/about',
+    templateUrl: 'views/about.html',
+})
+
+.state('events', {
+    url: '/contact',
+    templateUrl: 'views/events.html',
+})
+.state('gallery', {
+    url: '/contact',
+    templateUrl: 'views/gallery.html',
+})
+.state('connect', {
+    url: '/contact',
+    templateUrl: 'views/connect.html',
+})
+.state('tickets', {
+    url: '/contact',
+    templateUrl: 'views/tickets.html',
+})
+})
 
 
 $(function () {

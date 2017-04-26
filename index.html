@@ -15,58 +15,41 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/styles.css"/>
 
 
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.js"></script> -->
+  <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+
   <script type="text/javascript" src='javascripts/main.js'></script>
+  <base href="/">
 
 
 </head>
-<body>
-  <div class='nav-upside-text'><img class='nav-logo-text' src='images/logo-text.png'/></div>
+<body ng-app='routerApp'>
+  <a ui-sref='home'><div class='nav-upside-text'><img class='nav-logo-text' src='images/logo-text.png'/></div></a>
   <div class='container-fluid' id='main-nav'>
     <div class='row large-row'>
       <div class='col-md-3 large-col'>
         <div class='row nav-row-left'>
           <div class='col-md-4'></div>
-          <a class='nav-links' href='views/about.html'><div class='col-md-4 nav-left'><h2 class='nav-text'>About Us</h2></div></a>
-          <a class='nav-links' href='views/events.html'><div class='col-md-4 nav-left'><h2 class='nav-text'>Events</h2></div></a>
+          <a class='nav-links' ui-sref='about'><div class='col-md-4 nav-left'><h2 class='nav-text'>About Us</h2></div></a>
+          <a class='nav-links' ui-sref='events'><div class='col-md-4 nav-left'><h2 class='nav-text'>Events</h2></div></a>
         </div>
       </div>
       <div class='col-md-3 large-col'>
-        <a class='nav-links' href='index.html'><div class='nav-image'><img id='nav-logo' src='images/logo2.png'/></div></a>
+        <a class='nav-links' ui-sref='home'><div class='nav-image'><img id='nav-logo' src='images/logo2.png'/></div></a>
       </div>
       <div class='col-md-3 large-col' id='nav-col-last'>
         <div class='row nav-row-right'>
-          <a class='nav-links' href='#gallery.'><div class='col-md-4 nav-right'><h2 class='nav-text'>Gallery</h2></div></a>
-          <a class='nav-links'><div class='col-md-4 nav-right'><h2 class='nav-text'>Connect</h2></a></div></a>
-          <div class='col-md-4 nav-right'><a class='nav-links' href='tickets'><h2 class='nav-text'>Tickets</h2></a></div>
+          <a class='nav-links' ui-sref='gallery'><div class='col-md-4 nav-right'><h2 class='nav-text'>Gallery</h2></div></a>
+          <a class='nav-links' ui-sref='connect'><div class='col-md-4 nav-right'><h2 class='nav-text'>Connect</h2></div></a>
+          <div class='col-md-4 nav-right'><a class='nav-links' ui-sref='tickets'><h2 class='nav-text'>Tickets</h2></a></div>
         </div>
       </div>
     </div>
   </div>
-  <div class='container-fluid home'>
-    <div class='home-content'>
-    <div class='row main-top'>
-      <div class='col-md-5 home-bars'></div>
-      <div class='col-md-2'>
-        <h2 id='upside-home'>Volume One</h2>
-
-      </div>
-      <div class='col-md-5 home-bars'></div>
 
 
-    </div>
-    <div class='row row-cause'>
-      <div class='col-md-6'></div>
-      <div class='col-md-6 cause-col'>
-        <h2 id='cause-head'>Planned Parenthood</h2>
-        <div class='main-button'>
-          <p id='about-event-text'>About Event</p>
-          <p id='main-tickets'>Get Tickets</p>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div ui-view></div>
 
 
 
