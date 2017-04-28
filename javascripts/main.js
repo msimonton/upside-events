@@ -20,19 +20,19 @@ routerApp.config(function($stateProvider, $urlRouterProvider, $locationProvider)
 })
 
 .state('events', {
-    url: '/contact',
+    url: '/events',
     templateUrl: 'views/events.html',
 })
 .state('gallery', {
-    url: '/contact',
+    url: '/gallery',
     templateUrl: 'views/gallery.html',
 })
 .state('connect', {
-    url: '/contact',
+    url: '/connect',
     templateUrl: 'views/connect.html',
 })
 .state('tickets', {
-    url: '/contact',
+    url: '/tickets',
     templateUrl: 'views/tickets.html',
 })
 })

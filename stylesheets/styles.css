@@ -14,6 +14,9 @@ body  {
   height: 100px;
   margin: 0px;
   text-align: center;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
 }
 
 .large-row  {
@@ -95,7 +98,9 @@ margin-top: 60px;
 }*/
 
 
-
+#content  {
+  width: 100%;
+}
 
 
 
@@ -106,6 +111,7 @@ margin-top: 60px;
 .home         {
   text-align: center;
   width: 100%;
+  margin-top: 100px;
   height:90vh;
   background-image: url("../images/disco.jpg");
   background-size: contain;
@@ -176,7 +182,7 @@ background-color: rgba(0,0,0,.2)
 .about-content  {
   width: 100%;
   text-align: center;
-margin-top: 80px;
+margin-top: 180px;
 }
 
 .about-head-row {
@@ -404,4 +410,17 @@ margin-top: 80px;
   font-family: 'Fjalla One', sans-serif;
   font-size: 18px;
 
+}
+
+
+
+          /*    Ticket Page Layout   */
+
+
+iframe    {
+  width: 50%;
+}
+
+.theme-container  {
+  margin-left: 0px;
 }
