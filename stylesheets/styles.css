@@ -15,7 +15,8 @@ body  {
   margin: 0px;
   text-align: center;
   position: fixed;
-  border-bottom: 5px solid black;
+  /*border-bottom: 5px solid rgb(25,34,40);*/
+  box-shadow: 0px 6px 6px 0px rgb(25,34,40);
   top: 0px;
   z-index: 1;
 }
@@ -52,7 +53,8 @@ margin-top: 60px;
   width: 100px;
 
   font-size: 24px;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -85,7 +87,7 @@ margin-top: 60px;
   padding-top: 7px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid rgb(25,34,40);
 
 
 }
@@ -138,30 +140,32 @@ margin-top: 60px;
             /*     Layout of Home Page     */
 
 .home         {
+  padding: 0px;
   text-align: center;
   width: 100%;
   margin-top: 100px;
   height:90vh;
   background-image: url("../images/disco.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 
-box-shadow:inset 0px 0px 90px 50px #192228;
+/*box-shadow:inset 0px 0px 90px 50px #192228;*/
 background-color: rgba(0,0,0,.2)
 }
 
 .home-content {
   height: 50vh;
-  background-color: rgba(0, 0, 0, 0.5);
-  margin-top: 200px;
+  background-color: rgba(0,0,0, .55);
+  margin-top: 300px;
   width: 100%;
   color: white;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding-top: 50px;
 }
 
 .main-top{
-  /*margin-top: 100px;*/
+  width: 95%;
+  margin: auto;
 }
 
 #upside-home  {
@@ -171,7 +175,7 @@ background-color: rgba(0,0,0,.2)
 
 .home-bars  {
   margin-top: 100px;
-  border-bottom: 4px solid white;
+  border-bottom: 2px solid white;
 }
 
 .row-cause  {
@@ -179,28 +183,29 @@ background-color: rgba(0,0,0,.2)
 }
 
 .cause-col  {
-  text-align: left;
+  text-align: center;
 }
 #cause-head {
   color: white;
-  font-family: 'Fjalla One', sans-serif;
-  margin-left: 120px;
+  font-family: 'Open Sans', sans-serif;
   font-size: 40px;
+  margin-left: 30px;
 
 }
 
 .main-button  {
-  margin-left: 140px;
+  margin-left:30px;
 }
 
 #about-event-text, #main-tickets {
   display: inline-block;
-  color: white;
+  background-color: rgba(255,255,255, .9);
+  color: black;
   font-size: 20px;
   margin: 15px;
-  padding: 7px;
+  padding: 5px;
   border-radius: 6px;
-  border: 2px solid white;
+
 }
 
 
@@ -220,9 +225,9 @@ margin-top: 180px;
 
 #about-head {
   color: white;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding:0px;
-  font-size: 50px;
+  font-size: 44px;
 
 }
 .about-pad  {
@@ -233,23 +238,30 @@ margin-top: 180px;
 
 .about-bars {
   border-bottom: 2px solid white;
-  margin-top: 45px;;
+  margin-top: 50px;;
 }
 
 
 .about-content-text {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .about-blah {
   padding-left: 0px;
 }
 
+#mission-head {
+  font-size: 24px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
 #about-text   {
   font-size: 20px;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #989898;
   padding-left: 0px;
 
@@ -257,14 +269,14 @@ margin-top: 180px;
 
 #about-team {
   color: white;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding:0px;
   font-size: 30px;
 
 }
 
 .team-bars {
-  border-bottom: 4px solid white;
+  border-bottom: 1px solid white;
   margin-top: 35px;
 }
 
@@ -376,11 +388,13 @@ margin-top: 180px;
 
 
 .event-title  {
-  color: white;
+  color: rgba(255,255,255, .8);
   text-align: center;
   background-color: rgba(0,0,0,.7);
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 8px;
+  margin-top: 0px;
+  width: 100%;
 
 }
 
@@ -397,7 +411,7 @@ margin-top: 180px;
   margin-top: 60px;
   color: white;
   font-size: 30px;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
 
 }
@@ -405,7 +419,7 @@ margin-top: 180px;
 
 
 .event-info {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   margin-top: 5px;
   font-size: 20px;
@@ -419,24 +433,33 @@ margin-top: 180px;
 
 }
 
+
 .events-image {
-  background-image: url('../images/nature.jpeg');
-  background-size: 50%;
+  background-image: url('../images/disco.jpg');
+
   background-repeat: no-repeat;
   background-position: center;
   height: 300px;
-  border-radius: 30px;
-
+  border-radius: 8px;
+  border: 1px solid white;
 }
 
+
 .event-time {
-  margin-top: 80px;
+  margin: auto;
+  width: 50%;
+  padding-left: 0px;
+  margin-top: 30px;
   list-style: none;
+  text-align: center;
+  background-color: rgba(0,0,0,.7);
+  border-radius: 5px;
+  padding: 35px 0px 35px 0px;
 }
 
 .event-time-info  {
   color: white;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 
 }
@@ -448,6 +471,14 @@ margin-top: 180px;
 
 iframe    {
   width: 50%;
+}
+#ticket-head {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  padding:0px;
+  font-size: 40px;
+  margin-bottom: 50px;
+
 }
 
 .theme-container  {
