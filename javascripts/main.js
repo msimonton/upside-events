@@ -48,12 +48,16 @@ $(function () {
         var div = $("#logo-animation");
         var bod = $('body');
 
-        div.animate({height: '400px', width:'660px', opacity: '1'}, 300);
+        div.animate({height: '385px', width:'630px', opacity: '8'}, 300);
 
-        div.animate({height: '340px', width: '550px',opacity: '.7'},400);
-        bod.stop().delay(200).animate({backgroundColor: '#26333c'}, 100);
+        div.animate({height: '340px', width: '550px',opacity: '.7'},370);
+        bod.stop().delay(245).animate({backgroundColor: '#26333c'}, 50);
         bod.animate({backgroundColor: '#192228'},300);
-        div.animate({height: '351px', width: '581px',opacity: '1'}, 400);
+        div.animate({height: '347px', width: '572px',opacity: '1'}, 180);
+        div.delay(2000).fadeOut('slow');
+
+        $('#test').delay(3600).fadeOut('slow');
+        $('.main').delay(4400).fadeIn(1500)
 
     });
 });
