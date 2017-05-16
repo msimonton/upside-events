@@ -1,8 +1,35 @@
 
             /*    Index   */
 
+ .home {
+ display: none;
+}
+
+#test {
+  display: block;
+  margin: auto;
+  margin-top: 300px;
+}
+
+
+
+#logo-animation {
+  display: block;
+  margin: auto;
+  opacity: 0;
+  height: 1px;
+  width: 400px;
+  margin-top: 300px;
+
+
+}
+
+.animation-background {
+  background: radial-gradient(white 50%, red 50%);
+}
+
 body  {
-  background-color:rgb(25,34,40);
+  background-color:#192228;
   margin: 0px;
 
 }

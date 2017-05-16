@@ -38,6 +38,23 @@ angRoute.config(function($stateProvider, $urlRouterProvider, $locationProvider) 
 })
 
 
-$(function () {
-  $('[data-toggle="popover"]').popover()
-})
+
+
+
+  $(document).ready(function(){
+
+        var div = $("#logo-animation");
+        var bod = $('body');
+
+        div.animate({height: '385px', width:'630px', opacity: '.8'}, 300);
+
+        div.animate({height: '340px', width: '550px',opacity: '.6'},270);
+        bod.stop().delay().animate({backgroundColor: '#26333c'}, 50);
+        bod.animate({backgroundColor: '#192228'},300);
+        div.animate({height: '347px', width: '572px',opacity: '1'}, 180);
+        div.delay(2000).fadeOut('slow');
+
+        $('#test').delay(2600).fadeOut('slow');
+        $('.home').delay(3400).fadeIn(1500);
+
+    });
