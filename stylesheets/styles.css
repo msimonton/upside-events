@@ -1,9 +1,9 @@
 
             /*    Index   */
 
- #content {
-  display: none;
-}
+ /*.home {
+ display: none;
+}*/
 
 #test {
   display: block;
@@ -17,8 +17,9 @@
   display: block;
   margin: auto;
   opacity: 0;
-  height: 200px;
+  height: 1px;
   width: 400px;
+  margin-top: 300px;
 
 
 }
