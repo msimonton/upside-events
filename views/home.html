@@ -22,15 +22,38 @@
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
 </div>
 <!-- <button id='test'>Go For It</button> -->
 <img id='logo-animation' src="../images/logo.png"/>
+<script>
+
+if(sessionStorage.length !== 0) {
+  $(document).ready(function(){
+
+  $('#logo-animation').css('display','none');
+  $('.home').css('display','block')
+
+
+})
+  }
+
+    else {
+      $(document).ready(function(){
+      var div = $("#logo-animation");
+      var bod = $('body');
+
+      div.animate({height: '385px', width:'630px', opacity: '.8'}, 300);
+
+      div.animate({height: '340px', width: '550px',opacity: '.6'},270);
+      bod.stop().delay().animate({backgroundColor: '#26333c'}, 50);
+      bod.animate({backgroundColor: '#192228'},300);
+      div.animate({height: '347px', width: '572px',opacity: '1'}, 180);
+      div.delay(2000).fadeOut('slow');
+
+      $('#test').delay(2600).fadeOut('slow');
+      $('.home').delay(3400).fadeIn(1500);
+      sessionStorage.setItem('count', '1');
+      // console.log(counter)
+    })
+    }
+</script>
