@@ -29,12 +29,38 @@
 }
 
 body  {
-  background-color:#192228;
+  background-color:#192128;
   margin: 0px;
   font-family: 'Open Sans', sans-serif;
 
 }
+@media screen and (min-width: 1000px) {
+  #main-nav-mobile {
+    display: none;
+  }
+  #main-nav {
+    display: block;
+  }
+}
 
+@media screen and (max-width: 1000px) {
+  #main-nav-mobile {
+    display: block;
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    margin: 0px;
+    text-align: center;
+    position: fixed;
+
+    box-shadow: 0px 6px 6px 0px rgb(25,34,40);
+    top: 0px;
+    z-index: 1;
+  }
+  #main-nav {
+    display: none;
+  }
+}
 
 #main-nav  {
   width: 100%;
@@ -48,6 +74,21 @@ body  {
   top: 0px;
   z-index: 1;
 }
+
+#main-nav-moble  {
+  width: 100%;
+  background-color: white;
+  height: 100px;
+  margin: 0px;
+  text-align: center;
+  position: fixed;
+
+  box-shadow: 0px 6px 6px 0px rgb(25,34,40);
+  top: 0px;
+  z-index: 1;
+}
+
+
 
 .large-row  {
   width: 100%;
@@ -167,6 +208,13 @@ margin-top: 60px;
 
             /*     Layout of Home Page     */
 
+
+
+
+#home-wrap  {
+  background-color: rgba(0,0,0, .3);
+}
+
 .home         {
   padding: 0px;
   text-align: center;
@@ -176,19 +224,18 @@ margin-top: 60px;
   background-image: url("../images/disco.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
-/*box-shadow:inset 0px 0px 90px 50px #192228;*/
-background-color: rgba(0,0,0,.2)
 }
 
 .home-content {
-  height: 70vh;
-  background-color: rgba(0,0,0, .55);
-  margin-top: 200px;
+  height: 100vh;
+  /*background-color: rgba(0,0,0, .55);*/
+  margin-top: 0px;
+  margin-left: 0px;
   width: 100%;
   color: white;
   font-family: 'Open Sans', sans-serif;
-  padding-top: 50px;
+  padding-top: 40px;
+  overflow: hidden;
 }
 
 .main-top{
@@ -200,9 +247,11 @@ background-color: rgba(0,0,0,.2)
 #upside-home  {
   padding: 0px;
   font-size: 60px;
+  margin-left: -30px;
 }
 
 .home-bars  {
+  padding: 0px;
   margin-top: 100px;
   border-bottom: 2px solid white;
 }
@@ -214,6 +263,7 @@ background-color: rgba(0,0,0,.2)
 .row-cause  {
   width: 100%;
   padding: 0px;
+  margin: 0px;
 }
 
 .cause-col  {
@@ -221,10 +271,15 @@ background-color: rgba(0,0,0,.2)
   margin-left: 0px;
   width: 100%;
   padding: 0px;
-  background-color:#192228;
+  /*background-color:#192228;*/
+  background-color: rgba(0,0,0, .5);
+}
+
+#main-back  {
+
 }
 #cause-head {
-  color: white;
+  color: #FF1899;
   font-family: 'Fjalla One', sans-serif;
   font-size: 95px;
   margin-bottom: 0px;
@@ -233,30 +288,42 @@ background-color: rgba(0,0,0,.2)
 
 .cause-col  p {
 margin: 0px;
-
+margin-top: -7px;
 
 }
 
 .cause-col p:nth-child(2) {
-  font-family: 'Fjalla One', sans-serif;
-font-size: 20px;
-margin-top: -3px;
-margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 300;
+  color:#FF1899;
+  font-size: 18px;
+  margin-top: -9px;
+  margin-bottom: 22px;
+
 }
 .cause-col p:nth-child(3) {
-font-size: 30px;
-font-weight: 900;
-font-family: 'Fjalla One', sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  font-family: 'Fjalla One', sans-serif;
 }
-.cause-col p:nth-child() {
-font-family: 'Fjalla One', sans-serif;
+.cause-col p:nth-child(4) {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 25px;
 }
-.cause-col p:nth-child() {
-font-family: 'Fjalla One', sans-serif;
+.cause-col p:nth-child(5) {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 37px;
+  letter-spacing: 6px;
+}
+.cause-col p:nth-child(6) {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 23px;
 }
 
+
 .main-button  {
-  margin-left:30px;
+  margin-left:0px;
 }
 
 #about-event-text, #main-tickets {
