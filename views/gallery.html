@@ -1,1 +1,75 @@
 <h1>gallery</h1>
+
+
+
+
+
+<!-- <img class='logo-slide' src='../images/logo.png'>
+<div class='slide-test'>
+</div> -->
+
+<img class='logo-slide' src='../images/logo2.png'>
+<div class='edge'></div>
+<img src="../images/logo-text-up.png" class='up'/>
+<img src="../images/logo-text-bot.png" class='bot'/>
+
+<button id='up'>UP</button>
+<button id='down'>DOWN</button>
+
+<script>
+
+$(document).ready(function(){
+  var sldr = $('.logo-slide');
+  var up = $('.up');
+  var bot =$('.bot');
+  $('#up').click(function() {
+      sldr.animate({
+        width: '200px',
+        opacity: '1'
+    }, 900, 'easeInOutQuint');
+    up.delay(910).animate({
+        left: '500px',
+        opacity: '1'
+    },550, 'easeOutBack');
+    bot.delay(1550).animate({
+      height: '60px',
+      opacity: '1'
+    },400, 'easeOutBack');
+  })
+
+
+  $('#down').click(function() {
+      sldr.delay(1300).animate({
+        width: '2px',
+        opacity: '0'
+    }, 500), 'easeInOutBack';
+    up.delay(700).animate({
+        left: '0px',
+        opacity: '0'
+  },1000, 'easeInOutBack');
+  bot.animate({
+    height: '0px',
+    opacity: '0'
+  },700, 'easeInOutBack');
+  })
+
+// $(document).ready(function(){
+//   var sldr = $('.logo-slide');
+//   $('#up').click(function() {
+//       sldr.animate({top: '-250px',
+//       height: '300px',
+//       opacity: "1"
+//     }, 500, "swing");
+//
+//
+//   })
+//
+//   $('#down').click(function() {
+//       sldr.animate({top: '50px',
+//         height: "40px",
+//         opacity: '.3'}, 300);
+//
+//
+//   })
+})
+  </script>

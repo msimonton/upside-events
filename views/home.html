@@ -1,26 +1,36 @@
 <script src='../javascripts/main.js'></script>
 <div class='container-fluid home'>
+  <div id='home-wrap'>
   <div class='home-content'>
   <div class='row main-top'>
-    <div class='col-md-5 home-bars'></div>
-    <div class='col-md-2'>
+    <div class='col-md-1'></div>
+    <div class='col-md-4 home-bars'></div>
+    <div class='col-md-2 main-title'>
       <h2 id='upside-home'>Volume One</h2>
 
     </div>
-    <div class='col-md-5 home-bars'></div>
+    <div class='col-md-4 home-bars'></div>
 
 
   </div>
   <div class='row row-cause'>
-
-    <div class='col-md-6 col-md-offset-3 cause-col'>
-      <h2 id='cause-head'>Planned Parenthood</h2>
+    <div class='col-md-3'></div>
+    <div class='col-md-6 cause-col'>
+      <h2 id='cause-head'>PINK PARTY</h2>
+      <p>TO BENIFIT PLANNED PARENTHOOD</br>
+        OF THE ROCKY MOUNTAINS</p>
+      <p>SATURDAY, JULY 22</p>
+      <p>TWO THOUSAND SEVENTEEN</p>
+      <p>6 PM - 10 PM</p>
+      <p>at LEO & MICHELLE BESERRA'S</p>
       <div class='main-button'>
         <p id='about-event-text'>Event Info</p>
         <p id='main-tickets'>Get Tickets</p>
       </div>
     </div>
+    <div class='col-md-3'></div>
   </div>
+</div>
 </div>
 </div>
 <!-- <button id='test'>Go For It</button> -->
@@ -32,10 +42,8 @@ if(sessionStorage.length !== 0) {
 
   $('#logo-animation').css('display','none');
   $('.home').css('display','block')
-
-
-})
-  }
+  })
+}
 
     else {
       $(document).ready(function(){
