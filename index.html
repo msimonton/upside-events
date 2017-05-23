@@ -34,50 +34,59 @@
 
 </head>
 <body ng-app='angRoute'>
+
+
+              <!-- Nav Dropdown for Mobile -->
+
+
+  <div class='container-fluid' id='main-nav-mobile'>
+
+    <a class='nav-links img-mob' ui-sref='home'><div class='nav-image'><img id='nav-logo' src='images/logo.png'/></div></a>
+    <button id='dropdown-toggle'type="button" class="btn btn-info menu-button" data-toggle="collapse" data-target="#drop">menu</button>
+  </div>
+
+
+  <div id="drop" class="collapse">
+    <!-- <div class='mob-links' data-toggle="collapse" data-target="#drop"><h2 class='mob-links-head'>^</h2></a> -->
+    <a class='mob-links' data-toggle="collapse" data-target="#drop" ui-sref='about'><h2 class='mob-links-head'>About Us</h2></a>
+
+    <a class='mob-links' ui-sref='events' data-toggle="collapse" data-target="#drop"><h2 class='mob-links-head'>Events</h2></a>
+
+    <a class='mob-links' ui-sref='gallery' data-toggle="collapse" data-target="#drop"><h2 class='mob-links-head'>Gallery</h2></a>
+
+    <a class='mob-links' ui-sref='connect' data-toggle="collapse" data-target="#drop"><h2 class='mob-links-head'>Participate</h2></a>
+
+    <a class='mob-links' ui-sref='tickets' data-toggle="collapse" data-target="#drop"><h2 class='mob-links-head'>Tickets</h2></a>
+  </div>
+   <div id='content' class='main' ui-view></div>
+
+                <!-- End of Mobile Nav -->
+
   <div class='container-fluid' id='main-nav'>
     <a ui-sref='home'><div class='nav-upside-text'><img class='nav-logo-text' src='images/logo-text.png'/></div></a>
     <div class='row large-row'>
-      <div class='col-md-3 large-col'>
+      <div class='col-md-3 col-md-offset-1 large-col'>
         <div class='row nav-row-left'>
-          <div class='col-md-4'></div>
-          <a class='nav-links' ui-sref='about'><div class='col-md-4 nav-left'><h2 class='nav-text'>About Us</h2></div></a>
-          <a class='nav-links' ui-sref='events'><div class='col-md-4 nav-left'><h2 class='nav-text'>Events</h2></div></a>
+          <a class='nav-links' ui-sref='about'><div class='col-md-5 col-md-offset-2 nav-left aboot'><h2 class='nav-text aboot'>About Us</h2></div></a>
+          <a class='nav-links' ui-sref='events'><div class='col-md-5 nav-left'><h2 class='nav-text'>Events</h2></div></a>
         </div>
       </div>
       <div class='col-md-3 large-col'>
         <a class='nav-links' ui-sref='home'><div class='nav-image'><img id='nav-logo' src='images/logo2.png'/></div></a>
       </div>
-      <div class='col-md-3 large-col' id='nav-col-last'>
+      <div class='col-md-4 large-col' id='nav-col-last'>
         <div class='row nav-row-right'>
           <a class='nav-links' ui-sref='gallery'><div class='col-md-4 nav-right'><h2 class='nav-text'>Gallery</h2></div></a>
           <a class='nav-links' ui-sref='connect'><div class='col-md-4 nav-right'><h2 class='nav-text'>Participate</h2></div></a>
-          <div class='col-md-4 nav-right'><a class='nav-links' ui-sref='tickets'><h2 class='nav-text'>Tickets</h2></a></div>
+          <div class='col-md-4 nav-right'><a class='nav-links' ui-sref='tickets'><h2 class='nav-text tix'>Tickets</h2></a></div>
         </div>
       </div>
     </div>
   </div>
 
 
-        <!-- Nav Dropdown for Mobile -->
-        <div class='container-fluid' id='main-nav-mobile'>
-          <div class='row large-row'>
-            <div class='col-md-3 large-col'>
-              <div class='row nav-row-left'>
-                <div class='col-md-4'></div>
-
-              </div>
-            </div>
-            <div class='col-md-3 large-col'>
-              <a class='nav-links' ui-sref='home'><div class='nav-image'><img id='nav-logo' src='images/logo2.png'/></div></a>
-            </div>
-            <div class='col-md-3 large-col' id='nav-col-last'>
-            </div>
-          </div>
-        </div>
- <!-- End of Nav -->
 
 
-  <div id='content' class='main' ui-view></div>
 
 
 

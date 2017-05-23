@@ -5,6 +5,8 @@
  display: none;
 }
 
+
+
 #test {
   display: block;
   margin: auto;
@@ -34,33 +36,6 @@ body  {
   font-family: 'Open Sans', sans-serif;
 
 }
-@media screen and (min-width: 1000px) {
-  #main-nav-mobile {
-    display: none;
-  }
-  #main-nav {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  #main-nav-mobile {
-    display: block;
-    width: 100%;
-    background-color: white;
-    height: 100px;
-    margin: 0px;
-    text-align: center;
-    position: fixed;
-
-    box-shadow: 0px 6px 6px 0px rgb(25,34,40);
-    top: 0px;
-    z-index: 1;
-  }
-  #main-nav {
-    display: none;
-  }
-}
 
 #main-nav  {
   width: 100%;
@@ -75,18 +50,6 @@ body  {
   z-index: 1;
 }
 
-#main-nav-moble  {
-  width: 100%;
-  background-color: white;
-  height: 100px;
-  margin: 0px;
-  text-align: center;
-  position: fixed;
-
-  box-shadow: 0px 6px 6px 0px rgb(25,34,40);
-  top: 0px;
-  z-index: 1;
-}
 
 
 
@@ -102,7 +65,7 @@ body  {
 }
 
 #nav-col-last {
-  padding-left: 0px;
+  /*padding-left: 0px;*/
 }
 
 .nav-row-left, .nav-row-right, .nav-image {
@@ -119,14 +82,21 @@ margin-top: 60px;
 
 .nav-text {
   margin: auto;
-  width: 100px;
-
+  width: 100%;
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.aboot {
+  min-width: 101px;
+}
+.tix  {
+  padding-left: 4px;
+}
+
 
 #main-logo  {
   width: 100%;
@@ -147,24 +117,22 @@ margin-top: 60px;
   text-align: center;
 }
 
-#nav-logo {
-  width: 100px;
-  margin: auto;
 
-  background-color: white;
-  padding: 15px;
-  padding-top: 7px;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  border-bottom: 5px solid rgb(25,34,40);
-
-
-}
 
 .nav-links  {
   color: black;
   text-decoration: none !important;
 }
+
+.menu-button  {
+  width: 60px;
+  display: inline-block;
+  float: right;
+  margin-right: 70px;
+
+}
+
+
 
 /*.nav-right:hover  {
   background-color: black;
@@ -173,6 +141,7 @@ margin-top: 60px;
 
 .main  {
   width: 100%;
+  margin-top: 100px;
   position: relative;
 }
 
@@ -220,11 +189,14 @@ margin-top: 60px;
   text-align: center;
   width: 100%;
   margin-top: 100px;
-  height:90vh;
+  height:100vh;
   background-image: url("../images/disco.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+
 }
+
+
 
 .home-content {
   height: 100vh;
@@ -697,4 +669,155 @@ background-color:#192228;}
   height: 0px;
   width: 370px;
   opacity: 0;
+}
+
+
+
+
+    /* !!!!!!!!!!!!!  MOBILE LAYOUT  !!!!!!!!!!!!!!   */
+
+
+@media screen and (min-width: 1000px) {
+  #main-nav-mobile {
+    display: none;
+  }
+  #main-nav {
+    display: block;
+  }
+  #nav-logo {
+    width: 100px;
+    margin: auto;
+
+    background-color: white;
+    padding: 15px;
+    padding-top: 7px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom: 5px solid rgb(25,34,40);
+
+
+  }
+
+  .content-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #main-nav-mobile {
+    display: block;
+  }
+  #main-nav {
+    display: none;
+  }
+  #nav-logo {
+    height: 90px;
+    margin-left: 10px;
+
+  }
+
+  .ticket-content {
+    display: none;
+  }
+  .content-mobile {
+    display: block;
+  }
+  iframe  {
+    width: 92%;
+    z-index: 3;
+    margin-top: 35px;
+
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .home   {
+    background-size: cover;
+    background-position: center;
+    height: 100vh
+  }
+  #content  {
+    margin-top: 0px;
+  }
+  .about-content  {
+    margin-top: 75px;
+  }
+
+  #ticket-head  {
+    margin: 15px 0px 15px 0px;
+  }
+}
+
+
+
+
+#main-nav-mobile {
+  padding: 0px;
+  width: 100%;
+  background-color: white;
+  height: 95px;
+  margin: 0px;
+  position: fixed;
+
+  box-shadow: 0px 6px 6px 0px rgb(25,34,40);
+  top: 0px;
+  z-index: 4;
+}
+
+
+#dropdown-toggle  {
+ float: right;
+ margin-top: 30px;
+}
+#drop {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: -30px;
+  color: black;
+  position: fixed;
+  z-index: 55;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, .9);
+  padding-top: 20px;
+  border: 2px solid black;
+}
+
+.mob-links {
+  text-decoration: none !important;
+  color: black;
+  text-align: center;
+}
+
+.mob-links-head {
+  margin:auto;
+  margin-bottom: 24px;
+  width: 100%;
+  text-decoration: underline;
+
+
+}
+
+.img-mob  {
+  display: inline-block;
+
+}
+
+
+          /*   Tickets for Mobile     */
+
+.mobile-bars  {
+  margin: auto;
+  width: 70%;
+  border-bottom: 3px solid white;
+}
+
+.content-mobile {
+  text-align: center;
+  margin: auto;
+  margin-top: 125px;
+}
+
+#iframe-wrap  {
+  text-align: center;
 }
