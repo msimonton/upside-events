@@ -317,6 +317,7 @@ margin-top: -7px;
 .about-content  {
   width: 100%;
   text-align: center;
+  padding:0px;
 margin-top: 180px;
 }
 
@@ -412,18 +413,20 @@ margin-top: 180px;
   background-repeat: no-repeat;
 }
 
-.team-pic-name  {
+.team-members {
   width: 100%;
-  color: white;
-  background-color: rgba(0,0,0,.6);
-
-  padding:5px;
-
+  text-align: center;
+  padding: 0px;
 }
+
 
 .team-pic-row {
-  margin-bottom: 30px;
+  /*margin: auto;
+  text-align: center;*/
 }
+
+
+
 
 
 
@@ -701,6 +704,17 @@ background-color:#192228;}
   .content-mobile {
     display: none;
   }
+
+  .team {
+    display: inline-block;
+    float: none;
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -745,6 +759,16 @@ background-color:#192228;}
 
   #ticket-head  {
     margin: 15px 0px 15px 0px;
+  }
+  .team {
+    margin: auto;
+    margin-bottom: 15px;
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 50%;
+
+
   }
 }
 
