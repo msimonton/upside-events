@@ -318,7 +318,7 @@ margin-top: -7px;
   width: 100%;
   text-align: center;
   padding:0px;
-margin-top: 180px;
+  margin-top: 140px;
 }
 
 .about-head-row {
@@ -425,6 +425,14 @@ margin-top: 180px;
   text-align: center;*/
 }
 
+.team-pic {
+  width: inherit;
+  border-radius: 50%;
+}
+
+.team-name {
+  color: white;
+}
 
 
 
@@ -436,7 +444,21 @@ margin-top: 180px;
   display: flex;
   margin: auto;
   margin-left: 50px;
+  margin-top: 40px;
   width: 95%;
+
+
+}
+
+.bgs {
+  padding: 0px;
+}
+
+#events-blurb {
+  margin-top: 20px;
+  color: #989898;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 
 }
 
@@ -570,23 +592,56 @@ margin-top: 180px;
 
 
 
+
+
+          /*     Gallery Page Layout     */
+.gallery-content  {
+  width: 100%;
+  margin-top: 180px;
+  text-align: center;
+}
+
+
+
+#gal  {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  padding:0px;
+  font-size: 24px;
+  margin-top: 50px;
+
+}
+
           /*    Ticket Page Layout   */
 
 
 iframe    {
   width: 50%;
+  margin-left: -24px;
 }
 #ticket-head {
   color: white;
   font-family: 'Open Sans', sans-serif;
   padding:0px;
   font-size: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 
 }
 
 .theme-container  {
   margin-left: 0px;
+}
+
+#tics {
+  color: #989898;
+  font-family: 'Open Sans', sans-serif;
+  padding:0px;
+  font-size: 22px;
+  margin-top: 0px;
+}
+
+.tics {
+  margin-bottom: 20px;
 }
 
 
@@ -712,8 +767,14 @@ background-color:#192228;}
     width: 120px;
     background-color: white;
     border-radius: 50%;
-    margin: 5px;
+    margin: 10px;
+    padding: 0px;
 
+  }
+
+  .team-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
   }
 }
 
@@ -742,9 +803,8 @@ background-color:#192228;}
     margin-top: 35px;
 
   }
-}
 
-@media screen and (max-width: 1000px) {
+
   .home   {
     background-size: cover;
     background-position: center;
@@ -762,17 +822,25 @@ background-color:#192228;}
   }
   .team {
     margin: auto;
-    margin-bottom: 15px;
-    height: 120px;
-    width: 120px;
+    margin-bottom: 95px;
+    height: 170px;
+    width: 170px;
     background-color: white;
-    border-radius: 50%;
-
-
+    padding: 0px;
   }
+
 }
 
 
+@media screen and (max-width: 800px) {
+  .team-name {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+  }
+
+
+}
 
 
 #main-nav-mobile {
@@ -797,7 +865,7 @@ background-color:#192228;}
   width: 100%;
   text-align: center;
   margin: auto;
-  margin-top: -30px;
+  top: 95px;
   color: black;
   position: fixed;
   z-index: 55;
