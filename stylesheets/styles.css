@@ -5,6 +5,13 @@
  display: none;
 }
 
+#dropdown-toggle  {
+  background-color: white;
+  height: 55px;
+  width: 65px;
+  border: none;
+}
+
 
 
 #test {
@@ -362,7 +369,7 @@ margin-top: -7px;
 }
 
 #about-text   {
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   color: #989898;
   padding-left: 0px;
@@ -417,6 +424,7 @@ margin-top: -7px;
   width: 100%;
   text-align: center;
   padding: 0px;
+  margin-bottom: 25px;
 }
 
 
@@ -432,6 +440,14 @@ margin-top: -7px;
 
 .team-name {
   color: white;
+}
+
+.popover {
+  width: 900px!important;
+}
+
+.team:hover {
+  cursor: pointer;
 }
 
 
@@ -534,7 +550,7 @@ margin-top: -7px;
 .events-div {}
 
 .event-name {
-  margin-top: 60px;
+  margin-top: 10px;
   color: white;
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
@@ -548,7 +564,7 @@ margin-top: -7px;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   margin-top: 5px;
-  font-size: 20px;
+  font-size: 18px;
   color: #989898;
 
 
@@ -604,13 +620,33 @@ margin-top: -7px;
 
 
 #gal  {
-  color: white;
+  color: #989898;
   font-family: 'Open Sans', sans-serif;
   padding:0px;
   font-size: 24px;
   margin-top: 50px;
 
 }
+
+
+
+
+
+          /*    Participate Page Layout   */
+.participate-content  {
+  text-align: center;
+  margin-top: 150px;
+}
+
+#don-link {
+  color: #989898;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin: 0px;
+}
+
+
+
 
           /*    Ticket Page Layout   */
 
@@ -765,7 +801,6 @@ background-color:#192228;}
     float: none;
     height: 120px;
     width: 120px;
-    background-color: white;
     border-radius: 50%;
     margin: 10px;
     padding: 0px;
@@ -822,12 +857,12 @@ background-color:#192228;}
   }
   .team {
     margin: auto;
-    margin-bottom: 95px;
+    margin-bottom: 135px;
     height: 170px;
     width: 170px;
-    background-color: white;
     padding: 0px;
   }
+
 
 }
 
@@ -837,6 +872,7 @@ background-color:#192228;}
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
+    margin-bottom: 100px;
   }
 
 
