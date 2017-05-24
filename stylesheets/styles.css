@@ -5,6 +5,15 @@
  display: none;
 }
 
+#dropdown-toggle  {
+  background-color: white;
+  height: 55px;
+  width: 65px;
+  border: none;
+}
+
+
+
 #test {
   display: block;
   margin: auto;
@@ -34,33 +43,6 @@ body  {
   font-family: 'Open Sans', sans-serif;
 
 }
-@media screen and (min-width: 1000px) {
-  #main-nav-mobile {
-    display: none;
-  }
-  #main-nav {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  #main-nav-mobile {
-    display: block;
-    width: 100%;
-    background-color: white;
-    height: 100px;
-    margin: 0px;
-    text-align: center;
-    position: fixed;
-
-    box-shadow: 0px 6px 6px 0px rgb(25,34,40);
-    top: 0px;
-    z-index: 1;
-  }
-  #main-nav {
-    display: none;
-  }
-}
 
 #main-nav  {
   width: 100%;
@@ -75,18 +57,6 @@ body  {
   z-index: 1;
 }
 
-#main-nav-moble  {
-  width: 100%;
-  background-color: white;
-  height: 100px;
-  margin: 0px;
-  text-align: center;
-  position: fixed;
-
-  box-shadow: 0px 6px 6px 0px rgb(25,34,40);
-  top: 0px;
-  z-index: 1;
-}
 
 
 
@@ -102,7 +72,7 @@ body  {
 }
 
 #nav-col-last {
-  padding-left: 0px;
+  /*padding-left: 0px;*/
 }
 
 .nav-row-left, .nav-row-right, .nav-image {
@@ -119,14 +89,21 @@ margin-top: 60px;
 
 .nav-text {
   margin: auto;
-  width: 100px;
-
+  width: 100%;
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.aboot {
+  min-width: 101px;
+}
+.tix  {
+  padding-left: 4px;
+}
+
 
 #main-logo  {
   width: 100%;
@@ -147,24 +124,22 @@ margin-top: 60px;
   text-align: center;
 }
 
-#nav-logo {
-  width: 100px;
-  margin: auto;
 
-  background-color: white;
-  padding: 15px;
-  padding-top: 7px;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  border-bottom: 5px solid rgb(25,34,40);
-
-
-}
 
 .nav-links  {
   color: black;
   text-decoration: none !important;
 }
+
+.menu-button  {
+  width: 60px;
+  display: inline-block;
+  float: right;
+  margin-right: 70px;
+
+}
+
+
 
 /*.nav-right:hover  {
   background-color: black;
@@ -173,6 +148,7 @@ margin-top: 60px;
 
 .main  {
   width: 100%;
+  margin-top: 100px;
   position: relative;
 }
 
@@ -220,11 +196,14 @@ margin-top: 60px;
   text-align: center;
   width: 100%;
   margin-top: 100px;
-  height:90vh;
+  height:100vh;
   background-image: url("../images/disco.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+
 }
+
+
 
 .home-content {
   height: 100vh;
@@ -345,7 +324,8 @@ margin-top: -7px;
 .about-content  {
   width: 100%;
   text-align: center;
-margin-top: 180px;
+  padding:0px;
+  margin-top: 140px;
 }
 
 .about-head-row {
@@ -389,7 +369,7 @@ margin-top: 180px;
 }
 
 #about-text   {
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   color: #989898;
   padding-left: 0px;
@@ -440,18 +420,37 @@ margin-top: 180px;
   background-repeat: no-repeat;
 }
 
-.team-pic-name  {
+.team-members {
   width: 100%;
-  color: white;
-  background-color: rgba(0,0,0,.6);
-
-  padding:5px;
-
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 25px;
 }
+
 
 .team-pic-row {
-  margin-bottom: 30px;
+  /*margin: auto;
+  text-align: center;*/
 }
+
+.team-pic {
+  width: inherit;
+  border-radius: 50%;
+}
+
+.team-name {
+  color: white;
+}
+
+.popover {
+  width: 900px!important;
+}
+
+.team:hover {
+  cursor: pointer;
+}
+
+
 
 
 
@@ -461,7 +460,21 @@ margin-top: 180px;
   display: flex;
   margin: auto;
   margin-left: 50px;
+  margin-top: 40px;
   width: 95%;
+
+
+}
+
+.bgs {
+  padding: 0px;
+}
+
+#events-blurb {
+  margin-top: 20px;
+  color: #989898;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 
 }
 
@@ -537,7 +550,7 @@ margin-top: 180px;
 .events-div {}
 
 .event-name {
-  margin-top: 60px;
+  margin-top: 10px;
   color: white;
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
@@ -551,7 +564,7 @@ margin-top: 180px;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   margin-top: 5px;
-  font-size: 20px;
+  font-size: 18px;
   color: #989898;
 
 
@@ -595,23 +608,76 @@ margin-top: 180px;
 
 
 
+
+
+          /*     Gallery Page Layout     */
+.gallery-content  {
+  width: 100%;
+  margin-top: 180px;
+  text-align: center;
+}
+
+
+
+#gal  {
+  color: #989898;
+  font-family: 'Open Sans', sans-serif;
+  padding:0px;
+  font-size: 24px;
+  margin-top: 50px;
+
+}
+
+
+
+
+
+          /*    Participate Page Layout   */
+.participate-content  {
+  text-align: center;
+  margin-top: 150px;
+}
+
+#don-link {
+  color: #989898;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin: 0px;
+}
+
+
+
+
           /*    Ticket Page Layout   */
 
 
 iframe    {
   width: 50%;
+  margin-left: -24px;
 }
 #ticket-head {
   color: white;
   font-family: 'Open Sans', sans-serif;
   padding:0px;
   font-size: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 
 }
 
 .theme-container  {
   margin-left: 0px;
+}
+
+#tics {
+  color: #989898;
+  font-family: 'Open Sans', sans-serif;
+  padding:0px;
+  font-size: 22px;
+  margin-top: 0px;
+}
+
+.tics {
+  margin-bottom: 20px;
 }
 
 
@@ -697,4 +763,189 @@ background-color:#192228;}
   height: 0px;
   width: 370px;
   opacity: 0;
+}
+
+
+
+
+    /* !!!!!!!!!!!!!  MOBILE LAYOUT  !!!!!!!!!!!!!!   */
+
+
+@media screen and (min-width: 1000px) {
+  #main-nav-mobile {
+    display: none;
+  }
+  #main-nav {
+    display: block;
+  }
+  #nav-logo {
+    width: 100px;
+    margin: auto;
+
+    background-color: white;
+    padding: 15px;
+    padding-top: 7px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom: 5px solid rgb(25,34,40);
+
+
+  }
+
+  .content-mobile {
+    display: none;
+  }
+
+  .team {
+    display: inline-block;
+    float: none;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 0px;
+
+  }
+
+  .team-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #main-nav-mobile {
+    display: block;
+  }
+  #main-nav {
+    display: none;
+  }
+  #nav-logo {
+    height: 90px;
+    margin-left: 10px;
+
+  }
+
+  .ticket-content {
+    display: none;
+  }
+  .content-mobile {
+    display: block;
+  }
+  iframe  {
+    width: 92%;
+    z-index: 3;
+    margin-top: 35px;
+
+  }
+
+
+  .home   {
+    background-size: cover;
+    background-position: center;
+    height: 100vh
+  }
+  #content  {
+    margin-top: 0px;
+  }
+  .about-content  {
+    margin-top: 75px;
+  }
+
+  #ticket-head  {
+    margin: 15px 0px 15px 0px;
+  }
+  .team {
+    margin: auto;
+    margin-bottom: 135px;
+    height: 170px;
+    width: 170px;
+    padding: 0px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 800px) {
+  .team-name {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-bottom: 100px;
+  }
+
+
+}
+
+
+#main-nav-mobile {
+  padding: 0px;
+  width: 100%;
+  background-color: white;
+  height: 95px;
+  margin: 0px;
+  position: fixed;
+
+  box-shadow: 0px 6px 6px 0px rgb(25,34,40);
+  top: 0px;
+  z-index: 4;
+}
+
+
+#dropdown-toggle  {
+ float: right;
+ margin-top: 30px;
+}
+#drop {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  top: 95px;
+  color: black;
+  position: fixed;
+  z-index: 55;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, .9);
+  padding-top: 20px;
+  border: 2px solid black;
+}
+
+.mob-links {
+  text-decoration: none !important;
+  color: black;
+  text-align: center;
+}
+
+.mob-links-head {
+  margin:auto;
+  margin-bottom: 24px;
+  width: 100%;
+  text-decoration: underline;
+
+
+}
+
+.img-mob  {
+  display: inline-block;
+
+}
+
+
+          /*   Tickets for Mobile     */
+
+.mobile-bars  {
+  margin: auto;
+  width: 70%;
+  border-bottom: 3px solid white;
+}
+
+.content-mobile {
+  text-align: center;
+  margin: auto;
+  margin-top: 125px;
+}
+
+#iframe-wrap  {
+  text-align: center;
 }
