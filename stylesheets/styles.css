@@ -12,15 +12,11 @@
   border: none;
 }
 
-
-
 #test {
   display: block;
   margin: auto;
   margin-top: 300px;
 }
-
-
 
 #logo-animation {
   display: block;
@@ -29,8 +25,6 @@
   height: 1px;
   width: 400px;
   margin-top: 300px;
-
-
 }
 
 .animation-background {
@@ -139,18 +133,15 @@ margin-top: 60px;
 
 }
 
-
-
-/*.nav-right:hover  {
-  background-color: black;
-}*/
-
-
 .main  {
   width: 100%;
   margin-top: 100px;
   position: relative;
 }
+
+
+
+
 
 
 
@@ -183,6 +174,10 @@ margin-top: 60px;
                }
 
             /*     Layout of Home Page     */
+
+
+
+
 
 
 
@@ -454,6 +449,27 @@ margin-top: -7px;
 
 
 
+
+
+                    /*    Team Slide Test      */
+
+.slider  {
+  text-align: center;
+  width: 100%;
+
+}
+
+.team-pic-slide {
+  height: 200px;
+}
+.row-slide  {
+  height: 300px;
+}
+
+
+
+
+
             /*   Events Layout   */
 
 .events    {
@@ -487,10 +503,9 @@ margin-top: -7px;
   background-color: blue;
   height: 120px;
   width: 110px;
-  margin-top: 8px;
-  flex:1;
-  order: 1;
+  margin-top: 15px;
   border: 1px solid white;
+  margin-right: 10px;
 }
 
 .event-1  {
@@ -547,7 +562,9 @@ margin-top: -7px;
 
 }
 
-.events-div {}
+.events-div {
+  padding: 0px;
+}
 
 .event-name {
   margin-top: 10px;
