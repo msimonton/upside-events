@@ -222,6 +222,19 @@ margin-top: 60px;
   padding: 0px;
   font-size: 60px;
   margin-left: -30px;
+  text-shadow:
+       /*8px 8px 16px #000,
+     5px 5px 12px #FF1899,
+     -5px -5px 12px #FF1899,
+     5px -5px 12px #FF1899,
+     -5px 5px 12px #FF1899,*/
+     7px 7px 10px #000,
+     -7px -7px 10px #000,
+     7px -7px 10px #000,
+     -7px 7px 10px #000
+      /*1px -1px 0 #FF1899,
+      -1px 1px 0 #FF1899,
+       1px 1px 0 #FF1899;*/
 }
 
 .home-bars  {
@@ -241,12 +254,17 @@ margin-top: 60px;
 }
 
 .cause-col  {
+  padding: 40px;
+  padding-top: 0px;
+}
+
+#home-event-wrap  {
   text-align: center;
-  margin-left: 0px;
-  width: 100%;
-  padding: 0px;
   /*background-color:#192228;*/
-  background-color: rgba(0,0,0, .5);
+  background-color: rgba(0,0,0, .6);
+  border-radius: 5px;
+  padding: 60px 0px 60px 0px;
+
 }
 
 #main-back  {
@@ -454,6 +472,8 @@ margin-top: -7px;
                     /*    Team Slide Test      */
 
 .slider  {
+  display: none;
+  height: 0px;
   text-align: center;
   width: 100%;
 
@@ -461,9 +481,20 @@ margin-top: -7px;
 
 .team-pic-slide {
   height: 200px;
+  border-radius: 50%;
 }
 .row-slide  {
-  height: 300px;
+  height: 250px;
+}
+
+#slide-team-name  {
+  margin-top: 0px;
+color: white;
+}
+
+.slide-info   {
+  margin-top: 10px;
+  color: white;
 }
 
 
@@ -852,6 +883,7 @@ background-color:#192228;}
   iframe  {
     width: 92%;
     z-index: 3;
+    margin: auto;
     margin-top: 35px;
 
   }
@@ -865,8 +897,32 @@ background-color:#192228;}
   #content  {
     margin-top: 0px;
   }
+  .home-content {
+    padding-top: 0px;
+  }
+
+
+  .home-bars  {
+    margin-top: 20px;
+  }
+
+  .row{
+    margin: 0px !important;
+  }
   .about-content  {
     margin-top: 75px;
+  }
+
+  .bars-mob {
+    margin-top: 20px;
+  }
+
+  .about-blah {
+    padding: 15px;
+  }
+
+  .events-blurb {
+    padding: 15px;
   }
 
   #ticket-head  {
@@ -903,7 +959,7 @@ background-color:#192228;}
   height: 95px;
   margin: 0px;
   position: fixed;
-
+  text-align: center;
   box-shadow: 0px 6px 6px 0px rgb(25,34,40);
   top: 0px;
   z-index: 4;
@@ -945,8 +1001,10 @@ background-color:#192228;}
 
 .img-mob  {
   display: inline-block;
+  margin-left: 25px;
 
 }
+
 
 
           /*   Tickets for Mobile     */

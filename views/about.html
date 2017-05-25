@@ -5,7 +5,7 @@
       <div class='col-md-2 about-pad'>
         <h1 id='about-head'>About Us</h1>
       </div>
-      <div class='col-md-3 about-bars'></div>
+      <div class='col-md-3 about-bars bars-mob'></div>
     </div>
 
     <div class='row about-content-text'>
@@ -41,6 +41,7 @@ Each event will focus on a specific charity or a group that aligns with a need w
       <img class='team-pic-slide' src='../images/placeholder.jpg'/>
     </div>
     <div class='col-md-6'>
+      <h1 id='slide-team-name'>Leslie Simonton</h1>
       <p class= 'slide-info'>Leslie Simonton is a legend, among other things. She can golf circles around basically every dude we know and don’t even get us started on her dirt bike prowess. More importantly, Leslie is a strong, dedicated and brilliant force to be reckoned with both in the workplace and out. A native to Colorado Springs, she’s volunteered for the National Charity League and St Jude's Children's Hospital and currently works in commercial real estate. She joined Upside driven by her desire to spread knowledge and encourage her peers to follow in creating awareness and change to matters that need it most.</p>
     </div>
   </div>
@@ -61,7 +62,9 @@ Each event will focus on a specific charity or a group that aligns with a need w
           <span class='team-name'>Margaux Lochmiller</span>
       </div>
       <div class='col-md-1 col-sm-12 team'>
-        <img class='team-pic' src='../images/placeholder.jpg' custom-popover popover-html="<span class='popover-text'>Leslie Simonton is a legend, among other things. She can golf circles around basically every dude we know and don’t even get us started on her dirt bike prowess. More importantly, Leslie is a strong, dedicated and brilliant force to be reckoned with both in the workplace and out. A native to Colorado Springs, she’s volunteered for the National Charity League and St Jude's Children's Hospital and currently works in commercial real estate. She joined Upside driven by her desire to spread knowledge and encourage her peers to follow in creating awareness and change to matters that need it most.</span>" popover-placement="top"/>
+        <img class='team-pic' src='../images/placeholder.jpg'/>
+
+        <!-- <img class='team-pic' src='../images/placeholder.jpg' custom-popover popover-html="<span class='popover-text'>Leslie Simonton is a legend, among other things. She can golf circles around basically every dude we know and don’t even get us started on her dirt bike prowess. More importantly, Leslie is a strong, dedicated and brilliant force to be reckoned with both in the workplace and out. A native to Colorado Springs, she’s volunteered for the National Charity League and St Jude's Children's Hospital and currently works in commercial real estate. She joined Upside driven by her desire to spread knowledge and encourage her peers to follow in creating awareness and change to matters that need it most.</span>" popover-placement="top"/> -->
           <span class='team-name'>Leslie Simonton</span>
       </div>
       <div class='col-md-1 col-sm-12 team'>
@@ -85,6 +88,27 @@ Each event will focus on a specific charity or a group that aligns with a need w
   </div>
 </div>
 
+
+
+<script>
+
+$(document).ready(function(){
+  var sldr = $('.slider');
+  var up = $('.up');
+  var bot =$('.bot');
+  $('.team').click(function() {
+      sldr.show(1).animate({
+        height: '250px',
+        opacity: '1'
+    }, 900, 'easeInOutQuint');
+
+  })
+})
+
+
+
+
+    </script>
 
 
 
