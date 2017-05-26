@@ -633,6 +633,65 @@ color: white;
 
 }
 
+.event-wrap {
+  background-color: rgba(0,0,0,.7);
+  padding-top: 20px;
+  height: 298px;
+}
+
+#cause-head {
+  color: #FF1899;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 95px;
+  margin-bottom: 0px;
+  font-stretch:extra-condensed;
+}
+
+.events-colm  {
+  /*background-color: rgba(0,0,0,.7);*/
+}
+
+.event-head {
+  font-size: 70px !important;
+}
+
+.events-colm  p {
+margin: 0px;
+margin-top: -7px;
+color: white;
+
+}
+
+.events-colm p:nth-child(2) {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 300;
+  color:#FF1899;
+  font-size: 12px;
+  margin-top: -9px;
+  margin-bottom: 5px;
+
+}
+.events-colm p:nth-child(3) {
+  font-size: 25px;
+  font-weight: 900;
+  font-family: 'Fjalla One', sans-serif;
+}
+.events-colm p:nth-child(4) {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 18px;
+}
+.events-colm p:nth-child(5) {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 22px;
+  letter-spacing: 6px;
+  padding-left: 5px;
+}
+.events-colm p:nth-child(6) {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 16px;
+}
+
 
 .events-image {
   background-image: url('../images/disco.jpg');
