@@ -37,13 +37,9 @@ angRoute.config(function($stateProvider, $urlRouterProvider, $locationProvider) 
 })
 })
 
-
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover();
 });
-
-
-
 
 angRoute.directive('customPopover', function () {
     return {

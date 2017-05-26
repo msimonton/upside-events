@@ -12,15 +12,11 @@
   border: none;
 }
 
-
-
 #test {
   display: block;
   margin: auto;
   margin-top: 300px;
 }
-
-
 
 #logo-animation {
   display: block;
@@ -29,8 +25,6 @@
   height: 1px;
   width: 400px;
   margin-top: 300px;
-
-
 }
 
 .animation-background {
@@ -139,18 +133,15 @@ margin-top: 60px;
 
 }
 
-
-
-/*.nav-right:hover  {
-  background-color: black;
-}*/
-
-
 .main  {
   width: 100%;
   margin-top: 100px;
   position: relative;
 }
+
+
+
+
 
 
 
@@ -183,6 +174,10 @@ margin-top: 60px;
                }
 
             /*     Layout of Home Page     */
+
+
+
+
 
 
 
@@ -227,6 +222,19 @@ margin-top: 60px;
   padding: 0px;
   font-size: 60px;
   margin-left: -30px;
+  text-shadow:
+       /*8px 8px 16px #000,
+     5px 5px 12px #FF1899,
+     -5px -5px 12px #FF1899,
+     5px -5px 12px #FF1899,
+     -5px 5px 12px #FF1899,*/
+     7px 7px 10px #000,
+     -7px -7px 10px #000,
+     7px -7px 10px #000,
+     -7px 7px 10px #000
+      /*1px -1px 0 #FF1899,
+      -1px 1px 0 #FF1899,
+       1px 1px 0 #FF1899;*/
 }
 
 .home-bars  {
@@ -246,12 +254,17 @@ margin-top: 60px;
 }
 
 .cause-col  {
+  padding: 40px;
+  padding-top: 0px;
+}
+
+#home-event-wrap  {
   text-align: center;
-  margin-left: 0px;
-  width: 100%;
-  padding: 0px;
   /*background-color:#192228;*/
-  background-color: rgba(0,0,0, .5);
+  background-color: rgba(0,0,0, .6);
+  border-radius: 5px;
+  padding: 60px 0px 60px 0px;
+
 }
 
 #main-back  {
@@ -357,9 +370,11 @@ margin-top: -7px;
   margin-top: 20px;
 }
 
+
 .about-blah {
   padding-left: 0px;
 }
+
 
 #mission-head {
   font-size: 24px;
@@ -454,6 +469,40 @@ margin-top: -7px;
 
 
 
+
+
+                    /*    Team Slide Test      */
+
+.slider  {
+  display: none;
+  height: 0px;
+  text-align: center;
+  width: 100%;
+
+}
+
+.team-pic-slide {
+  height: 200px;
+  border-radius: 50%;
+}
+.row-slide  {
+  height: 250px;
+}
+
+#slide-team-name  {
+  margin-top: 0px;
+color: white;
+}
+
+.slide-info   {
+  margin-top: 10px;
+  color: white;
+}
+
+
+
+
+
             /*   Events Layout   */
 
 .events    {
@@ -487,10 +536,9 @@ margin-top: -7px;
   background-color: blue;
   height: 120px;
   width: 110px;
-  margin-top: 8px;
-  flex:1;
-  order: 1;
+  margin-top: 15px;
   border: 1px solid white;
+  margin-right: 10px;
 }
 
 .event-1  {
@@ -547,15 +595,23 @@ margin-top: -7px;
 
 }
 
-.events-div {}
+.events-div {
+  padding: 0px;
+}
 
 .event-name {
   margin-top: 10px;
-  color: white;
+  color:#FF1899;
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 
+}
+.event-main   {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 44px;
 }
 
 
@@ -807,6 +863,17 @@ background-color:#192228;}
 
   }
 
+  .clicked {
+    display: inline-block;
+    float: none;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 0px;
+
+  }
+
   .team-name {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
@@ -835,6 +902,7 @@ background-color:#192228;}
   iframe  {
     width: 92%;
     z-index: 3;
+    margin: auto;
     margin-top: 35px;
 
   }
@@ -848,8 +916,32 @@ background-color:#192228;}
   #content  {
     margin-top: 0px;
   }
+  .home-content {
+    padding-top: 0px;
+  }
+
+
+  .home-bars  {
+    margin-top: 20px;
+  }
+
+  .row{
+    margin: 0px !important;
+  }
   .about-content  {
     margin-top: 75px;
+  }
+
+  .bars-mob {
+    margin-top: 20px;
+  }
+
+  .about-blah {
+    padding: 15px;
+  }
+
+  .events-blurb {
+    padding: 15px;
   }
 
   #ticket-head  {
@@ -862,6 +954,15 @@ background-color:#192228;}
     width: 170px;
     padding: 0px;
   }
+
+  .clicked {
+    margin: auto;
+    margin-bottom: 135px;
+    height: 170px;
+    width: 170px;
+    padding: 0px;
+  }
+
 
 
 }
@@ -886,7 +987,7 @@ background-color:#192228;}
   height: 95px;
   margin: 0px;
   position: fixed;
-
+  text-align: center;
   box-shadow: 0px 6px 6px 0px rgb(25,34,40);
   top: 0px;
   z-index: 4;
@@ -928,8 +1029,10 @@ background-color:#192228;}
 
 .img-mob  {
   display: inline-block;
+  margin-left: 25px;
 
 }
+
 
 
           /*   Tickets for Mobile     */
@@ -948,4 +1051,19 @@ background-color:#192228;}
 
 #iframe-wrap  {
   text-align: center;
+}
+
+
+
+
+.ticket-type  {
+  display: none;
+}
+
+.clicked {
+  margin: auto;
+  margin-bottom: 135px;
+  height: 170px;
+  width: 170px;
+  padding: 0px;
 }
