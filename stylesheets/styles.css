@@ -603,10 +603,10 @@ color: white;
 
 .event-name {
   margin-top: 10px;
-  color:#FF1899;
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  color:#FF1899;
 
 }
 .event-main   {
