@@ -90,25 +90,31 @@ Each event will focus on a specific charity or a group that aligns with a need w
 
 
 
-<script>
+<!-- <script>
 
 $(document).ready(function(){
   var sldr = $('.slider');
-  var up = $('.up');
-  var bot =$('.bot');
-  $('.team').click(function() {
+  var team = $('.team');
+  var slideUp =$('#slider-up');
+  team.click(function() {
       sldr.show(1).animate({
         height: '250px',
         opacity: '1'
     }, 900, 'easeInOutQuint');
+    $(this).addClass('clicked').removeClass('team')
 
   })
+
+  $('.clicked').click(function() {
+    $(this).removeClass('clicked').addClass('team')
+})
+
 })
 
 
 
 
-    </script>
+    </script> -->
 
 
 

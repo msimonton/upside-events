@@ -370,9 +370,11 @@ margin-top: -7px;
   margin-top: 20px;
 }
 
+
 .about-blah {
   padding-left: 0px;
 }
+
 
 #mission-head {
   font-size: 24px;
@@ -599,11 +601,17 @@ color: white;
 
 .event-name {
   margin-top: 10px;
-  color: white;
+  color:#FF1899;
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 
+}
+.event-main   {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 44px;
 }
 
 
@@ -855,6 +863,17 @@ background-color:#192228;}
 
   }
 
+  .clicked {
+    display: inline-block;
+    float: none;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 0px;
+
+  }
+
   .team-name {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
@@ -935,6 +954,15 @@ background-color:#192228;}
     width: 170px;
     padding: 0px;
   }
+
+  .clicked {
+    margin: auto;
+    margin-bottom: 135px;
+    height: 170px;
+    width: 170px;
+    padding: 0px;
+  }
+
 
 
 }
@@ -1023,4 +1051,19 @@ background-color:#192228;}
 
 #iframe-wrap  {
   text-align: center;
+}
+
+
+
+
+.ticket-type  {
+  display: none;
+}
+
+.clicked {
+  margin: auto;
+  margin-bottom: 135px;
+  height: 170px;
+  width: 170px;
+  padding: 0px;
 }
