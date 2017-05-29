@@ -911,10 +911,15 @@ background-color:#192228;}
   border: 2px solid black;
 }
 
+
 .mob-links {
   text-decoration: none !important;
   color: black;
   text-align: center;
+}
+
+.mob-links:hover  {
+  color: black;
 }
 
 .mob-links-head {
@@ -925,6 +930,22 @@ background-color:#192228;}
 
 
 }
+.drop-close   {
+  text-decoration: none !important;
+  margin-bottom: -20px;
+
+}
+
+.close-mob  {
+  margin-top: -20px;
+}
+.closer {
+  cursor: pointer;
+}
+.drop-close:hover {
+  cursor: pointer;
+}
+
 
 .img-mob  {
   display: inline-block;
