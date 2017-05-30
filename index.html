@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Upside Events</title>
 
+                        <!-- Jquery -->
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -18,16 +20,15 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/styles.css"/>
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300" rel="stylesheet">
 
+                      <!--   Angular CDNs -->
 
   <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-animate.min.js'></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script> -->
   <script type="text/javascript" src='javascripts/main.js'></script>
   <base href="/">
 </head>
-
-
 <body ng-app='angRoute'>
 
 
@@ -40,34 +41,25 @@
         <img id='nav-logo' src='images/logo.png'/>
       </div>
     </a>
-    <img id='dropdown-toggle'type="button" class="btn btn-info" data-toggle="collapse" data-target="#drop" src='/images/hamburg.png'></button>
+    <img id='dropdown-toggle'type="button" class="btn btn-info colps" data-toggle="collapse" data-target="#drop" src='/images/hamburg.png'></button>
   </div>
 
+    <div id="drop" class="collapse">
+      <a class='mob-links' data-toggle="collapse" data-target="#drop" ui-sref='about'><h2 class='mob-links-head'>About Us</h2></a>
 
-  <div id="drop" class="collapse">
-    <a class='mob-links' data-toggle="collapse" data-target="#drop" ui-sref='about'>
-      <h2 class='mob-links-head'>About Us</h2>
-    </a>
+      <a class='mob-links' ui-sref='events' data-toggle="collapse" data-target="#drop"><h2 class='mob-links-head'>Events</h2></a>
 
-    <a class='mob-links' ui-sref='events' data-toggle="collapse" data-target="#drop">
-      <h2 class='mob-links-head'>Events</h2>
-    </a>
+      <a class='mob-links' ui-sref='gallery' data-toggle="collapse" data-target="#drop"><h2 class='mob-links-head'>Gallery</h2></a>
 
-    <a class='mob-links' ui-sref='gallery' data-toggle="collapse" data-target="#drop">
-      <h2 class='mob-links-head'>Gallery</h2>
-    </a>
+      <a class='mob-links' ui-sref='connect' data-toggle="collapse" data-target="#drop"><h2 class='mob-links-head'>Participate</h2></a>
 
-    <a class='mob-links' ui-sref='connect' data-toggle="collapse" data-target="#drop">
-      <h2 class='mob-links-head'>Participate</h2>
-    </a>
+      <a class='mob-links' ui-sref='tickets' data-toggle="collapse" data-target="#drop"><h2 class='mob-links-head'>Tickets</h2></a>
 
-    <a class='mob-links' ui-sref='tickets' data-toggle="collapse" data-target="#drop">
-      <h2 class='mob-links-head'>Tickets</h2>
-    </a>
-  </div>
-   <div id='content' class='main' ui-view></div>
+      <a class='mob-links close-mob' data-toggle="collapse" data-target="#drop"><h2 class='mob-links-head drop-close'>^</h2><h2 class='mob-links-head closer'>Close</h2></a>
+    </div>
 
-                <!-- End of Mobile Nav -->
+
+                <!-- Browser Navigation -->
 
   <div class='container-fluid' id='main-nav'>
     <a ui-sref='home'>
@@ -117,5 +109,12 @@
       </div>
     </div>
   </div>
+
+              <!-- Page Content -->
+
+
+  <div id='content' class='main' ui-view autoscroll="true"></div>
+
+
 </body>
 </html>

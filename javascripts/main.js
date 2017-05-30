@@ -35,7 +35,15 @@ angRoute.config(function($stateProvider, $urlRouterProvider, $locationProvider) 
     url: '/tickets',
     templateUrl: 'views/tickets.html',
 })
+
 })
+angRoute.config(function ($provide) {
+  $provide.decorator('$uiViewScroll', function ($delegate) {
+    return function (uiViewElement) {
+      window.scrollTo(0, (top - 30));
+    };
+  });
+});
 
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover();
