@@ -67,46 +67,56 @@
         <img class='nav-logo-text' src='images/logo-text.png'/>
       </div>
     </a>
+
+              <!-- Left Side of Nav  -->
+
     <div class='row large-row'>
-      <div class='col-md-3 col-md-offset-1 large-col'>
+      <div class='col-md-3 col-md-offset-2 large-col'>
         <div class='row nav-row-left'>
-          <a class='nav-links' ui-sref='about'>
-            <div class='col-md-5 col-md-offset-2 nav-left aboot'>
-              <h2 class='nav-text aboot'>About Us</h2>
-            </div>
-          </a>
-          <a class='nav-links' ui-sref='events'>
-            <div class='col-md-5 nav-left'>
-              <h2 class='nav-text'>Events</h2>
-            </div>
-          </a>
+            <div class='col-md-6 col-md-offset-1 nav-left aboot' ui-sref-active="active">
+              <a class='nav-links' ui-sref='about'>
+                <h2 class='nav-text aboot'>About Us</h2>
+            </a>
+          </div>
+            <div class='col-md-5 nav-left' ui-sref-active="active">
+              <a class='nav-links' ui-sref='events'>
+                <h2 class='nav-text'>Events</h2>
+              </a>
+          </div>
         </div>
       </div>
-      <div class='col-md-3 large-col'>
+
+          <!-- Center Logo/ Home Link -->
+
+      <div class='col-md-2  large-col'>
         <a class='nav-links' ui-sref='home'>
           <div class='nav-image'><img id='nav-logo' src='images/logo2.png'/>
           </div>
         </a>
       </div>
-      <div class='col-md-4 large-col' id='nav-col-last'>
+
+      <!-- Right Side of Nav -->
+
+      <div class='col-md-5 large-col' id='nav-col-last'>
         <div class='row nav-row-right'>
-          <a class='nav-links' ui-sref='gallery'>
-            <div class='col-md-4 nav-right'>
+          <div class='col-md-4 nav-right' ui-sref-active="active">
+            <a class='nav-links' ui-sref='gallery' >
               <h2 class='nav-text'>Gallery</h2>
-            </div>
-          </a>
-          <a class='nav-links' ui-sref='connect'>
-            <div class='col-md-4 nav-right'>
-              <h2 class='nav-text'>Participate</h2>
-            </div>
-          </a>
-          <div class='col-md-4 nav-right'>
+            </a>
+          </div>
+          <div class='col-md-4 nav-right' ui-sref-active="active">
+              <a class='nav-links' ui-sref='connect'>
+                <h2 class='nav-text'>Participate</h2>
+            </a>
+          </div>
+          <div class='col-md-4 nav-right' ui-sref-active="active">
             <a class='nav-links' ui-sref='tickets'>
               <h2 class='nav-text tix'>Tickets</h2>
             </a>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 
