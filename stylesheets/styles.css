@@ -41,7 +41,44 @@ body  {
   background-color:#192128;
   margin: 0px;
   font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
 
+}
+
+
+
+
+.bottom {
+  /*position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;*/
+}
+
+#social-list  {
+  list-style: none;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.btm-item {
+  margin-right: 20px;
+  display: inline-block;
+}
+.icons  {
+  display: inline-block;
+  height: 40px;
+  border-radius: 9px;
+}
+
+#socials  {
+  text-align: right;
+}
+
+#logo-bottom  {
+  height: 40px;
+  margin: auto;
+  margin-right: 20px;
 }
 
 
@@ -134,6 +171,7 @@ margin-bottom: 2px;*/
   box-shadow: 0px 6px 6px 0px rgb(25,34,40);
   top: 0px;
   z-index: 1;
+  padding-right: 0px;
 }
 
 
@@ -195,9 +233,9 @@ margin-top: 60px;
 }
 
 .nav-logo-text  {
-  width: 150px;
+  width: 180px;
   position: absolute;
-  top: 15px;
+  top: 10px;
   left: 10px;
 }
 
@@ -273,10 +311,11 @@ margin-top: 60px;
 
 .home         {
   padding: 0px;
+  padding-left: 15px;
   text-align: center;
   width: 100%;
   margin-top: 100px;
-  height:100vh;
+  height:100%;
   background-image: url("../images/disco.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -325,6 +364,7 @@ margin-top: 60px;
 
 .home-bars  {
   padding: 0px;
+  padding-left: 15px;
   margin-top: 100px;
   border-bottom: 2px solid white;
 }
@@ -425,14 +465,15 @@ margin-top: -7px;
 
 
 .about-content  {
-  width: 100%;
+  width: 98%;
   text-align: center;
   padding:0px;
+  margin: auto;
   margin-top: 140px;
 }
 
 .about-head-row {
-  width: 100%;
+
 }
 
 #about-head {
@@ -988,7 +1029,7 @@ background-color:#192228;}
     margin: auto;
 
     background-color: white;
-    padding: 15px;
+    padding: 13px;
     padding-top: 7px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -1081,6 +1122,11 @@ background-color:#192228;}
     margin-top: 75px;
   }
 
+  .team-pic {
+    width: 70%;
+    border-radius: 50%;
+  }
+
   .bars-mob {
     margin-top: 20px;
   }
@@ -1096,13 +1142,23 @@ background-color:#192228;}
   #ticket-head  {
     margin: 15px 0px 15px 0px;
   }
+
+  .team-members {
+    margin-top: 50px;
+  }
   .team {
     margin: auto;
-    margin-bottom: 135px;
+    margin-bottom: 80px;
     height: 170px;
     width: 170px;
     padding: 0px;
   }
+
+  .team-name  {
+    font-size: 24px;
+  }
+
+
 
   .clicked {
     margin: auto;
