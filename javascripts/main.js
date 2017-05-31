@@ -45,25 +45,33 @@ angRoute.config(function ($provide) {
   });
 });
 
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover();
-});
+// $(document).ready(function(){
+//     // $('[data-toggle="popover"]').popover();
+//     var name= $('.headshot-name');
+//     var text= $('.headshot-text');
+//     var pic= $('.headshot')
+//
+//       $('.as').click(function() {
+//         name.append('Anne-Marie Salcito')
+//       })
+//
+// });
 
-angRoute.directive('customPopover', function () {
-    return {
-        restrict: 'A',
-        template: '<span>{{label}}</span>',
-        link: function (scope, el, attrs) {
-            scope.label = attrs.popoverLabel;
-            $(el).popover({
-                trigger: 'hover',
-                html: true,
-                content: attrs.popoverHtml,
-                placement: attrs.popoverPlacement
-            });
-        }
-    };
-});
+// angRoute.directive('customPopover', function () {
+//     return {
+//         restrict: 'A',
+//         template: '<span>{{label}}</span>',
+//         link: function (scope, el, attrs) {
+//             scope.label = attrs.popoverLabel;
+//             $(el).popover({
+//                 trigger: 'hover',
+//                 html: true,
+//                 content: attrs.popoverHtml,
+//                 placement: attrs.popoverPlacement
+//             });
+//         }
+//     };
+// });
 
 
 

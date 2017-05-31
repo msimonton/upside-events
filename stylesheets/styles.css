@@ -2,7 +2,9 @@
             /*    Index   */
 
 
-
+.ticket-type  {
+  display: none!important;
+}
 
 
 
@@ -580,7 +582,8 @@ margin-top: -7px;
 }
 
 .team-pic {
-  width: inherit;
+  height: 120px;
+  width:100%;
   border-radius: 50%;
 }
 
@@ -596,9 +599,51 @@ margin-top: -7px;
   cursor: pointer;
 }
 
+.team {
+}
+
+.lower-wrap {
+  height: 240px;
+  overflow: hidden;
+
+}
+
+.team-pic {
+  height: 100%;
+  width: auto;
+}
 
 
 
+
+              /*    Team Member Info Slider   */
+
+
+.headshot     {
+  height: 100%;
+  width: 100%;
+  max-width: 180px;
+  border-radius: 50%;
+}
+
+.headshot-name  {
+  font: inherit;
+  color: white;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+.headshot-info  {
+}
+
+.headshot-text  {
+  font: inherit;
+  color: white;
+}
+
+.headshot-row {
+ opacity: 0;
+}
 
 
 
