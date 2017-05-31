@@ -56,7 +56,7 @@ angRoute.directive('customPopover', function () {
         link: function (scope, el, attrs) {
             scope.label = attrs.popoverLabel;
             $(el).popover({
-                trigger: 'click',
+                trigger: 'hover',
                 html: true,
                 content: attrs.popoverHtml,
                 placement: attrs.popoverPlacement
