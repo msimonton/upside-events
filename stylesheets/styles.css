@@ -265,40 +265,7 @@ margin-top: 60px;
 
 
 
-
-
-
-
-          /*    Page Animations   */
-
-.main.ng-enter,
-.main.ng-leave {
-    /* transition on enter and leave for .5s */
-    transition: .5s;
-}
-
-.ng-enter {
-    /* transition on enter for .5s */
-    transition: .5s;
-
-    /* start with opacity 0 (invisible) */
-    opacity: 0;
-}
-
-  .ng-enter-active {
-    transition: opacity .5s;
-    opacity: .8;
-  }
-
-  .ng-leave-active {
-    transition: opacity .5s;
-
-                 /* end with background opacity 0 to hide it */
-                 opacity: 0;
-               }
-
             /*     Layout of Home Page     */
-
 
 
 
@@ -327,7 +294,7 @@ margin-top: 60px;
 
 
 .home-content {
-  height: 100vh;
+  /*height: 100vh;*/
   /*background-color: rgba(0,0,0, .55);*/
   margin-top: 0px;
   margin-left: 0px;
@@ -350,18 +317,12 @@ margin-top: 60px;
   font-size: 60px;
   margin-left: -30px;
   text-shadow:
-       /*8px 8px 16px #000,
-     5px 5px 12px #FF1899,
-     -5px -5px 12px #FF1899,
-     5px -5px 12px #FF1899,
-     -5px 5px 12px #FF1899,*/
+
      7px 7px 10px #000,
      -7px -7px 10px #000,
      7px -7px 10px #000,
      -7px 7px 10px #000
-      /*1px -1px 0 #FF1899,
-      -1px 1px 0 #FF1899,
-       1px 1px 0 #FF1899;*/
+
 }
 
 .home-bars  {
@@ -458,7 +419,18 @@ margin-top: -7px;
   border-top: 2px solid #FF1899;*/
   border-left: 2px solid #FF1899;
   border-right: 2px solid #FF1899;
+  transition: all 180ms ease-in-out;
+  border-top: 2px solid rgba(1,1,1,0);
+  border-bottom: 2px solid rgba(1,1,1,0);
 
+
+}
+
+#about-event-text:hover, #main-tickets:hover  {
+  border-top: 2px solid #FF1899;
+  border-bottom: 2px solid #FF1899;
+  border-left: 0px;
+  border-right:0px;
 }
 
 
@@ -808,6 +780,9 @@ color: white;
   text-align: center;
   color: white;
   font-size: 44px;
+  letter-spacing: 1px;
+  border-bottom: 2px solid white;
+  margin-bottom: 20px;
 }
 
 
@@ -924,7 +899,7 @@ color: white;
           /*     Gallery Page Layout     */
 .gallery-content  {
   width: 100%;
-  margin-top: 180px;
+  margin-top: 140px;
   text-align: center;
 }
 
@@ -1107,6 +1082,10 @@ background-color:#192228;}
     display: none;
   }
 
+  .mobile-bars  {
+    display: block;
+  }
+
   .team {
     display: inline-block;
     float: none;
@@ -1183,9 +1162,11 @@ background-color:#192228;}
   .row{
     margin: 0px !important;
   }
-  .about-content  {
+  .about-content, .gallery-content, .participate-content  {
     margin-top: 75px;
   }
+
+
 
   .team-pic {
     width: 70%;
@@ -1255,7 +1236,62 @@ background-color:#192228;}
     margin-bottom: 100px;
   }
 
+  .home {
+    ba
+  }
 
+#home-event-wrap  {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background-color: rgba(0,0,0,.5)
+}
+
+.cause-col  {
+  padding: 0px;
+
+}
+
+.home {
+  padding: 0px;
+  margin-top: 90px;
+}
+
+#upside-home{
+  margin: auto;
+}
+
+.about-head-row, .main-top {
+  display: none;
+}
+
+.mobile-bars  {
+  display: block;
+}
+
+
+.event-wrap {
+ display: table;
+}
+.row-events {
+  display: table-row;
+}
+
+.events-image {
+  overflow: auto;
+  display: table;
+}
+
+.about-content, .participate-content, .gallery-content, .home-content  {
+  margin-top: 0px;
+}
+
+
+
+}
+
+
+.vol-one  {
+  letter-spacing: 5px;
 }
 
 
@@ -1313,7 +1349,6 @@ background-color:#192228;}
 }
 
 
-
           /*   Tickets for Mobile     */
 
 .mobile-bars  {
@@ -1321,11 +1356,18 @@ background-color:#192228;}
   width: 70%;
   border-bottom: 3px solid white;
 }
+.bars-pad {
+  margin-top: 125px;
+}
+
+.home-pad {
+  margin-top: 40px;
+}
 
 .content-mobile {
   text-align: center;
   margin: auto;
-  margin-top: 125px;
+
 }
 
 #iframe-wrap  {
@@ -1347,8 +1389,19 @@ background-color:#192228;}
   padding: 0px;
 }
 
+.bars-home  {
+  margin-bottom: 20px;
+}
 
 
+.vol-one  {
+  letter-spacing: 5px;
+  text-shadow:
+     7px 7px 10px #000,
+     -7px -7px 10px #000,
+     7px -7px 10px #000,
+     -7px 7px 10px #000
+}
 
 
 
