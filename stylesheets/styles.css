@@ -692,6 +692,7 @@ color: white;
   color: #989898;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+  padding: 0px;
 
 }
 
@@ -757,6 +758,7 @@ color: white;
 }
 
 #events-content {
+  padding: 0px;
   text-align: center;
   order: 2;
 
@@ -767,6 +769,7 @@ color: white;
   padding: 0px;
 }
 
+
 .event-name {
   margin-top: 10px;
   font-size: 30px;
@@ -776,13 +779,27 @@ color: white;
 
 }
 .event-main   {
+  margin: auto;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   color: white;
   font-size: 44px;
-  letter-spacing: 1px;
-  border-bottom: 2px solid white;
+  letter-spacing: 5px;
+  margin-bottom: 0px;
+  margin-top: 30px;
+
+
+}
+
+.under  {
+  margin-top: 0px;
   margin-bottom: 20px;
+  height: 3px;
+  border-top: 1px solid white;
+}
+
+.right  {
+  height: 3px;
 }
 
 
@@ -799,7 +816,7 @@ color: white;
 
 
 .events-col {
-
+  padding: 0px;
 }
 
 .event-wrap {
@@ -1227,7 +1244,11 @@ background-color:#192228;}
 
 }
 
-
+@media screen and (min-width: 800px) {
+  .mobile-bars, .mob-head  {
+    display: none;
+  }
+  }
 @media screen and (max-width: 800px) {
   .team-name {
     width: 100%;
@@ -1260,11 +1281,11 @@ background-color:#192228;}
   margin: auto;
 }
 
-.about-head-row, .main-top {
+.about-head-row, .main-top, .about-team-row {
   display: none;
 }
 
-.mobile-bars  {
+.mobile-bars, .mob-head  {
   display: block;
 }
 
