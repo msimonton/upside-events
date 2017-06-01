@@ -2,7 +2,9 @@
             /*    Index   */
 
 
-
+.ticket-type  {
+  display: none!important;
+}
 
 
 
@@ -263,40 +265,7 @@ margin-top: 60px;
 
 
 
-
-
-
-
-          /*    Page Animations   */
-
-.main.ng-enter,
-.main.ng-leave {
-    /* transition on enter and leave for .5s */
-    transition: .5s;
-}
-
-.ng-enter {
-    /* transition on enter for .5s */
-    transition: .5s;
-
-    /* start with opacity 0 (invisible) */
-    opacity: 0;
-}
-
-  .ng-enter-active {
-    transition: opacity .5s;
-    opacity: .8;
-  }
-
-  .ng-leave-active {
-    transition: opacity .5s;
-
-                 /* end with background opacity 0 to hide it */
-                 opacity: 0;
-               }
-
             /*     Layout of Home Page     */
-
 
 
 
@@ -325,7 +294,7 @@ margin-top: 60px;
 
 
 .home-content {
-  height: 100vh;
+  /*height: 100vh;*/
   /*background-color: rgba(0,0,0, .55);*/
   margin-top: 0px;
   margin-left: 0px;
@@ -348,18 +317,12 @@ margin-top: 60px;
   font-size: 60px;
   margin-left: -30px;
   text-shadow:
-       /*8px 8px 16px #000,
-     5px 5px 12px #FF1899,
-     -5px -5px 12px #FF1899,
-     5px -5px 12px #FF1899,
-     -5px 5px 12px #FF1899,*/
+
      7px 7px 10px #000,
      -7px -7px 10px #000,
      7px -7px 10px #000,
      -7px 7px 10px #000
-      /*1px -1px 0 #FF1899,
-      -1px 1px 0 #FF1899,
-       1px 1px 0 #FF1899;*/
+
 }
 
 .home-bars  {
@@ -456,7 +419,18 @@ margin-top: -7px;
   border-top: 2px solid #FF1899;*/
   border-left: 2px solid #FF1899;
   border-right: 2px solid #FF1899;
+  transition: all 180ms ease-in-out;
+  border-top: 2px solid rgba(1,1,1,0);
+  border-bottom: 2px solid rgba(1,1,1,0);
 
+
+}
+
+#about-event-text:hover, #main-tickets:hover  {
+  border-top: 2px solid #FF1899;
+  border-bottom: 2px solid #FF1899;
+  border-left: 0px;
+  border-right:0px;
 }
 
 
@@ -579,10 +553,6 @@ margin-top: -7px;
   text-align: center;*/
 }
 
-.team-pic {
-  width: inherit;
-  border-radius: 50%;
-}
 
 .team-name {
   color: white;
@@ -596,9 +566,76 @@ margin-top: -7px;
   cursor: pointer;
 }
 
+.team {
+}
+
+.lower-wrap {
+  height: 240px;
+  overflow: hidden;
+
+}
+
+.team-pic {
+  position: relative;
+  float: left;
+  width:  100px;
+  height: 120px;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+  border-radius: 50%;
+
+}
+
+.headshot {
+  position: relative;
+  float: left;
+  width:  180px;
+  height: 230px;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+  border-radius: 50%;
+}
 
 
 
+
+
+
+              /*    Team Member Info Slider   */
+
+
+/*.headshot     {
+  height: 100%;
+  width: 100%;
+  max-width: 180px;
+  border-radius: 50%;
+}*/
+
+.headshot-name  {
+  font: inherit;
+  color: white;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+.headshot-info  {
+}
+
+.headshot-text  {
+  font: inherit;
+  color: white;
+}
+
+.headshot-row {
+ opacity: 0;
+}
+
+.headshot-col {
+  height: 0px;
+  opacity: 0;
+}
 
 
 
@@ -655,6 +692,7 @@ color: white;
   color: #989898;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+  padding: 0px;
 
 }
 
@@ -720,6 +758,7 @@ color: white;
 }
 
 #events-content {
+  padding: 0px;
   text-align: center;
   order: 2;
 
@@ -730,6 +769,7 @@ color: white;
   padding: 0px;
 }
 
+
 .event-name {
   margin-top: 10px;
   font-size: 30px;
@@ -739,10 +779,27 @@ color: white;
 
 }
 .event-main   {
+  margin: auto;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   color: white;
   font-size: 44px;
+  letter-spacing: 5px;
+  margin-bottom: 0px;
+  margin-top: 30px;
+
+
+}
+
+.under  {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  height: 3px;
+  border-top: 1px solid white;
+}
+
+.right  {
+  height: 3px;
 }
 
 
@@ -759,7 +816,7 @@ color: white;
 
 
 .events-col {
-
+  padding: 0px;
 }
 
 .event-wrap {
@@ -859,7 +916,7 @@ color: white;
           /*     Gallery Page Layout     */
 .gallery-content  {
   width: 100%;
-  margin-top: 180px;
+  margin-top: 140px;
   text-align: center;
 }
 
@@ -1042,6 +1099,10 @@ background-color:#192228;}
     display: none;
   }
 
+  .mobile-bars  {
+    display: block;
+  }
+
   .team {
     display: inline-block;
     float: none;
@@ -1118,9 +1179,11 @@ background-color:#192228;}
   .row{
     margin: 0px !important;
   }
-  .about-content  {
+  .about-content, .gallery-content, .participate-content  {
     margin-top: 75px;
   }
+
+
 
   .team-pic {
     width: 70%;
@@ -1168,11 +1231,24 @@ background-color:#192228;}
     padding: 0px;
   }
 
+.team-pic{
+  position: relative;
+  width:  100px;
+  height: 120px;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+  border-radius: 50%;
+}
 
 
 }
 
-
+@media screen and (min-width: 800px) {
+  .mobile-bars, .mob-head  {
+    display: none;
+  }
+  }
 @media screen and (max-width: 800px) {
   .team-name {
     width: 100%;
@@ -1181,7 +1257,62 @@ background-color:#192228;}
     margin-bottom: 100px;
   }
 
+  .home {
+    ba
+  }
 
+#home-event-wrap  {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background-color: rgba(0,0,0,.5)
+}
+
+.cause-col  {
+  padding: 0px;
+
+}
+
+.home {
+  padding: 0px;
+  margin-top: 90px;
+}
+
+#upside-home{
+  margin: auto;
+}
+
+.about-head-row, .main-top, .about-team-row {
+  display: none;
+}
+
+.mobile-bars, .mob-head  {
+  display: block;
+}
+
+
+.event-wrap {
+ display: table;
+}
+.row-events {
+  display: table-row;
+}
+
+.events-image {
+  overflow: auto;
+  display: table;
+}
+
+.about-content, .participate-content, .gallery-content, .home-content  {
+  margin-top: 0px;
+}
+
+
+
+}
+
+
+.vol-one  {
+  letter-spacing: 5px;
 }
 
 
@@ -1239,7 +1370,6 @@ background-color:#192228;}
 }
 
 
-
           /*   Tickets for Mobile     */
 
 .mobile-bars  {
@@ -1247,11 +1377,18 @@ background-color:#192228;}
   width: 70%;
   border-bottom: 3px solid white;
 }
+.bars-pad {
+  margin-top: 125px;
+}
+
+.home-pad {
+  margin-top: 40px;
+}
 
 .content-mobile {
   text-align: center;
   margin: auto;
-  margin-top: 125px;
+
 }
 
 #iframe-wrap  {
@@ -1273,8 +1410,19 @@ background-color:#192228;}
   padding: 0px;
 }
 
+.bars-home  {
+  margin-bottom: 20px;
+}
 
 
+.vol-one  {
+  letter-spacing: 5px;
+  text-shadow:
+     7px 7px 10px #000,
+     -7px -7px 10px #000,
+     7px -7px 10px #000,
+     -7px 7px 10px #000
+}
 
 
 
