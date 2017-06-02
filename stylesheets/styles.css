@@ -419,7 +419,7 @@ margin-top: -7px;
   border-top: 2px solid #FF1899;*/
   border-left: 2px solid #FF1899;
   border-right: 2px solid #FF1899;
-  transition: all 180ms ease-in-out;
+  transition: border 180ms ease-in-out;
   border-top: 2px solid rgba(1,1,1,0);
   border-bottom: 2px solid rgba(1,1,1,0);
 
@@ -431,6 +431,8 @@ margin-top: -7px;
   border-bottom: 2px solid #FF1899;
   border-left: 0px;
   border-right:0px;
+  margin-left: 17px;
+  margin-right: 17px;
 }
 
 
@@ -612,6 +614,14 @@ margin-top: -7px;
   max-width: 180px;
   border-radius: 50%;
 }*/
+
+.team-close {
+  float: right;
+  margin-right: 200px;
+  margin-top: -50px;
+  height: 0px;
+  opacity: 0;
+}
 
 .headshot-name  {
   font: inherit;
