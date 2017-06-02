@@ -40,6 +40,7 @@ Each event will focus on a specific charity or a group that aligns with a need w
       </div>
       <div class='col-md-3 team-bars '></div>
     </div>
+    <!-- <img class='team-close' src='../images/close-down.png'/> -->
 
 
       <!-- Mobile Bars -->
@@ -105,12 +106,12 @@ Each event will focus on a specific charity or a group that aligns with a need w
       </div>
 
       <div class='col-md-1 col-sm-12 team'>
-        <div class='team-pic' id='rg' style="background-image:url('../images/placeholder.jpg')"></div>
+        <div class='team-pic' id='rg' style="background-image:url('../images/head-shots/rachael.png')"></div>
           <span class='team-name'>Rachael Greenberg</span>
       </div>
 
       <div class='col-md-1 col-sm-12 team'>
-        <div class='team-pic' id='br' style="background-image:url('../images/placeholder.jpg')"></div>
+        <div class='team-pic' id='br' style="background-image:url('../images/head-shots/bridget.jpg')"></div>
           <span class='team-name'>Bridget Rogers</span>
       </div>
     </div>
@@ -177,6 +178,10 @@ $(document).ready(function(){
           height: '240px',
           opacity: '1'
       }, 900, 'easeInOutQuint');
+    //   $('.team-close').animate({
+    //     height: '50px',
+    //     opacity: '1'
+    // }, 900, 'easeInOutQuint');
 
 
 
@@ -184,6 +189,23 @@ $(document).ready(function(){
   return false;
 
       })
+
+      // $('.team-close').click(function() {
+      //   $('.headshot-row').animate({
+      //         height: '1px',
+      //         opacity: '0'
+      //   }, 900, 'easeInOutQuint');
+      //   $('.headshot-col').animate({
+      //       height: '0px',
+      //       opacity: '0'
+      //   }, 900, 'easeInOutQuint');
+      //   $('.team-close').animate({
+      //     height: '0px',
+      //     opacity: '0'
+      // }, 900, 'easeInOutQuint');
+      // })
+
+
 
       $('#as').click(function() {
         pic.empty();
@@ -213,7 +235,7 @@ $(document).ready(function(){
         name.empty();
         text.empty();
         pic.css({"backgroundImage":"url(../images/head-shots/leslie.jpg)"})
-        name.append('Leslie');
+        name.append('Leslie Simonton');
         text.append("Leslie Simonton is a legend, among other things. She can golf circles around basically every dude we know and don’t even get us started on her dirt bike prowess. More importantly, Leslie is a strong, dedicated and brilliant force to be reckoned with both in the workplace and out. A native to Colorado Springs, she’s volunteered for the National Charity League and St Jude's Children's Hospital and currently works in commercial real estate. She joined Upside driven by her desire to spread knowledge and encourage her peers to follow in creating awareness and change to matters that need it most.");
 
       })
@@ -232,7 +254,7 @@ $(document).ready(function(){
         pic.empty();
         name.empty();
         text.empty();
-        pic.css({"backgroundImage":"url(../images/placeholder.jpg)"});
+        pic.css({"backgroundImage":"url(../images/head-shots/rachael.png)"});
         name.append('Rachael Greenberg');
         text.append('Rachael Greenberg, originally from Golden, Colorado is a marketing wizard at KPMG for her day job but her real work and her mark on this planet happens in the Denver community. She is a devoted mentor and trainer for Minds Matter Denver, a coach for City Lax Denver and is on the National Action Alliance for Suicide Prevention.  Inspired by the genesis of Upside and the group of women saying yes to making change, she joined the team to help spread the message of taking action and questioning the status quo.');
 
@@ -252,7 +274,7 @@ $(document).ready(function(){
         pic.empty();
         name.empty();
         text.empty();
-        pic.css({"backgroundImage":"url(../images/placeholder.jpg)"});
+        pic.css({"backgroundImage":"url(../images/head-shots/bridget.jpg)"});
         name.append('Bridget Rodgers');
         text.append("You know those people you want to punch in the face bc everything they touch turns to gold? That’s Bridget. Eternal Michael Jackson mega-fan, founder of her event company, Cloth + Gold, and a devoted voice for positive change, she inspires those around her with her dedication, passion, and all around savvy. She was inspired to join Upside so that in 20 years when her kids ask her what she was doing during this time, she can say she made her voice loud and fought for what was right. Eff yes.");
 
