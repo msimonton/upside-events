@@ -233,12 +233,30 @@ margin-top: 60px;
   justify-content: center;
   align-items: center;
 }
-
 .nav-logo-text  {
+  display: none;
+}
+
+.nav-text-clear {
   width: 180px;
   position: absolute;
   top: 10px;
   left: 10px;
+}
+
+
+@media screen and (min-width: 1085px) {
+  .nav-logo-text  {
+    display: block;
+    width: 180px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .nav-text-clear {
+    display: none;
+  }
 }
 
 .nav-image  {
@@ -493,7 +511,7 @@ margin-top: -7px;
 #about-text   {
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
-  color: #989898;
+  color: #c6c6c6;
   padding-left: 0px;
 
 }
@@ -635,6 +653,7 @@ margin-top: -7px;
 .headshot-text  {
   font: inherit;
   color: white;
+  margin-bottom: 0px;
 }
 
 .headshot-row {
@@ -698,7 +717,7 @@ color: white;
 
 #events-blurb {
   margin-top: 20px;
-  color: #989898;
+  color: #c6c6c6;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   padding: 0px;
@@ -818,7 +837,7 @@ color: white;
   text-align: center;
   margin-top: 5px;
   font-size: 18px;
-  color: #b3b3b3;
+  color: #c6c6c6;
 
 
 }
@@ -932,10 +951,10 @@ color: white;
 
 
 #gal  {
-  color: #989898;
+  color: #c6c6c6;
   font-family: 'Open Sans', sans-serif;
   padding:0px;
-  font-size: 24px;
+  font-size: 18px;
   margin-top: 50px;
 
 }
@@ -951,19 +970,17 @@ color: white;
 }
 
 #don-link {
-  color: #989898;
+  color: #c6c6c6;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   margin: 0px;
 }
 
-.donate-blurb   {
-  margin-top: 20px;
-}
-
-.donate-blurb > div {
-  margin-bottom: 30px;
-
+#email  {
+  font: inherit;
+  font-size: 20px;
+  color: #FF1899;
+  text-decoration: none !important;
 }
 
 
@@ -990,11 +1007,12 @@ iframe    {
 }
 
 #tics {
-  color: #989898;
+  color: #c6c6c6;
   font-family: 'Open Sans', sans-serif;
   padding:0px;
-  font-size: 22px;
+  font-size: 18px;
   margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .tics {
@@ -1173,9 +1191,16 @@ background-color:#192228;}
   padding: 10px;
 }
 
+
 .mob-about  {
   font: inherit;
   color: grey;
+}
+
+.team-pic {
+  background-position: center;
+  text-align: center;
+  margin: auto;
 }
 
   #main-nav-mobile {
@@ -1267,6 +1292,8 @@ background-color:#192228;}
 
 
 
+
+
   .clicked {
     margin: auto;
     margin-bottom: 135px;
@@ -1287,6 +1314,10 @@ background-color:#192228;}
 
 .headshot-row {
   display: none;
+}
+
+.events-image  {
+  margin: auto;
 }
 
 
