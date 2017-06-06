@@ -957,6 +957,15 @@ color: white;
   margin: 0px;
 }
 
+.donate-blurb   {
+  margin-top: 20px;
+}
+
+.donate-blurb > div {
+  margin-bottom: 30px;
+
+}
+
 
 
 
