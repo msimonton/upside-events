@@ -87,10 +87,18 @@ Each event will focus on a specific charity or a group that aligns with a need w
       </div>
 
       <div class='col-md-1 col-sm-12 team'>
+        <div class='team-pic' id='bh' style="background-image:url('../images/head-shots/bri.jpg')"></div>
+          <span class='team-name'>Brianna Hernandez</span>
+          <p class='mob-about' id='hb'></p>
+      </div>
+
+      <div class='col-md-1 col-sm-12 team'>
         <div class='team-pic' id='ml' style="background-image:url('../images/head-shots/margaux.jpg')"></div>
           <span class='team-name'>Margaux Lochmiller</span>
           <p class='mob-about' id='lm'></p>
       </div>
+
+
 
       <div class='col-md-1 col-sm-12 team'>
         <div class='team-pic' id='ls' style="background-image:url('../images/head-shots/leslie.jpg')"></div>
@@ -104,11 +112,6 @@ Each event will focus on a specific charity or a group that aligns with a need w
           <p class='mob-about' id='lj'></p>
       </div>
 
-      <div class='col-md-1 col-sm-12 team'>
-        <div class='team-pic' id='bh' style="background-image:url('../images/head-shots/bri.jpg')"></div>
-          <span class='team-name'>Brianna Hernandez</span>
-          <p class='mob-about' id='hb'></p>
-      </div>
 
       <div class='col-md-1 col-sm-12 team'>
         <div class='team-pic' id='rg' style="background-image:url('../images/head-shots/rachael.png')"></div>
@@ -133,10 +136,18 @@ Each event will focus on a specific charity or a group that aligns with a need w
       </div>
 
       <div class='col-md-12 team'>
+        <div class='team-pic' id='bh' style="background-image:url('../images/head-shots/bri.jpg')"></div>
+          <span class='team-name'>Brianna Hernandez</span>
+          <p class='mob-about' id='hb'>Brianna Hernandez is a BOSS marketing professional at The Denver Post, but has spent the last decade fundraising and event planning in the Denver community. From planning fundraisers for Hurricane Sandy victims, to marching against School of the Americas, she's always eager to take action. When she's not on a spin bike or hunting down the newest restaurant, she is a member of Mile High Young Professionals and the membership co-chair for CultureHaus at the Denver Art Museum. Inspired by the passionate and bold women of Upside, she joined to empower others to be agents of change.</p>
+      </div>
+
+      <div class='col-md-12 team'>
         <div class='team-pic' id='ml' style="background-image:url('../images/head-shots/margaux.jpg')"></div>
           <span class='team-name'>Margaux Lochmiller</span>
           <p class='mob-about' id='lm'>When Margaux isn’t busy slaying at Morgan Stanley Private Wealth Management, she slays at pretty much everything else she does. Including but not limited to: receiving scholarships and academic awards as a member of the University of Denver Division I Women’s Soccer Team, co-chairing the Third Way Center Young Professionals Board, and volunteering extensively across the country as well as internationally. As a Colorado native, Margaux enjoys the outdoors, mountaineering, yoga and the Broncos (duh), and her enthusiasm, experience, knowledge and expertise have been invaluable to helping bring the Upside vision to life.</p>
       </div>
+
+
 
       <div class='col-md-12 team'>
         <div class='team-pic' id='ls' style="background-image:url('../images/head-shots/leslie.jpg')"></div>
@@ -150,11 +161,6 @@ Each event will focus on a specific charity or a group that aligns with a need w
           <p class='mob-about' id='lj'>Ever heard the term “little sparkplug”? Google it. Now you know Jenn Lazear. Born and raised in Columbus, Ohio, Jenn has lived in Denver for 5 years, and we’re grateful to have her wit, her enthusiasm and her drive. She is a Commercial Real Estate Broker specializing in Retail Leasing and when she’s not focused on work she’s active in local AIPAC and Jewish Family Services initiatives as well as the International Council of Shopping Centers. Jenn joined Upside for the amazing opportunity to meet other like-minded women and provide fun programming for a great cause.</p>
       </div>
 
-      <div class='col-md-12 team'>
-        <div class='team-pic' id='bh' style="background-image:url('../images/head-shots/bri.jpg')"></div>
-          <span class='team-name'>Brianna Hernandez</span>
-          <p class='mob-about' id='hb'>Brianna Hernandez is a BOSS marketing professional at The Denver Post, but has spent the last decade fundraising and event planning in the Denver community. From planning fundraisers for Hurricane Sandy victims, to marching against School of the Americas, she's always eager to take action. When she's not on a spin bike or hunting down the newest restaurant, she is a member of Mile High Young Professionals and the membership co-chair for CultureHaus at the Denver Art Museum. Inspired by the passionate and bold women of Upside, she joined to empower others to be agents of change.</p>
-      </div>
 
       <div class='col-md-12 team'>
         <div class='team-pic' id='rg' style="background-image:url('../images/head-shots/rachael.png')"></div>
@@ -186,7 +192,7 @@ $(document).ready(function(){
 
     $('.team-pic').click(function() {
           $('.headshot-row').animate({
-            height: '245px',
+            height: '260px',
             opacity: '1'
         }, 900, 'easeInOutQuint');
         $('.headshot-col').animate({
@@ -211,6 +217,16 @@ $(document).ready(function(){
 
       })
 
+      $('#bh').click(function() {
+        pic.empty();
+        name.empty();
+        text.empty();
+        pic.css({"backgroundImage":"url(../images/head-shots/bri.jpg)"});
+        name.append('Brianna Hernandez');
+        text.append("Brianna Hernandez is a BOSS marketing professional at The Denver Post, but has spent the last decade fundraising and event planning in the Denver community. From planning fundraisers for Hurricane Sandy victims, to marching against School of the Americas, she's always eager to take action. When she's not on a spin bike or hunting down the newest restaurant, she is a member of Mile High Young Professionals and the membership co-chair for CultureHaus at the Denver Art Museum. Inspired by the passionate and bold women of Upside, she joined to empower others to be agents of change.");
+
+      })
+
 
 
 
@@ -223,6 +239,8 @@ $(document).ready(function(){
         text.append('When Margaux isn’t busy slaying at Morgan Stanley Private Wealth Management, she slays at pretty much everything else she does. Including but not limited to: receiving scholarships and academic awards as a member of the University of Denver Division I Women’s Soccer Team, co-chairing the Third Way Center Young Professionals Board, and volunteering extensively across the country as well as internationally. As a Colorado native, Margaux enjoys the outdoors, mountaineering, yoga and the Broncos (duh), and her enthusiasm, experience, knowledge and expertise have been invaluable to helping bring the Upside vision to life.');
 
       })
+
+
 
       $('#ls').click(function() {
         pic.empty();
@@ -254,15 +272,6 @@ $(document).ready(function(){
 
       })
 
-      $('#bh').click(function() {
-        pic.empty();
-        name.empty();
-        text.empty();
-        pic.css({"backgroundImage":"url(../images/head-shots/bri.jpg)"});
-        name.append('Brianna Hernandez');
-        text.append("Brianna Hernandez is a BOSS marketing professional at The Denver Post, but has spent the last decade fundraising and event planning in the Denver community. From planning fundraisers for Hurricane Sandy victims, to marching against School of the Americas, she's always eager to take action. When she's not on a spin bike or hunting down the newest restaurant, she is a member of Mile High Young Professionals and the membership co-chair for CultureHaus at the Denver Art Museum. Inspired by the passionate and bold women of Upside, she joined to empower others to be agents of change.");
-
-      })
 
       $('#br').click(function() {
         pic.empty();
