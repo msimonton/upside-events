@@ -493,7 +493,7 @@ margin-top: -7px;
 #about-text   {
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
-  color: #989898;
+  color: #c6c6c6;
   padding-left: 0px;
 
 }
@@ -698,7 +698,7 @@ color: white;
 
 #events-blurb {
   margin-top: 20px;
-  color: #989898;
+  color: #c6c6c6;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   padding: 0px;
@@ -818,7 +818,7 @@ color: white;
   text-align: center;
   margin-top: 5px;
   font-size: 18px;
-  color: #b3b3b3;
+  color: #c6c6c6;
 
 
 }
@@ -932,7 +932,7 @@ color: white;
 
 
 #gal  {
-  color: #989898;
+  color: #c6c6c6;
   font-family: 'Open Sans', sans-serif;
   padding:0px;
   font-size: 24px;
@@ -951,19 +951,17 @@ color: white;
 }
 
 #don-link {
-  color: #989898;
+  color: #c6c6c6;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   margin: 0px;
 }
 
-.donate-blurb   {
-  margin-top: 20px;
-}
-
-.donate-blurb > div {
-  margin-bottom: 30px;
-
+#email  {
+  font: inherit;
+  font-size: 20px;
+  color: #FF1899;
+  text-decoration: none !important;
 }
 
 
@@ -990,11 +988,12 @@ iframe    {
 }
 
 #tics {
-  color: #989898;
+  color: #c6c6c6;
   font-family: 'Open Sans', sans-serif;
   padding:0px;
   font-size: 22px;
   margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .tics {
