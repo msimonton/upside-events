@@ -49,6 +49,10 @@
 <img id='logo-animation' src="../images/full-logo.png"/>
 <script>
 
+if ($(window).width() > 800) {
+
+
+
 if(sessionStorage.length !== 0) {
   $(document).ready(function(){
 
@@ -76,4 +80,38 @@ if(sessionStorage.length !== 0) {
       // console.log(counter)
     })
     }
+  }
+
+  else {
+    if(sessionStorage.length !== 0) {
+      $(document).ready(function(){
+
+      $('#logo-animation').css('display','none');
+      $('.home').css('display','block')
+      })
+    }
+
+        else {
+          $(document).ready(function(){
+          var div = $("#logo-animation");
+          var bod = $('body');
+
+          div.animate({height: '244px', width:'400px', opacity: '.8'}, 300);
+
+          div.animate({height: '185px', width: '300px',opacity: '.6'},270);
+          bod.stop().delay().animate({backgroundColor: '#26333c'}, 50);
+          bod.animate({backgroundColor: '#192228'},300);
+          div.animate({height: '190px', width: '315px',opacity: '1'}, 180);
+          div.delay(2000).fadeOut('slow');
+
+          $('#test').delay(2600).fadeOut('slow');
+          $('.home').delay(3400).fadeIn(1500);
+          sessionStorage.setItem('count', '1');
+          // console.log(counter)
+        })
+        }
+    {
+
+    }
+  }
 </script>

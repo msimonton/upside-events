@@ -145,7 +145,7 @@ Each event will focus on a specific charity or a group that aligns with a need w
       </div>
 
       <div class='col-md-12 team'>
-        <div class='team-pic' id='jl' style="background-image:url('../images/placeholder.jpg')"></div>
+        <div class='team-pic' id='jl' style="background-image:url('../images/head-shots/jen.jpg')"></div>
           <span class='team-name'>Jennifer Lazear</span>
           <p class='mob-about' id='lj'>Ever heard the term “little sparkplug”? Google it. Now you know Jenn Lazear. Born and raised in Columbus, Ohio, Jenn has lived in Denver for 5 years, and we’re grateful to have her wit, her enthusiasm and her drive. She is a Commercial Real Estate Broker specializing in Retail Leasing and when she’s not focused on work she’s active in local AIPAC and Jewish Family Services initiatives as well as the International Council of Shopping Centers. Jenn joined Upside for the amazing opportunity to meet other like-minded women and provide fun programming for a great cause.</p>
       </div>
@@ -183,6 +183,7 @@ $(document).ready(function(){
     var text= $('.headshot-text');
     var pic= $('.headshot');
 
+    if ($(window).width() > 1000) {
     $('.team-pic').click(function() {
           $('.headshot-row').animate({
             height: '245px',
@@ -196,7 +197,9 @@ $(document).ready(function(){
 
         $("html, body").animate({ scrollTop: $(document).height() }, "slow");
   return false;
-      })
+})
+}
+else{}
 
 
       $('#as').click(function() {
@@ -271,6 +274,7 @@ $(document).ready(function(){
         text.append("You know those people you want to punch in the face bc everything they touch turns to gold? That’s Bridget. Eternal Michael Jackson mega-fan, founder of her event company, Cloth + Gold, and a devoted voice for positive change, she inspires those around her with her dedication, passion, and all around savvy. She was inspired to join Upside so that in 20 years when her kids ask her what she was doing during this time, she can say she made her voice loud and fought for what was right. Eff yes.");
 
       })
+
 
         })
 
