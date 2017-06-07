@@ -479,6 +479,7 @@ margin-top: -7px;
 }
 
 .about-head-row {
+  margin-top: 20px;
 
 }
 
@@ -545,14 +546,6 @@ margin-top: -7px;
   width: 100%;
   margin-top: 50px;
   margin-bottom: 20px;
-}
-
-
-
-.popover  {
-  background-color: rgba(25,34,40, .8);
-  color: white;
-  border: 1px solid grey;
 }
 
 
@@ -969,6 +962,10 @@ color: white;
   text-decoration: none !important;
 }
 
+.involved  {
+  padding-left: 0px !important;
+}
+
 
 
 
@@ -985,6 +982,7 @@ iframe    {
   padding:0px;
   font-size: 40px;
   margin-bottom: 30px;
+  padding-left: 0px;
 
 }
 
@@ -1266,6 +1264,7 @@ background-color:#192228;}
   #ticket-head  {
     margin: 15px 0px 15px 0px;
   }
+
 
   .team-members {
     margin-top: 10px;
