@@ -132,12 +132,19 @@ margin-bottom: 2px;*/
   width: 100%;
   font-size: 28px;
 }
+.nav-participate:hover:after,
+.nav-participate:hover:before {
+  border-color: black;
+  width: 113%;
+  font-size: 28px;
+}
 
 .nav-text:hover:before {
   bottom: auto;
   top: 0;
-  width: 100%;
+
 }
+
 
 .active > a > .nav-text {
 
@@ -234,7 +241,11 @@ margin-top: 60px;
   align-items: center;
 }
 .nav-logo-text  {
-  display: none;
+  display: block;
+  width: 120px;
+  position: absolute;
+  top: 23px;
+  left: 10px;
 }
 
 .nav-text-clear {
@@ -242,6 +253,7 @@ margin-top: 60px;
   position: absolute;
   top: 10px;
   left: 10px;
+  display: none;
 }
 
 
@@ -535,9 +547,7 @@ margin-top: -7px;
   margin-bottom: 20px;
 }
 
-.team-1:hover {
-  cursor: pointer;
-}
+
 
 .popover  {
   background-color: rgba(25,34,40, .8);
@@ -545,20 +555,6 @@ margin-top: -7px;
   border: 1px solid grey;
 }
 
-.team-info  {
-  background-image: url('../images/les-bad.jpg');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 200px;
-}
-
-.team-2 {
-  background-image: url('../images/leslie-old.jpg');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 
 .team-members {
   width: 100%;
@@ -566,13 +562,6 @@ margin-top: -7px;
   padding: 0px;
   margin-bottom: 25px;
 }
-
-
-.team-pic-row {
-  /*margin: auto;
-  text-align: center;*/
-}
-
 
 .team-name {
   color: white;
@@ -584,9 +573,6 @@ margin-top: -7px;
 
 .team:hover {
   cursor: pointer;
-}
-
-.team {
 }
 
 .lower-wrap {
@@ -1153,6 +1139,8 @@ background-color:#192228;}
     width: 120px;
     border-radius: 50%;
     margin: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
     padding: 0px;
 
   }
@@ -1201,6 +1189,8 @@ background-color:#192228;}
   background-position: center;
   text-align: center;
   margin: auto;
+  width:  100px;
+  height: 120px;
 }
 
   #main-nav-mobile {
@@ -1278,7 +1268,7 @@ background-color:#192228;}
   }
 
   .team-members {
-    margin-top: 50px;
+    margin-top: 10px;
   }
 
 
@@ -1304,8 +1294,8 @@ background-color:#192228;}
 
 .team-pic{
   position: relative;
-  width:  100px;
-  height: 120px;
+  width:  140px;
+  height: 165px;
   background-position: 50% 50%;
   background-repeat:   no-repeat;
   background-size:     cover;
@@ -1320,6 +1310,11 @@ background-color:#192228;}
   margin: auto;
 }
 
+.team {
+  height: auto;
+  margin-bottom: 5px;
+  padding: 0px 15px 0px 15px;
+}
 
 }
 

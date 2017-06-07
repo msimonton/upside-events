@@ -76,19 +76,19 @@ We believe there’s never been a more critical time to consider what we stand f
             <!-- Team Members -->
 
     <div class='row team-pic-row'>
-      <div class='col-md-1 col-sm-12 team'>
+      <div class='col-md-2 col-sm-12 team'>
         <div class='team-pic' id='as' style="background-image:url(../images/head-shots/anne-marie.jpg)"></div>
           <span class='team-name'>Anne-Marie Salcito</span>
           <p class='mob-about' id='sa'></p>
       </div>
 
-      <div class='col-md-1 col-sm-12 team'>
+      <div class='col-md-2 col-sm-12 team'>
         <div class='team-pic' id='bh' style="background-image:url('../images/head-shots/bri.jpg')"></div>
           <span class='team-name'>Brianna Hernandez</span>
           <p class='mob-about' id='hb'></p>
       </div>
 
-      <div class='col-md-1 col-sm-12 team'>
+      <div class='col-md-2 col-sm-12 team'>
         <div class='team-pic' id='ml' style="background-image:url('../images/head-shots/margaux.jpg')"></div>
           <span class='team-name'>Margaux Lochmiller</span>
           <p class='mob-about' id='lm'></p>
@@ -96,29 +96,35 @@ We believe there’s never been a more critical time to consider what we stand f
 
 
 
-      <div class='col-md-1 col-sm-12 team'>
+      <div class='col-md-2 col-sm-12 team'>
         <div class='team-pic' id='ls' style="background-image:url('../images/head-shots/leslie.jpg')"></div>
           <span class='team-name'>Leslie Simonton</span>
           <p class='mob-about' id='sl'></p>
       </div>
 
-      <div class='col-md-1 col-sm-12 team'>
+      <div class='col-md-2 col-sm-12 team'>
         <div class='team-pic' id='jl' style="background-image:url('../images/head-shots/jen.jpg')"></div>
           <span class='team-name'>Jennifer Lazear</span>
           <p class='mob-about' id='lj'></p>
       </div>
 
 
-      <div class='col-md-1 col-sm-12 team'>
+      <div class='col-md-2 col-sm-12 team'>
         <div class='team-pic' id='rg' style="background-image:url('../images/head-shots/rachael.png')"></div>
           <span class='team-name'>Rachael Greenberg</span>
           <p class='mob-about' id='gr'></p>
       </div>
 
-      <div class='col-md-1 col-sm-12 team'>
+      <div class='col-md-2 col-sm-12 team'>
         <div class='team-pic' id='br' style="background-image:url('../images/head-shots/bridget.jpg')"></div>
           <span class='team-name'>Bridget Rogers</span>
           <p class='mob-about' id='rb'></p>
+      </div>
+
+      <div class='col-md-2 col-sm-12 team'>
+        <div class='team-pic' id='gh' style="background-image:url('../images/head-shots/grace.jpg')"></div>
+          <span class='team-name'>Grace Hartman</span>
+          <p class='mob-about' id='hb'></p>
       </div>
     </div>
 
@@ -168,6 +174,12 @@ We believe there’s never been a more critical time to consider what we stand f
         <div class='team-pic' id='br' style="background-image:url('../images/head-shots/bridget.jpg')"></div>
           <span class='team-name'>Bridget Rogers</span>
           <p class='mob-about' id='rb'>You know those people you want to punch in the face bc everything they touch turns to gold? That’s Bridget. Eternal Michael Jackson mega-fan, founder of her event company, Cloth + Gold, and a devoted voice for positive change, she inspires those around her with her dedication, passion, and all around savvy. She was inspired to join Upside so that in 20 years when her kids ask her what she was doing during this time, she can say she made her voice loud and fought for what was right. Eff yes.</p>
+      </div>
+
+      <div class='col-md-12 team'>
+        <div class='team-pic' id='gh' style="background-image:url('../images/head-shots/grace.jpg')"></div>
+          <span class='team-name'>Grace Hartman</span>
+          <p class='mob-about' id='hb'>You know those people you want to punch in the face bc everything they touch turns to gold? That’s Bridget. Eternal Michael Jackson mega-fan, founder of her event company, Cloth + Gold, and a devoted voice for positive change, she inspires those around her with her dedication, passion, and all around savvy. She was inspired to join Upside so that in 20 years when her kids ask her what she was doing during this time, she can say she made her voice loud and fought for what was right. Eff yes.</p>
       </div>
     </div>
   </div>
@@ -276,6 +288,16 @@ $(document).ready(function(){
         pic.css({"backgroundImage":"url(../images/head-shots/bridget.jpg)"});
         name.append('Bridget Rodgers');
         text.append("You know those people you want to punch in the face bc everything they touch turns to gold? That’s Bridget. Eternal Michael Jackson mega-fan, founder of her event company, Cloth + Gold, and a devoted voice for positive change, she inspires those around her with her dedication, passion, and all around savvy. She was inspired to join Upside so that in 20 years when her kids ask her what she was doing during this time, she can say she made her voice loud and fought for what was right. Eff yes.");
+
+      })
+
+      $('#gh').click(function() {
+        pic.empty();
+        name.empty();
+        text.empty();
+        pic.css({"backgroundImage":"url(../images/head-shots/grace.jpg)"});
+        name.append('Bridget Rodgers');
+        text.append("");
 
       })
 
