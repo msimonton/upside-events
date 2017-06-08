@@ -50,6 +50,7 @@ body  {
 
 
 
+
 .bottom {
   /*position: absolute;
   right: 0;
@@ -73,8 +74,12 @@ body  {
   border-radius: 9px;
 }
 
-#socials  {
-  text-align: right;
+.socials  {
+  width: 50px;
+}
+
+#facebook {
+  width: 46px;
 }
 
 #logo-bottom  {
@@ -315,7 +320,7 @@ margin-top: 60px;
   width: 100%;
   margin-top: 100px;
   height:100%;
-  background-image: url("../images/disco.jpg");
+  background-image: url("../images/pink-lights.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -326,7 +331,7 @@ margin-top: 60px;
 .home-content {
   /*height: 100vh;*/
   /*background-color: rgba(0,0,0, .55);*/
-  margin-top: 0px;
+  margin-top: 25px;
   margin-left: 0px;
   width: 100%;
   color: white;
@@ -429,9 +434,14 @@ margin-top: -7px;
 }
 .cause-col p:nth-child(6) {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 23px;
+  font-size: 25px;
 }
 
+.cause-col p:nth-child(7) {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 30px;
+  letter-spacing: 4px;
+}
 
 .main-button  {
   margin-left:0px;
@@ -553,7 +563,7 @@ margin-top: -7px;
   width: 100%;
   text-align: center;
   padding: 0px;
-  margin-bottom: 25px;
+  margin-bottom: 45px;
 }
 
 .team-name {
@@ -829,7 +839,7 @@ color: white;
 .event-wrap {
   background-color: rgba(0,0,0,.7);
   padding-top: 20px;
-  height: 298px;
+  height: 318px;
 }
 
 #cause-head {
@@ -882,16 +892,24 @@ color: white;
 }
 .events-colm p:nth-child(6) {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  /*letter-spacing: 1.5px;*/
+}
+
+.events-colm p:nth-child(7) {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 21px;
+  letter-spacing: 3px;
 }
 
 
 .events-image {
-  background-image: url('../images/disco.jpg');
+  background-image: url('../images/pink-lights.jpg');
 
   background-repeat: no-repeat;
   background-position: center;
-  height: 300px;
+  background-size: cover;
+  height: 320px;
   border-radius: 8px;
   border: 1px solid white;
 }
@@ -1101,6 +1119,7 @@ background-color:#192228;}
 
   .team-pic-row {
     display: block;
+    width: 100%
   }
   #main-nav-mobile {
     display: none;
@@ -1509,45 +1528,48 @@ background-color:#192228;}
 }
 
 
-
-
-
-
-/*.nav-text {
-  letter-spacing: 0;
-  -webkit-transition: letter-spacing 280ms ease-in-out;
-          transition: letter-spacing 280ms ease-in-out;
+.content{
+  height: 100vh
 }
 
-.nav-text:hover {
-  letter-spacing: 5px;
+#marc-logo  {
+  margin-top: 5px;
+  height: auto;
+  width: 20px;
+  float: right;
 }
 
-.nav-text:after,
-.nav-text:before {
-  border: 1px solid rgba(0, 0, 0, 0);
-  content: " ";
-  display: block;
-  margin: 0 auto;
-  -webkit-transition: all 280ms ease-in-out;
-          transition: all 280ms ease-in-out;
-  width: 0;
+#powered  {
+  float: right;
+  display: inline-block;
+  text-align: center;
+  font-size: 8px;
+  color: white;
+  margin: 5px 5px
 }
 
-.nav-text:hover:after,
-.nav-text:hover:before {
-  border-color: black;
-  width: 100%;
+
+html {
+    position: relative;
+    height: 100%
 }
 
-.nav-text:hover:before {
-  bottom: auto;
-  top: 0;
-  width: 100%;
-}*/
 
-/*div:active > h2 {
-  letter-spacing: 5px;
-  border: 1px solid rgba(0, 0, 0, 0);
-  background-color: red;
+
+footer {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    bottom: 0px;
+    height: 0px;
+    width: 100%;
+}
+
+
+.socials  {
+  width: 50px;
+}
+
+#facebook {
+  width: 46px;
 }
