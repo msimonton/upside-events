@@ -50,6 +50,7 @@ body  {
 
 
 
+
 .bottom {
   /*position: absolute;
   right: 0;
@@ -73,8 +74,12 @@ body  {
   border-radius: 9px;
 }
 
-#socials  {
-  text-align: right;
+.socials  {
+  width: 50px;
+}
+
+#facebook {
+  width: 46px;
 }
 
 #logo-bottom  {
@@ -326,7 +331,7 @@ margin-top: 60px;
 .home-content {
   /*height: 100vh;*/
   /*background-color: rgba(0,0,0, .55);*/
-  margin-top: 0px;
+  margin-top: 25px;
   margin-left: 0px;
   width: 100%;
   color: white;
@@ -429,9 +434,14 @@ margin-top: -7px;
 }
 .cause-col p:nth-child(6) {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 23px;
+  font-size: 26px;
 }
 
+.cause-col p:nth-child(7) {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+}
 
 .main-button  {
   margin-left:0px;
@@ -553,7 +563,7 @@ margin-top: -7px;
   width: 100%;
   text-align: center;
   padding: 0px;
-  margin-bottom: 25px;
+  margin-bottom: 45px;
 }
 
 .team-name {
@@ -829,7 +839,7 @@ color: white;
 .event-wrap {
   background-color: rgba(0,0,0,.7);
   padding-top: 20px;
-  height: 298px;
+  height: 318px;
 }
 
 #cause-head {
@@ -882,7 +892,13 @@ color: white;
 }
 .events-colm p:nth-child(6) {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+}
+
+.events-colm p:nth-child(7) {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
 }
 
 
@@ -891,7 +907,7 @@ color: white;
 
   background-repeat: no-repeat;
   background-position: center;
-  height: 300px;
+  height: 320px;
   border-radius: 8px;
   border: 1px solid white;
 }
@@ -1101,6 +1117,7 @@ background-color:#192228;}
 
   .team-pic-row {
     display: block;
+    width: 100%
   }
   #main-nav-mobile {
     display: none;
@@ -1550,4 +1567,61 @@ background-color:#192228;}
   letter-spacing: 5px;
   border: 1px solid rgba(0, 0, 0, 0);
   background-color: red;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+
+.content{
+  height: 100vh
+}
+
+
+
+
+
+
+#marc-logo  {
+  margin-top: 5px;
+  height: auto;
+  width: 20px;
+  float: right;
+}
+
+#powered  {
+  float: right;
+  display: inline-block;
+  text-align: center;
+  font-size: 8px;
+  color: white;
+  margin: 5px 5px
+}
+
+
+html {
+    position: relative;
+    height: 100%
+}
+
+
+
+footer {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    bottom: 0px;
+    height: 0px;
+    width: 100%;
+}
+
+
+.socials  {
+  width: 50px;
+}
+
+#facebook {
+  width: 46px;
 }
