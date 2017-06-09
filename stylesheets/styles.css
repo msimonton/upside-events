@@ -323,6 +323,7 @@ margin-top: 60px;
   background-image: url("../images/pink-lights.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: 80px;
 
 }
 
@@ -338,7 +339,7 @@ margin-top: 60px;
   font-family: 'Open Sans', sans-serif;
   padding-top: 40px;
   overflow: hidden;
-  background-color: rgba(0,0,0,.2);
+  /*background-color: rgba(0,0,0,.2);*/
 }
 
 .main-top{
@@ -348,9 +349,10 @@ margin-top: 60px;
 }
 
 #upside-home  {
+  text-align: center;
   padding: 0px;
-  font-size: 60px;
-  margin-left: -30px;
+  font-size: 50px;
+  margin-top: 22px;
   text-shadow:
 
      7px 7px 10px #000,
@@ -363,11 +365,12 @@ margin-top: 60px;
 .home-bars  {
   padding: 0px;
   padding-left: 15px;
-  margin-top: 100px;
+  margin-top: 60px;
   border-bottom: 2px solid white;
 }
 
 .main-title {
+  text-align: center;
   padding: 0px;
 }
 
@@ -1017,9 +1020,17 @@ iframe    {
   margin-bottom: 30px;
 }
 
-.tics {
-  margin-bottom: 20px;
+@media screen and (max-width: 1000px) {
+  #tics {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  width: 100%;
+  }
 }
+
+/*.tics {
+  margin-bottom: 20px;
+}*/
 
 
 
@@ -1116,6 +1127,9 @@ background-color:#192228;}
   .team-pic-row-two {
     display: none;
   }
+  .mobile-bars, .mob-head, .bars-pad  {
+    display: none;
+  }
 
   .team-pic-row {
     display: block;
@@ -1145,9 +1159,9 @@ background-color:#192228;}
     display: none;
   }
 
-  .mobile-bars  {
+  /*.mobile-bars  {
     display: block;
-  }
+  }*/
 
   .team {
     display: inline-block;
@@ -1183,6 +1197,12 @@ background-color:#192228;}
 .team-pic-row-two {
   display: block;
 }
+
+.about-head-row, .main-top, .about-team-row {
+  display: none;
+}
+
+
 
 .team-pic-row {
   display: none;
@@ -1258,7 +1278,7 @@ background-color:#192228;}
     margin: 0px !important;
   }
   .about-content, .gallery-content, .participate-content  {
-    margin-top: 75px;
+    margin-top: 0px;
   }
 
 
@@ -1337,9 +1357,9 @@ background-color:#192228;}
 }
 
 @media screen and (min-width: 800px) {
-  .mobile-bars, .mob-head  {
+  /*.mobile-bars, .mob-head  {
     display: none;
-  }
+  }*/
   }
 @media screen and (max-width: 800px) {
   .team-name {
@@ -1374,13 +1394,8 @@ background-color:#192228;}
   margin: auto;
 }
 
-.about-head-row, .main-top, .about-team-row {
-  display: none;
-}
 
-.mobile-bars, .mob-head  {
-  display: block;
-}
+
 
 .team-pic {
   background-position: center;
@@ -1572,4 +1587,14 @@ footer {
 
 #facebook {
   width: 46px;
+}
+
+
+.home{
+  height: 100vh;
+}
+
+
+.about-content, .team-members  {
+  width: 97%;
 }
