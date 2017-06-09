@@ -1,63 +1,59 @@
-<script src='../javascripts/main.js'></script>
-<div class='container-fluid home'>
 
-  <div class='home-content'>
-  <div class='row main-top'>
-    <div class='col-md-3 col-md-offset-1 col-sm-offset-0 home-bars'></div>
-    <div class='col-md-4 main-title'>
-      <p id='upside-home'>Volume One</p>
-    </div>
-    <div class='col-md-3 home-bars'></div>
-  </div>
+<div id='main-wrap' class='home-wrapper'>
+  <div class='container-fluid home'>
+    <div class='home-content'>
+      <div class='row main-top'>
+        <div class='col-md-3 col-md-offset-1 col-sm-offset-0 home-bars'></div>
+        <div class='col-md-4 main-title'>
+          <p id='upside-home'>Volume One</p>
+        </div>
+        <div class='col-md-3 home-bars'></div>
+      </div>
 
   <!-- Border change around main page header for mobile  -->
 
-  <div class='mobile-bars home-pad'></div>
-  <h1 id='ticket-head' class='mob-head vol-one'>Volume:One</h1>
-  <div class='mobile-bars bars-home'></div>
+      <div class='mobile-bars home-pad'></div>
+      <h1 id='ticket-head' class='mob-head vol-one'>Volume:One</h1>
+      <div class='mobile-bars bars-home'></div>
 
   <!--  Page Content       -->
 
-  <div class='row row-cause'>
-
-    <div class='col-md-6 col-md-offset-3 cause-col'>
-      <div id='home-event-wrap'>
-        <h2 id='cause-head'>PINK PARTY</h2>
-        <p>TO BENEFIT PLANNED PARENTHOOD</br>
-          OF THE ROCKY MOUNTAINS</p>
-        <p>SATURDAY, JULY 22</p>
-        <p>TWO THOUSAND SEVENTEEN</p>
-        <p>6 PM - 10 PM</p>
-        <p>DRESS TO IMPRESS IN YOUR</p>
-        <p>BEST PINK OUTFIT</p>
-        <div class='main-button'>
-          <a ui-sref='events'><p id='about-event-text'>Event Info</p></a>
-          <a ui-sref='tickets'><p id='main-tickets'>Get Tickets</p></a>
+      <div class='row row-cause'>
+        <div class='col-md-6 col-md-offset-3 cause-col'>
+          <div id='home-event-wrap'>
+            <h2 id='cause-head'>PINK PARTY</h2>
+            <p>TO BENEFIT PLANNED PARENTHOOD</br>
+              OF THE ROCKY MOUNTAINS</p>
+            <p>SATURDAY, JULY 22</p>
+            <p>TWO THOUSAND SEVENTEEN</p>
+            <p>6 PM - 10 PM</p>
+            <p>DRESS TO IMPRESS IN YOUR</p>
+            <p>BEST PINK OUTFIT</p>
+            <div class='main-button'>
+              <a ui-sref='events'><p id='about-event-text'>Event Info</p></a>
+              <a ui-sref='tickets'><p id='main-tickets'>Get Tickets</p></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-</div>
-
-
-
-<!-- <button id='test'>Go For It</button> -->
+        <!--  First time visit animation  -->
 <img id='logo-animation' src="../images/full-logo.png"/>
+
+
 <script>
 
 if ($(window).width() > 800) {
+  if(sessionStorage.length !== 0) {
+    $(document).ready(function(){
 
-
-
-if(sessionStorage.length !== 0) {
-  $(document).ready(function(){
-
-  $('#logo-animation').css('display','none');
-  $('.home').css('display','block')
-  })
-}
+    $('#logo-animation').css('display','none');
+    $('.home').css('display','block')
+    })
+  }
 
     else {
       $(document).ready(function(){
@@ -108,8 +104,5 @@ if(sessionStorage.length !== 0) {
           // console.log(counter)
         })
         }
-    {
-
-    }
-  }
+      }
 </script>
