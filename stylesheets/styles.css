@@ -1642,7 +1642,7 @@ body {
 }
 
 
-@media screen and (min-width: 720px) {
+/*@media screen and (min-width: 720px) {
   .home {
     margin-top: 80px;
   }
@@ -1657,4 +1657,4 @@ body {
   .home {
     margin-top: -20px;
   }
-}
+}*/
