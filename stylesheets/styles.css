@@ -336,12 +336,12 @@ margin-top: 70px;
 .home-content {
   /*height: 100vh;*/
   /*background-color: rgba(0,0,0, .55);*/
-  margin-top: 25px;
+  /*margin-top: 25px;*/
   margin-left: 0px;
   width: 100%;
   color: white;
   font-family: 'Open Sans', sans-serif;
-  padding-top: 40px;
+  padding-top: 65px;
   overflow: hidden;
   /*background-color: rgba(0,0,0,.2);*/
 }
@@ -385,8 +385,7 @@ margin-top: 70px;
 }
 
 .cause-col  {
-  padding: 40px;
-  padding-top: 0px;
+  padding: 0px 40px 10px 40px;
 }
 
 #home-event-wrap  {
@@ -394,7 +393,7 @@ margin-top: 70px;
   /*background-color:#192228;*/
   background-color: rgba(0,0,0, .7);
   border-radius: 5px;
-  padding: 60px 0px 60px 0px;
+  padding: 60px 0px 10px 0px;
 
 }
 
@@ -787,6 +786,7 @@ color: white;
   padding: 0px;
   text-align: center;
   order: 2;
+  margin-bottom: 20px;
 
 
 }
@@ -1612,8 +1612,14 @@ footer {
 }
 
 
-.socials  {
+.socials, .socials-main  {
   width: 50px;
+}
+
+.socials-main {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
 }
 
 #facebook {
