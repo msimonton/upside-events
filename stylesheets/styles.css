@@ -331,12 +331,12 @@ margin-top: 60px;
 .home-content {
   /*height: 100vh;*/
   /*background-color: rgba(0,0,0, .55);*/
-  margin-top: 25px;
+  /*margin-top: 25px;*/
   margin-left: 0px;
   width: 100%;
   color: white;
   font-family: 'Open Sans', sans-serif;
-  padding-top: 40px;
+  padding-top: 65px;
   overflow: hidden;
   background-color: rgba(0,0,0,.2);
 }
