@@ -1213,11 +1213,15 @@ background-color:#192228;}
   display: block;
 }
 
+
+
 .about-head-row, .main-top, .about-team-row {
   display: none;
 }
 
-
+#about-text {
+  text-align: justify;
+}
 
 .team-pic-row {
   display: none;
@@ -1319,6 +1323,8 @@ background-color:#192228;}
   #ticket-head  {
     margin: 15px 0px 15px 0px;
   }
+
+
 
 
   .team-members {
