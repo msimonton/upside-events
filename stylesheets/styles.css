@@ -113,7 +113,11 @@ margin-bottom: 2px;*/
 }
 
 .nav-text:hover {
-  letter-spacing: 5px;
+  letter-spacing: 4px;
+}
+
+.aboot:hover  {
+  letter-spacing: 3px;
 }
 
 .active > a >.nav-text:hover {
@@ -137,12 +141,12 @@ margin-bottom: 2px;*/
   width: 100%;
   font-size: 28px;
 }
-.nav-participate:hover:after,
+/*.nav-participate:hover:after,
 .nav-participate:hover:before {
   border-color: black;
-  width: 113%;
+  width: 130%;
   font-size: 28px;
-}
+}*/
 
 .nav-text:hover:before {
   bottom: auto;
@@ -211,7 +215,7 @@ margin-bottom: 2px;*/
 
 }
 .nav-row-left, .nav-row-right {
-margin-top: 60px;
+margin-top: 70px;
 }
 
 .nav-left, .nav-right{
@@ -222,7 +226,7 @@ margin-top: 60px;
 .nav-text {
   margin: auto;
   width: 100%;
-  font-size: 24px;
+  font-size: 22px;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   padding-top: 0px;
@@ -308,9 +312,9 @@ margin-top: 60px;
 
 
 
-#home-wrap  {
+.home-wrapper  {
   /*background-color: rgba(0,0,0, .4);*/
-  width: 100%;
+  margin-top: 10px;
 }
 
 .home         {
@@ -323,6 +327,7 @@ margin-top: 60px;
   background-image: url("../images/pink-lights.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: -20px;
 
 }
 
@@ -338,7 +343,7 @@ margin-top: 60px;
   font-family: 'Open Sans', sans-serif;
   padding-top: 65px;
   overflow: hidden;
-  background-color: rgba(0,0,0,.2);
+  /*background-color: rgba(0,0,0,.2);*/
 }
 
 .main-top{
@@ -348,9 +353,10 @@ margin-top: 60px;
 }
 
 #upside-home  {
+  text-align: center;
   padding: 0px;
-  font-size: 60px;
-  margin-left: -30px;
+  font-size: 50px;
+  margin-top: 22px;
   text-shadow:
 
      7px 7px 10px #000,
@@ -363,11 +369,12 @@ margin-top: 60px;
 .home-bars  {
   padding: 0px;
   padding-left: 15px;
-  margin-top: 100px;
+  margin-top: 60px;
   border-bottom: 2px solid white;
 }
 
 .main-title {
+  text-align: center;
   padding: 0px;
 }
 
@@ -378,8 +385,7 @@ margin-top: 60px;
 }
 
 .cause-col  {
-  padding: 40px;
-  padding-top: 0px;
+  padding: 0px 40px 10px 40px;
 }
 
 #home-event-wrap  {
@@ -387,7 +393,7 @@ margin-top: 60px;
   /*background-color:#192228;*/
   background-color: rgba(0,0,0, .7);
   border-radius: 5px;
-  padding: 60px 0px 60px 0px;
+  padding: 60px 0px 10px 0px;
 
 }
 
@@ -563,8 +569,9 @@ margin-top: -7px;
   width: 100%;
   text-align: center;
   padding: 0px;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
+
 
 .team-name {
   color: white;
@@ -643,6 +650,7 @@ margin-top: -7px;
   font: inherit;
   color: white;
   margin-bottom: 0px;
+  text-align: justify;
 }
 
 .headshot-row {
@@ -778,6 +786,7 @@ color: white;
   padding: 0px;
   text-align: center;
   order: 2;
+  margin-bottom: 20px;
 
 
 }
@@ -809,7 +818,7 @@ color: white;
 }
 
 .under  {
-  margin-top: 0px;
+  margin-top: 5px;
   margin-bottom: 20px;
   height: 3px;
   border-top: 1px solid white;
@@ -994,6 +1003,10 @@ iframe    {
   width: 50%;
   margin-left: -24px;
 }
+
+.involved {
+  padding-right: 0px;
+}
 #ticket-head {
   color: white;
   font-family: 'Open Sans', sans-serif;
@@ -1001,6 +1014,7 @@ iframe    {
   font-size: 40px;
   margin-bottom: 30px;
   padding-left: 0px;
+  padding-right: 0px;
 
 }
 
@@ -1017,9 +1031,21 @@ iframe    {
   margin-bottom: 30px;
 }
 
-.tics {
-  margin-bottom: 20px;
+iframe  {
+  margin-bottom: 30px;
 }
+
+@media screen and (max-width: 1000px) {
+  #tics {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  width: 100%;
+  }
+}
+
+/*.tics {
+  margin-bottom: 20px;
+}*/
 
 
 
@@ -1116,6 +1142,9 @@ background-color:#192228;}
   .team-pic-row-two {
     display: none;
   }
+  .mobile-bars, .mob-head, .bars-pad  {
+    display: none;
+  }
 
   .team-pic-row {
     display: block;
@@ -1145,9 +1174,9 @@ background-color:#192228;}
     display: none;
   }
 
-  .mobile-bars  {
+  /*.mobile-bars  {
     display: block;
-  }
+  }*/
 
   .team {
     display: inline-block;
@@ -1184,6 +1213,12 @@ background-color:#192228;}
   display: block;
 }
 
+.about-head-row, .main-top, .about-team-row {
+  display: none;
+}
+
+
+
 .team-pic-row {
   display: none;
 }
@@ -1200,6 +1235,7 @@ background-color:#192228;}
 .mob-about  {
   font: inherit;
   color: #cdcdcd;
+  text-align: justify;
 }
 
 .team-pic {
@@ -1258,7 +1294,7 @@ background-color:#192228;}
     margin: 0px !important;
   }
   .about-content, .gallery-content, .participate-content  {
-    margin-top: 75px;
+    margin-top: 0px;
   }
 
 
@@ -1326,6 +1362,8 @@ background-color:#192228;}
 
 .events-image  {
   margin: auto;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .team {
@@ -1337,9 +1375,9 @@ background-color:#192228;}
 }
 
 @media screen and (min-width: 800px) {
-  .mobile-bars, .mob-head  {
+  /*.mobile-bars, .mob-head  {
     display: none;
-  }
+  }*/
   }
 @media screen and (max-width: 800px) {
   .team-name {
@@ -1374,13 +1412,8 @@ background-color:#192228;}
   margin: auto;
 }
 
-.about-head-row, .main-top, .about-team-row {
-  display: none;
-}
 
-.mobile-bars, .mob-head  {
-  display: block;
-}
+
 
 .team-pic {
   background-position: center;
@@ -1403,10 +1436,23 @@ background-color:#192228;}
 .events-image {
   overflow: auto;
   display: table;
+  margin-bottom: 30px;
+}
+
+.event-info, .events-blurb  {
+  text-align: justify;
+}
+
+.event-info {
+  padding: 10px;
 }
 
 .about-content, .participate-content, .gallery-content, .home-content  {
   margin-top: 0px;
+}
+
+.event-wrap {
+  margin: auto;
 }
 
 
@@ -1566,10 +1612,55 @@ footer {
 }
 
 
-.socials  {
+.socials, .socials-main  {
   width: 50px;
+}
+
+.socials-main {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
 }
 
 #facebook {
   width: 46px;
 }
+
+
+.home{
+  height: 100vh;
+}
+
+
+.about-content, .team-members  {
+  width: 97%;
+  margin-top: 30px;
+}
+
+.gallery-content, .participate-content  {
+  margin-top: 30px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+/*@media screen and (min-width: 720px) {
+  .home {
+    margin-top: 80px;
+  }
+}
+@media screen and (min-width: 810px) {
+  .home {
+    margin-top: 180px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .home {
+    margin-top: -20px;
+  }
+}*/
