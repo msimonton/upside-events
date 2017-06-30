@@ -32,7 +32,7 @@
   opacity: 0;
   height: 1px;
   width: 400px;
-  margin-top: 300px;
+  margin-top: 200px;
 }
 
 .animation-background {
@@ -943,6 +943,81 @@ color: white;
 
 }
 
+.event-sponsors {
+  color: white;
+  font: inherit;
+  text-align: center;
+  font-size: 26px;
+  margin: 0px;
+}
+
+
+
+#sponsor-wrap-flex  {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sponsors-flex  {
+width: 220px;
+height: 100px;
+margin-top: 10px;
+margin-right: 10px;
+border: 1px solid white;
+}
+
+
+#mag  {
+  background-image: url('../images/sponsors/303-magazine/303-logo.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#intrepid {
+  background-image: url('../images/sponsors/intrepid/logo.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#passport {
+  background-image: url('../images/sponsors/passport.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sweat {
+  background-image: url('../images/sponsors/sweat-cosmetics.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#two-parts {
+  background-image: url('../images/sponsors/two-parts.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#me {
+  background-color: none;
+  background-image: url('../images/sponsors/msimonton.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+@media screen and (max-width: 1000px) {
+  #sponsor-wrap {
+    width: 100%;
+  }
+}
 
 
 
@@ -1615,10 +1690,16 @@ footer {
     bottom: 0px;
     height: 0px;
     width: 100%;
+
+
+}
+
+.foot-wrap  {
 }
 
 
 .socials, .socials-main  {
+  margin-top: 20px;
   width: 50px;
 }
 
