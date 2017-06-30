@@ -943,43 +943,15 @@ color: white;
 
 }
 
-.sponsor-container  {
+.event-sponsors {
+  color: white;
+  font: inherit;
   text-align: center;
-}
-
-.blam {
-  text-align: center;
-}
-
-.spns-row-1 {
-
-  height: 80px;
-  text-align: center;
-}
-
-.spns  {
-
-  height: 80px;
-  margin-right: 8px;
+  font-size: 26px;
+  margin: 0px;
 }
 
 
-#sponsor-wrap {
-  margin: auto;
-  width: 80%;
-
-  height: 80px;
-  text-align: center;
-}
-
-.sponsors {
-  display: inline-block;
-  width: 18%;
-  margin-right: 5px;
-  height: inherit;
-
-
-}
 
 #sponsor-wrap-flex  {
   display: flex;
