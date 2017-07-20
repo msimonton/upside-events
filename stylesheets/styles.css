@@ -173,7 +173,7 @@ margin-bottom: 2px;*/
 #main-nav  {
   width: 100%;
   background-color: white;
-  height: 100px;
+  height: 83px;
   margin: 0px;
   text-align: center;
   position: fixed;
@@ -199,15 +199,9 @@ margin-bottom: 2px;*/
 
 }
 
-#nav-col-last {
-  /*padding-left: 0px;*/
-}
 
-.nav-row-left, .nav-row-right, .nav-image {
-
-}
 .nav-row-left, .nav-row-right {
-margin-top: 70px;
+margin-top: 50px;
 }
 
 .nav-left, .nav-right{
@@ -243,9 +237,9 @@ margin-top: 70px;
 }
 .nav-logo-text  {
   display: block;
-  width: 120px;
+  width: 150px;
   position: absolute;
-  top: 23px;
+  top: 10px;
   left: 10px;
 }
 
@@ -259,17 +253,7 @@ margin-top: 70px;
 
 
 @media screen and (min-width: 1085px) {
-  .nav-logo-text  {
-    display: block;
-    width: 180px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-  }
 
-  .nav-text-clear {
-    display: none;
-  }
 }
 
 .nav-image  {
@@ -290,7 +274,7 @@ margin-top: 70px;
 
 .main  {
   width: 100%;
-  margin-top: 100px;
+  margin-top: 83px;
   position: relative;
 }
 
@@ -380,10 +364,15 @@ margin-top: 70px;
   padding: 0px 40px 10px 40px;
 }
 
+#event-background {
+  width: 100%;
+  text-align: center;
+}
 #home-event-wrap  {
   text-align: center;
-  width: 100%;
-  min-width: 502px;
+  margin: auto;
+  max-width: 450px;
+  min-width: 330px;
   /*background-color:#192228;*/
   background-color: rgba(0,0,0, .7);
   border-radius: 5px;
@@ -533,7 +522,7 @@ margin-top: -7px;
 }
 
 #about-text   {
-  font-size: 18px;
+  font-size: 17px;
   font-family: 'Open Sans', sans-serif;
   color: #c6c6c6;
   padding-left: 0px;
@@ -557,8 +546,8 @@ margin-top: -7px;
 
 .about-team-row {
   width: 100%;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 0px;
 }
 
 
@@ -715,7 +704,7 @@ color: white;
   margin-top: 20px;
   color: #c6c6c6;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   padding: 0px;
   text-align: justify;
   text-align-last: center;
@@ -750,7 +739,7 @@ color: white;
 
 .event-name {
   margin-top: 10px;
-  font-size: 24px;
+  font-size: 21px;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   color:#FF1899;
@@ -764,7 +753,7 @@ color: white;
   font-size: 28px;
   letter-spacing: 5px;
   margin-bottom: 0px;
-  margin-top: 30px;
+  margin-top: 15px;
 
 
 }
@@ -787,7 +776,7 @@ color: white;
 .event-info {
   font-family: 'Open Sans', sans-serif;
   margin-top: 5px;
-  font-size: 18px;
+  font-size: 17px;
   color: #c6c6c6;
   text-align: justify;
   text-align-last: center;
@@ -966,7 +955,7 @@ color: white;
 .event-time-info  {
   color: white;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 
 }
 
@@ -1019,6 +1008,10 @@ background-color: white;
 
 #bremens {
   background-image: url('../images/sponsors/bremens.png');
+}
+
+#habit  {
+  background-image: url('../images/sponsors/habit.png');
 }
 
 #hampton_sun {
@@ -1119,7 +1112,7 @@ background-color: white;
   color: #c6c6c6;
   font-family: 'Open Sans', sans-serif;
   padding:0px;
-  font-size: 18px;
+  font-size: 17px;
   margin-top: 50px;
 
 }
@@ -1185,7 +1178,7 @@ iframe    {
   color: #c6c6c6;
   font-family: 'Open Sans', sans-serif;
   padding:0px;
-  font-size: 18px;
+  font-size: 17px;
   margin-top: 0px;
   margin-bottom: 30px;
   text-align: justify;
@@ -1318,11 +1311,11 @@ background-color:#192228;}
     display: block;
   }
   #nav-logo {
-    width: 100px;
+    width: 75px;
     margin: auto;
 
     background-color: white;
-    padding: 13px;
+    padding: 12px;
     padding-top: 7px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -1399,8 +1392,12 @@ background-color:#192228;}
 
 .mob-about  {
   font: inherit;
+  font-size: 14px;
   color: #cdcdcd;
   text-align: justify;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 15px;
 }
 
 .team-pic {
@@ -1417,9 +1414,37 @@ background-color:#192228;}
   #main-nav {
     display: none;
   }
-  #nav-logo {
+  /*.nav-logo {
     height: 90px;
     margin-left: 10px;
+
+  }*/
+
+  #nav-logo-design  {
+    width: 47px;
+  }
+
+  #nav-mob-log   {
+
+    top: 5;
+    left: 48;
+    right: 52;
+    width: 75px;
+    background-color: white;
+    padding: 12px;
+    padding-top: 7px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom: 5px solid rgb(25,34,40);
+    margin-right: 20px;
+  }
+
+  #nav-logo-text-mob  {
+    width: 120px;
+    margin-top: 5px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
 
   }
 
@@ -1439,7 +1464,7 @@ background-color:#192228;}
     display: block;
   }
   iframe  {
-    width: 92%;
+    width: 97%;
     z-index: 3;
     margin: auto;
     margin-top: 35px;
@@ -1487,7 +1512,7 @@ background-color:#192228;}
   }
 
   .events-blurb, .event-info {
-    padding: 15px;
+    padding: 5px 15px 5px 15px;
   }
 
   #ticket-head  {
@@ -1644,7 +1669,7 @@ background-color:#192228;}
   padding: 0px;
   width: 100%;
   background-color: white;
-  height: 95px;
+  height: 83px;
   margin: 0px;
   position: fixed;
   text-align: center;
@@ -1655,14 +1680,16 @@ background-color:#192228;}
 
 
 #dropdown-toggle  {
- float: right;
- margin-top: 30px;
+ position: absolute;
+ top: 0;
+ right: 0;
+ margin-top: 15px;
 }
 #drop {
   width: 100%;
   text-align: center;
   margin: auto;
-  top: 95px;
+  top: 83px;
   color: black;
   position: fixed;
   z-index: 55;
@@ -1813,10 +1840,14 @@ footer {
 }
 
 
-.about-content, .team-members  {
-  width: 97%;
+.about-content {
+  width: 100%;
   margin-top: 30px;
 }
+.team-members {
+  margin-top: 10px;
+}
+
 
 .gallery-content, .participate-content  {
   margin-top: 30px;
