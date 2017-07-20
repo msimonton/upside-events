@@ -1588,13 +1588,13 @@ background-color:#192228;}
   overflow: auto;
   display: table;
   margin-bottom: 30px;
-}
+}*/
 
 .event-info, .events-blurb  {
   text-align: justify;
 }
 
-.event-info {
+/*.event-info {
   padding: 10px;
 }
 .event-wrap {
