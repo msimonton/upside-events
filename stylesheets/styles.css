@@ -696,8 +696,10 @@ color: white;
   margin-left: 50px;
   margin-top: 40px;
   width: 95%;
+}
 
-
+.events-main  {
+  margin-bottom: 15px;
 }
 
 .bgs {
@@ -711,55 +713,6 @@ color: white;
   font-size: 18px;
   padding: 0px;
 
-}
-
-#events-nav {
-
-
-}
-
-.event-picker {
-  background-color: blue;
-  height: 120px;
-  width: 110px;
-  margin-top: 15px;
-  border: 1px solid white;
-  margin-right: 10px;
-}
-
-.event-1  {
-  background-image: url('../images/disco.jpg');
-  background-size: 240%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.event-2  {
-  background-image: url('../images/nature.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.event-3  {
-  background-image: url('../images/building.jpg');
-  background-size: 300%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.event-4  {
-  background-image: url('../images/whale.jpg');
-  background-size: 120%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.event-5  {
-  background-image: url('../images/goat.jpg');
-  background-size: 150%;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 
@@ -778,7 +731,7 @@ color: white;
   padding: 0px;
   text-align: center;
   order: 2;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 
 
 }
@@ -797,7 +750,7 @@ color: white;
 
 }
 .event-main   {
-  margin: auto;
+
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   color: white;
@@ -811,7 +764,7 @@ color: white;
 
 .under  {
   margin-top: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   height: 3px;
   border-top: 1px solid white;
 }
@@ -828,8 +781,6 @@ color: white;
   margin-top: 5px;
   font-size: 18px;
   color: #c6c6c6;
-
-
 }
 
 
@@ -837,11 +788,6 @@ color: white;
   padding: 0px;
 }
 
-.event-wrap {
-  background-color: rgba(0,0,0,.7);
-  padding-top: 20px;
-  height: 318px;
-}
 
 #cause-head {
   color: #FF1899;
@@ -849,14 +795,17 @@ color: white;
   font-size: 95px;
   margin-bottom: 0px;
   font-stretch:extra-condensed;
+  margin-top: 0px;
 }
 
 .events-colm  {
+  text-align: center;
   /*background-color: rgba(0,0,0,.7);*/
 }
 
 .event-head {
   font-size: 70px !important;
+  margin-top: 0px;
 }
 
 .events-colm  p {
@@ -871,49 +820,121 @@ color: white;
   letter-spacing: 2px;
   font-weight: 300;
   color:#FF1899;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: -9px;
   margin-bottom: 5px;
 
 }
 .events-colm p:nth-child(3) {
-  font-size: 25px;
+  font-size: 29px;
   font-weight: 900;
   font-family: 'Fjalla One', sans-serif;
 }
 .events-colm p:nth-child(4) {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 18px;
+  font-size: 21px;
 }
 .events-colm p:nth-child(5) {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 22px;
-  letter-spacing: 6px;
+  font-size: 26px;
+  letter-spacing: 7px;
   padding-left: 5px;
 }
 .events-colm p:nth-child(6) {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 18px;
+  font-size: 21px;
   /*letter-spacing: 1.5px;*/
 }
 
 .events-colm p:nth-child(7) {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 21px;
+  font-size: 26px;
   letter-spacing: 3px;
 }
 
+.cause-col{
+  display: inline-block;
+  padding: 0;
+}
+
+.event-wrap {
+  margin: auto;
+  width: 100%;
+  /*min-width: 310px;
+  max-width: 445px;*/
+  display: inline-block;
+  padding: 10px 0 0 0;
+}
+
+@media screen and (max-width: 815px) {
+  .event-head {
+    margin-top: 20px !important;
+  }
+  }
+#event-design {
+  background-color: rgba(0,0,0,.6);
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+  border-radius: 10px;
+}
 
 .events-image {
   background-image: url('../images/pink-lights.jpg');
-
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 320px;
   border-radius: 8px;
   border: 1px solid white;
+  padding: 0;
 }
+
+.perks-container  {
+  display: inline-block;
+  /*max-width: 445px;*/
+}
+
+#perks-title  {
+  font-size: 27px;
+  color: white;
+  padding-top: 0;
+}
+
+.perks-desc {
+  color: white;
+  font-size: 18px;
+  margin: 0px;
+
+}
+
+#perks-first  {
+  margin-top: 10px;
+}
+
+#perks-last {
+  margin-bottom: 20px;
+}
+.perks-container>p  {
+  color: white;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+ .perks {
+  display: inline-block;
+  color: white;
+  font: inherit:
+}
+
+#event-tickets  {
+  width: 100%;
+  /*background-color: rgba(0, 0, 0, .6);*/
+
+}
+.event-ticket-link  {
+  margin-top: 0px !important;
+}
+
 
 
 .event-time {
@@ -961,17 +982,8 @@ background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 background-color: white;
+
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1499,11 +1511,11 @@ background-color:#192228;}
   display: none;
 }
 
-.events-image  {
+/*.events-image  {
   margin: auto;
   width: 100%;
   margin-bottom: 30px;
-}
+}*/
 
 .team {
   height: auto;
@@ -1565,7 +1577,7 @@ background-color:#192228;}
 
 
 
-.event-wrap {
+/*.event-wrap {
  display: table;
 }
 .row-events {
@@ -1585,14 +1597,14 @@ background-color:#192228;}
 .event-info {
   padding: 10px;
 }
+.event-wrap {
+  margin: auto;
+}*/
 
 .about-content, .participate-content, .gallery-content, .home-content  {
   margin-top: 0px;
 }
 
-.event-wrap {
-  margin: auto;
-}
 
 
 
