@@ -1105,12 +1105,13 @@ background-color: white;
   margin: auto;
   margin-top: 50px;
   line-height: 5px;
+  padding-top: 5px;
 
-  -webkit-column-count: 5;
+  -webkit-column-count: 6;
   -webkit-column-gap:   0px;
   -moz-column-count:    5;
   -moz-column-gap:      0px;
-  column-count:         5;
+  column-count:         8;
   column-gap:           7px;
   width: 90%;
 }
@@ -1118,7 +1119,7 @@ background-color: white;
 .gal  {
   width: 100% !important;
   height: auto !important;
-  margin-bottom: 7px;
+  margin-bottom: 5px;
 }
 
 
@@ -1134,23 +1135,23 @@ background-color: white;
 
 @media (max-width: 1200px) {
   .gallery {
-  -moz-column-count:    4;
-  -webkit-column-count: 4;
-  column-count:         4;
+  -moz-column-count:    7;
+  -webkit-column-count: 7;
+  column-count:         7;
   }
 }
 @media (max-width: 1000px) {
   .gallery {
-  -moz-column-count:    3;
-  -webkit-column-count: 3;
-  column-count:         3;
+  -moz-column-count:    6;
+  -webkit-column-count: 6;
+  column-count:         6;
   }
 }
 @media (max-width: 800px) {
   .gallery {
-  -moz-column-count:    2;
-  -webkit-column-count: 2;
-  column-count:         2;
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
   }
 }
 @media (max-width: 400px) {
