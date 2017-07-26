@@ -1102,26 +1102,24 @@ background-color: white;
 
 
 .gallery {
-  margin: auto;
-  margin-top: 50px;
-  line-height: 5px;
-  padding-top: 5px;
 
-  -webkit-column-count: 6;
-  -webkit-column-gap:   0px;
-  -moz-column-count:    5;
-  -moz-column-gap:      0px;
-  column-count:         8;
-  column-gap:           7px;
-  width: 90%;
+}
+
+.gal-wrap {
+  overflow: hidden;
+  display: inline-flex;
+  flex-direction: row;
+
+}
+
+
+.gallery  a {
 }
 
 .gal  {
-  width: 100% !important;
-  height: auto !important;
-  margin-bottom: 5px;
+  width: 100px;
+  height: 100px;
 }
-
 
 
 #gal  {
