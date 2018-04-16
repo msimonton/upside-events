@@ -10,9 +10,11 @@
 
   <link rel="shortcut icon" href="images/favicon.ico">
 
+
+
                         <!-- Jquery -->
 
-  <link href="lightbox-plugin/simplelightbox.css" rel="stylesheet">
+  <link href="lightbox-plugin/simplelightbox.min.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -80,7 +82,6 @@
     </a>
 
               <!-- Left Side of Nav  -->
-
     <div class='row large-row'>
       <div class='col-md-3 col-md-offset-2 large-col'>
         <div class='row nav-row-left'>
@@ -98,7 +99,6 @@
       </div>
 
           <!-- Center Logo/ Home Link -->
-
       <div class='col-md-2  large-col'>
         <a class='nav-links' ui-sref='home'>
           <div class='nav-image'><img id='nav-logo' src='images/logo2.png' alt='Upside Logo'/>
@@ -115,9 +115,9 @@
               <h2 class='nav-text'>Gallery</h2>
             </a>
           </div>
-          <div class='col-md-4 nav-right' ui-sref-active="active">
+          <div class='col-md-4 nav-right lrg-col' ui-sref-active="active">
               <a class='nav-links' ui-sref='connect'>
-                <h2 class='nav-text aboot'>Get Involved</h2>
+                <h2 class='nav-text aboot lrg-nav-item'>Get Involved</h2>
             </a>
           </div>
           <div class='col-md-4 nav-right' ui-sref-active="active">
@@ -134,9 +134,6 @@
 
   <div id='content' class='main' ui-view autoscroll="true"></div>
 </div>
-
-
-
 
 <!-- Script to preload the gallery images for smoother loading -->
 
@@ -199,11 +196,11 @@ preload(
 "images/event-images/Welcome.jpeg",
 
 // slideshow images
-"images/event-images/Bar_1_slide.jpg",
+"images/event-images/Bar_1-slide.jpg",
 "images/event-images/Bartenders_slide.png",
 "images/event-images/Decor_1_slide.jpg",
 "images/event-images/Drawings_4_slide.jpg",
-"images/event-images/Folks_11_slide",
+"images/event-images/Folks_11_slide.jpg",
 "images/event-images/Folks_12_slide.jpg",
 "images/event-images/FullSizeRender.jpg-12_slide.jpg",
 "images/event-images/PhotoBooth_7_slide.jpg",
@@ -238,6 +235,7 @@ else {
 
 
 <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick.min.js"></script>
+
 
 </body>
 </html>
