@@ -797,7 +797,7 @@ color: white;
   color: #c6c6c6;
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
-  padding: 0px;
+  padding: 15px;
   text-align: justify;
   text-align-last: center;
 
@@ -879,6 +879,7 @@ color: white;
   color: #c6c6c6;
   text-align: justify;
   text-align-last: center;
+  letter-spacing: .9px;
 }
 
 
@@ -1872,7 +1873,7 @@ background-color:#192228;}
   }
 
   .events-blurb, .event-info {
-    padding: 5px 15px 5px 15px;
+    padding: 35px 15px 5px 15px;
   }
 
   #ticket-head  {
