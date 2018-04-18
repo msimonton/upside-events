@@ -3,7 +3,7 @@
 var angRoute = angular.module('angRoute', ['ui.router','ngAnimate']);
 
 angRoute.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
-  $locationProvider.html5Mode(true)
+  // $locationProvider.html5Mode(true)
 
     $urlRouterProvider.otherwise('/home');
 
