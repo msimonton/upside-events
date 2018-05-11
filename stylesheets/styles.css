@@ -1108,6 +1108,12 @@ color: white;
   display: none;
 }
 
+.flex-well  {
+justify-content: space-around!important;
+margin: auto;
+align-content: space-around;
+}
+
 
 
 .event-sponsors {
@@ -1116,8 +1122,12 @@ color: white;
   text-align: center;
   font-size: 26px;
   margin: 0px;
+  margin-top: 10px;
 }
 
+.events-spons {
+  padding: 0;
+}
 
 
 #sponsor-wrap-flex  {
@@ -1127,8 +1137,8 @@ color: white;
 }
 
 .sponsors-flex  {
-width: 120px;
-height: 50px;
+width: 80px;
+height: 30px;
 margin-top: 10px;
 margin-right: 10px;
 border: 1px solid white;
@@ -1141,7 +1151,158 @@ background-color: white;
 
 
 
+#fifty-two  {
+  background-image: url('../images/sponsors/5280.jpg');
+}
+
+
 #aeg {
+  background-image: url('../images/sponsors/aeg.png');
+}
+
+#alamo {
+  background-image: url('../images/sponsors/alamo.png');
+}
+
+#alexa-botanicals {
+  background-image: url('../images/sponsors/alexa-botanicals.png');
+}
+
+#alpha-black  {
+  background-image: url('../images/sponsors/alpha-back.png');
+}
+
+#bigsby-folly {
+  background-image: url('../images/sponsors/bigsby-folly.png');
+
+}
+
+#bonanno {
+  background-image: url('../images/sponsors/bonanno.png');
+}
+
+#bremens {
+  background-image: url('../images/sponsors/bremens.png');
+}
+
+#habit  {
+  background-image: url('../images/sponsors/habit.png');
+}
+
+#denver-film  {
+  background-image: url('../images/sponsors/denver-film.png');
+
+}
+
+#joyrides  {
+  background-image: url('../images/sponsors/joyrides.png');
+
+}
+#dio-mio  {
+  background-image: url('../images/sponsors/dio-mio.png');
+
+}
+
+#edible-beats {
+  background-image: url('../images/sponsors/edible-beats.jpg');
+
+}
+
+#heart-sleeve {
+  background-image: url('../images/sponsors/heart-sleeve.png');
+
+}
+
+#midnight-ramber  {
+  background-image: url('../images/sponsors/midnight-rambler.png');
+
+}
+
+#totem-true {
+  background-image: url('../images/sponsors/totem.png');
+
+}
+
+#westword  {
+  background-image: url('../images/sponsors/Westword.png');
+
+}
+
+
+#hampton_sun {
+  background-image: url('../images/sponsors/hampton_sun.png');
+}
+
+#illegal_petes {
+  background-image: url('../images/sponsors/illegal_petes.png');
+}
+
+#indicard {
+  background-image: url('../images/sponsors/indicard.png');
+}
+
+#intrepid {
+  background-image: url('../images/sponsors/intrepid/intrepid.jpg');
+
+}
+
+#level_one {
+  background-image: url('../images/sponsors/level1.jpg');
+}
+
+#lyft {
+  background-image: url('../images/sponsors/lyft.png');
+}
+
+#mag  {
+  background-image: url('../images/sponsors/303-magazine/303-logo.png');
+
+}
+
+#mca {
+  background-image: url('../images/sponsors/mca.jpg');
+}
+
+#me {
+  background-color: none;
+  background-image: url('../images/sponsors/msimonton.jpg');
+}
+
+#passport {
+  background-image: url('../images/sponsors/passport.jpeg');
+}
+
+#pondicherie {
+  background-image: url('../images/sponsors/pondicherie.png');
+}
+
+#shift {
+  background-image: url('../images/sponsors/shift.png');
+}
+
+#storybrick {
+  background-image: url('../images/sponsors/storybrick.png');
+}
+
+#sweat {
+  background-image: url('../images/sponsors/sweat-cosmetics.jpeg');
+}
+
+#topo_designs {
+  background-image: url('../images/sponsors/topo_designs.jpg');
+}
+
+#two-parts {
+  background-image: url('../images/sponsors/two-parts.jpeg');
+}
+
+#upstairs_circus {
+  background-image: url('../images/sponsors/upstairs_circus.png');
+}
+
+
+
+/* #aeg {
   background-image: url('../images/sponsors/aeg.png');
 }
 
@@ -1234,7 +1395,7 @@ background-color: white;
 
 #upstairs_circus {
   background-image: url('../images/sponsors/upstairs_circus.png');
-}
+} */
 
 @media screen and (max-width: 1000px) {
   #sponsor-wrap {
