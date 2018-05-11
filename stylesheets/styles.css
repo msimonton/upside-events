@@ -917,6 +917,7 @@ color: white;
 .first-date {
   color: white;
   font-size: 26px;
+  text-align: center
 }
 
 .events-colm p:nth-child(2) {
@@ -971,6 +972,7 @@ color: white;
   width: 100%;
   background: radial-gradient(closest-corner, rgba(0,0,0,.4), black);
   height: inherit;
+  text-align: center;
 }
 
 .event-wrap {
@@ -1088,6 +1090,7 @@ color: white;
   min-width: 460px;
   height: 400px;
   display: inline-block;
+  text-align: center;
 }
 
 #past-event-info-one  {
