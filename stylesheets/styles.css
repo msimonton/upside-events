@@ -1189,50 +1189,70 @@ position: relative;
 
 
 #aeg {
-  background-image: url('../images/sponsors/aeg.png');
+  background-image: url('../images/sponsors/aeg.jpg');
 }
 
 #alamo {
-  background-image: url('../images/sponsors/alamo.png');
+  background-image: url('../images/sponsors/alamo.jpg');
 }
 
 #alexa-botanicals {
-  background-image: url('../images/sponsors/alexa-botanicals.png');
+  background-image: url('../images/sponsors/alexa-botanicals.jpg');
 }
 
 #alpha-black  {
-  background-image: url('../images/sponsors/alpha-back.png');
+  background-image: url('../images/sponsors/alpha-back.jpg');
+}
+
+#barre {
+  background-image: url('../images/sponsors/barre.png');
 }
 
 #bigsby-folly {
-  background-image: url('../images/sponsors/bigsby-folly.png');
+  background-image: url('../images/sponsors/bigsby-folly.jpg');
 
 }
 
 #bonanno {
-  background-image: url('../images/sponsors/bonanno.png');
+  background-image: url('../images/sponsors/bonanno.jpg');
 }
 
 #bremens {
-  background-image: url('../images/sponsors/bremens.png');
+  background-image: url('../images/sponsors/bremens.jpg');
+}
+
+#brider {
+  background-image: url('../images/sponsors/brider.jpg');
+}
+
+#core-power {
+  background-image: url('../images/sponsors/corepower.jpg');
 }
 
 #habit  {
-  background-image: url('../images/sponsors/habit.png');
+  background-image: url('../images/sponsors/habit.jpg');
+}
+
+#define  {
+  background-image: url('../images/sponsors/define.jpg');
 }
 
 #denver-film  {
-  background-image: url('../images/sponsors/denver-film.png');
+  background-image: url('../images/sponsors/denver-film.jpg');
 
 }
 
 #joyrides  {
-  background-image: url('../images/sponsors/joyrides.png');
+  background-image: url('../images/sponsors/joyrides.jpg');
 
 }
 #dio-mio  {
-  background-image: url('../images/sponsors/dio-mio.png');
+  background-image: url('../images/sponsors/dio-mio.jpg');
 
+}
+
+#fitwall  {
+  background-image: url('../images/sponsors/fitwall.png');
 }
 
 #edible-beats {
@@ -1241,7 +1261,7 @@ position: relative;
 }
 
 #heart-sleeve {
-  background-image: url('../images/sponsors/heart-sleeve.png');
+  background-image: url('../images/sponsors/heart-sleeve.jpg');
 
 }
 
@@ -1251,30 +1271,30 @@ position: relative;
 }
 
 #totem-true {
-  background-image: url('../images/sponsors/totem.png');
+  background-image: url('../images/sponsors/totem.jpg');
 
 }
 
 #westword  {
-  background-image: url('../images/sponsors/Westword.png');
+  background-image: url('../images/sponsors/Westword.jpg');
 
 }
 
 
 #hampton_sun {
-  background-image: url('../images/sponsors/hampton_sun.png');
+  background-image: url('../images/sponsors/hampton_sun.jpg');
 }
 
 #illegal_petes {
-  background-image: url('../images/sponsors/illegal_petes.png');
+  background-image: url('../images/sponsors/illegal_petes.jpg');
 }
 
 #indicard {
-  background-image: url('../images/sponsors/indicard.png');
+  background-image: url('../images/sponsors/indicard.jpg');
 }
 
 #intrepid {
-  background-image: url('../images/sponsors/intrepid/intrepid.jpg');
+  background-image: url('../images/sponsors/intrepid.jpg');
 
 }
 
@@ -1283,11 +1303,11 @@ position: relative;
 }
 
 #lyft {
-  background-image: url('../images/sponsors/lyft.png');
+  background-image: url('../images/sponsors/lyft.jpg');
 }
 
 #mag  {
-  background-image: url('../images/sponsors/303-magazine/303-logo.png');
+  background-image: url('../images/sponsors/303-logo.png');
 
 }
 
@@ -1301,23 +1321,23 @@ position: relative;
 }
 
 #passport {
-  background-image: url('../images/sponsors/passport.jpeg');
+  background-image: url('../images/sponsors/passport.jpg');
 }
 
 #pondicherie {
-  background-image: url('../images/sponsors/pondicherie.png');
+  background-image: url('../images/sponsors/pondicherie.jpg');
 }
 
 #shift {
-  background-image: url('../images/sponsors/shift.png');
+  background-image: url('../images/sponsors/shift.jpg');
 }
 
 #storybrick {
-  background-image: url('../images/sponsors/storybrick.png');
+  background-image: url('../images/sponsors/storybrick.jpg');
 }
 
 #sweat {
-  background-image: url('../images/sponsors/sweat-cosmetics.jpeg');
+  background-image: url('../images/sponsors/sweat-cosmetics.jpg');
 }
 
 #topo_designs {
@@ -1325,11 +1345,11 @@ position: relative;
 }
 
 #two-parts {
-  background-image: url('../images/sponsors/two-parts.jpeg');
+  background-image: url('../images/sponsors/two-parts.jpg');
 }
 
 #upstairs_circus {
-  background-image: url('../images/sponsors/upstairs_circus.png');
+  background-image: url('../images/sponsors/upstairs_circus.jpg');
 }
 
 
