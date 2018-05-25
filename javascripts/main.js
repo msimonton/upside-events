@@ -2,6 +2,7 @@
 
 var angRoute = angular.module('angRoute', ['ui.router','ngAnimate']);
 
+
 angRoute.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
   // $locationProvider.html5Mode(true)
 
@@ -16,7 +17,7 @@ angRoute.config(function($stateProvider, $urlRouterProvider, $locationProvider) 
 
 .state('about', {
     url: '/about',
-    templateUrl: 'views/about.html',
+    templateUrl: 'views/about.html'
 })
 
 .state('events', {
@@ -35,6 +36,7 @@ angRoute.config(function($stateProvider, $urlRouterProvider, $locationProvider) 
     url: '/tickets',
     templateUrl: 'views/tickets.html',
 })
+
 
 })
 angRoute.config(function ($provide) {
