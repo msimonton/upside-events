@@ -1137,281 +1137,33 @@ position: relative;
   left: 0;
 }
 
+.donors-container {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
 
-#fifty-two  {
-  background-image: url('../images/sponsors/5280.jpg');
-}
 
 
-#aeg {
-  background-image: url('../images/sponsors/aeg.jpg');
-}
-
-#alamo {
-  background-image: url('../images/sponsors/alamo.jpg');
-}
-
-#alexa-botanicals {
-  background-image: url('../images/sponsors/alexa-botanicals.jpg');
-}
-
-#alpha-black  {
-  background-image: url('../images/sponsors/alpha-back.jpg');
-}
-
-#barre {
-  background-image: url('../images/sponsors/barre.png');
-}
-
-#bigsby-folly {
-  background-image: url('../images/sponsors/bigsby-folly.jpg');
 
 }
 
-#bonanno {
-  background-image: url('../images/sponsors/bonanno.jpg');
+.donor-wrap   {
+  /* flex-grow: 1; */
 }
 
-#bremens {
-  background-image: url('../images/sponsors/bremens.jpg');
-}
+.donor {
 
-#brider {
-  background-image: url('../images/sponsors/brider.jpg');
-}
-
-#core-power {
-  background-image: url('../images/sponsors/corepower.jpg');
-}
-
-#habit  {
-  background-image: url('../images/sponsors/habit.jpg');
-}
-
-#define  {
-  background-image: url('../images/sponsors/define.jpg');
-}
-
-#denver-film  {
-  background-image: url('../images/sponsors/denver-film.jpg');
-
-}
-
-#joyrides  {
-  background-image: url('../images/sponsors/joyrides.jpg');
-
-}
-#dio-mio  {
-  background-image: url('../images/sponsors/dio-mio.jpg');
-
-}
-
-#fitwall  {
-  background-image: url('../images/sponsors/fitwall.png');
-}
-
-#freeskier  {
-  background-image: url('../images/sponsors/freeskier.jpg')
-}
-
-#edible-beats {
-  background-image: url('../images/sponsors/edible-beats.jpg');
-
-}
-
-#heart-sleeve {
-  background-image: url('../images/sponsors/heart-sleeve.jpg');
-
-}
-
-#midnight-ramber  {
-  background-image: url('../images/sponsors/midnight-rambler.png');
-
-}
-
-#totem-true {
-  background-image: url('../images/sponsors/totem.jpg');
-
-}
-
-#westword  {
-  background-image: url('../images/sponsors/Westword.jpg');
-
-}
-
-
-#hampton_sun {
-  background-image: url('../images/sponsors/hampton_sun.jpg');
-}
-
-#illegal_petes {
-  background-image: url('../images/sponsors/illegal_petes.jpg');
-}
-
-#indicard {
-  background-image: url('../images/sponsors/indicard.jpg');
-}
-
-#intrepid {
-  background-image: url('../images/sponsors/intrepid.jpg');
-
-}
-
-#level_one {
-  background-image: url('../images/sponsors/level1.jpg');
-}
-
-#lyft {
-  background-image: url('../images/sponsors/lyft.jpg');
-}
-
-#mag  {
-  background-image: url('../images/sponsors/303-logo.png');
-
-}
-
-#mca {
-  background-image: url('../images/sponsors/mca.jpg');
-}
-
-#me {
-  background-color: none;
-  background-image: url('../images/sponsors/msimonton.jpg');
-}
-
-#passport {
-  background-image: url('../images/sponsors/passport.jpg');
-}
-
-#pondicherie {
-  background-image: url('../images/sponsors/pondicherie.jpg');
-}
-
-#shift {
-  background-image: url('../images/sponsors/shift.jpg');
-}
-
-#storybrick {
-  background-image: url('../images/sponsors/storybrick.jpg');
-}
-
-#sweat {
-  background-image: url('../images/sponsors/sweat-cosmetics.jpg');
-}
-
-#topo_designs {
-  background-image: url('../images/sponsors/topo_designs.jpg');
-}
-
-#two-parts {
-  background-image: url('../images/sponsors/two-parts.jpg');
-}
-
-#upstairs_circus {
-  background-image: url('../images/sponsors/upstairs_circus.jpg');
-}
-
-#yatch  {
-  background-image: url('../images/sponsors/rino-yatch.png')
+  color:#FF1899;
+  font-size: 16px;
+  padding: 0px 10px 0px 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 
 
 
-/* #aeg {
-  background-image: url('../images/sponsors/aeg.png');
-}
-
-#alamo {
-  background-image: url('../images/sponsors/alamo.png');
-}
-
-#alexa-botanicals {
-  background-image: url('../images/sponsors/alexa-botanicals.png');
-}
-
-#bonanno {
-  background-image: url('../images/sponsors/bonanno.png');
-}
-
-#bremens {
-  background-image: url('../images/sponsors/bremens.png');
-}
-
-#habit  {
-  background-image: url('../images/sponsors/habit.png');
-}
-
-#hampton_sun {
-  background-image: url('../images/sponsors/hampton_sun.png');
-}
-
-#illegal_petes {
-  background-image: url('../images/sponsors/illegal_petes.png');
-}
-
-#indicard {
-  background-image: url('../images/sponsors/indicard.png');
-}
-
-#intrepid {
-  background-image: url('../images/sponsors/intrepid/intrepid.jpg');
-
-}
-
-#level_one {
-  background-image: url('../images/sponsors/level1.jpg');
-}
-
-#lyft {
-  background-image: url('../images/sponsors/lyft.png');
-}
-
-#mag  {
-  background-image: url('../images/sponsors/303-magazine/303-logo.png');
-
-}
-
-#mca {
-  background-image: url('../images/sponsors/mca.jpg');
-}
-
-#me {
-  background-color: none;
-  background-image: url('../images/sponsors/msimonton.jpg');
-}
-
-#passport {
-  background-image: url('../images/sponsors/passport.jpeg');
-}
-
-#pondicherie {
-  background-image: url('../images/sponsors/pondicherie.png');
-}
-
-#shift {
-  background-image: url('../images/sponsors/shift.png');
-}
-
-#storybrick {
-  background-image: url('../images/sponsors/storybrick.png');
-}
-
-#sweat {
-  background-image: url('../images/sponsors/sweat-cosmetics.jpeg');
-}
-
-#topo_designs {
-  background-image: url('../images/sponsors/topo_designs.jpg');
-}
-
-#two-parts {
-  background-image: url('../images/sponsors/two-parts.jpeg');
-}
-
-#upstairs_circus {
-  background-image: url('../images/sponsors/upstairs_circus.png');
-} */
 
 @media screen and (max-width: 1000px) {
   #sponsor-wrap {
