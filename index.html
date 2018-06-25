@@ -17,28 +17,21 @@
                         <!-- Jquery -->
 
   <link href="lightbox-plugin/simplelightbox.min.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script src="lightbox-plugin/simple-lightbox.min.js"></script>
+  <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
                         <!--   Stylesheets -->
 
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="stylesheets/mobile.css"/>
   <link rel="stylesheet" type="text/css" href="stylesheets/styles.css"/>
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300" rel="stylesheet">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
 
                       <!--   Angular CDNs -->
 
-  <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-animate.min.js'></script>
-  <script type="text/javascript" src='javascripts/main.js'></script>
-  <base href="/">
-  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
 
       <!-- Slider Plugin  -->
 
@@ -137,24 +130,35 @@
   <div id='content' class='main' ui-view autoscroll="true"></div>
 
 
-
-
 </div>
+
+<script  src="http://code.angularjs.org/1.2.13/angular.js"></script>
+<script async src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script async src="lightbox-plugin/simple-lightbox.min.js"></script>
+
+
+  <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+  <script async src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-animate.min.js'></script>
+  <script async type="text/javascript" src='javascripts/main.js'></script>
+  <base href="/">
+  <script async src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 
 <!-- Script to preload the gallery images for smoother loading -->
 
 <div class="hidden">
 
-<script type="text/javascript">
+<script async type="text/javascript">
 <!--//--><![CDATA[//><!--
 var images = new Array()
-function preload() {
-for (i = 0; i < preload.arguments.length; i++) {
+function preloads() {
+for (i = 0; i < preloads.arguments.length; i++) {
   images[i] = new Image()
-  images[i].src = preload.arguments[i]
+  images[i].src = preloads.arguments[i]
 }
 }
-preload(
+preloads(
 "images/event-images/Bar_1.jpeg",
 "images/event-images/Bar_2.jpeg",
 "images/event-images/Bar_3.PNG",
