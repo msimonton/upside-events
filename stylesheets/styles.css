@@ -44,10 +44,7 @@ body  {
   background-color:#192128;
   margin: 0px;
   font-family: 'Open Sans', sans-serif;
-  /*min-height: 100vh;*/
   height: 100vh;
-  /*padding-bottom: 100px;*/
-
 }
 
 .content-wrap   {
@@ -90,13 +87,6 @@ body  {
 
 
               /*  Navigation Tab Animation  */
-
-
-.active > a > .nav-text {
-/*border-bottom: 2px solid black;
-letter-spacing: 2px;
-margin-bottom: 2px;*/
-}
 
 
 .nav-links, .nav-links:hover  {
@@ -147,9 +137,7 @@ margin-bottom: 2px;*/
 .nav-text:hover:before {
   bottom: auto;
   top: 0;
-
 }
-
 
 .active > a > .nav-text {
 
@@ -168,7 +156,6 @@ margin-bottom: 2px;*/
   display: block;
   margin: 0 auto;
   width: 80%;
-
 }
 
 .lrg-col  {
@@ -182,7 +169,6 @@ margin-bottom: 2px;*/
   margin: 0px;
   text-align: center;
   position: fixed;
-  /*border-bottom: 5px solid rgb(25,34,40);*/
   box-shadow: 0px 6px 6px 0px rgb(25,34,40);
   top: 0px;
   z-index: 221;
@@ -198,9 +184,7 @@ margin-bottom: 2px;*/
 .large-col  {
   text-align: center;
   padding: 0px;
-
 }
-
 
 .nav-row-left, .nav-row-right {
 margin-top: 50px;
@@ -253,25 +237,15 @@ margin-top: 50px;
   display: none;
 }
 
-
-@media screen and (min-width: 1085px) {
-
-}
-
 .nav-image  {
   text-align: center;
 }
-
-
-
-
 
 .menu-button  {
   width: 60px;
   display: inline-block;
   float: right;
   margin-right: 70px;
-
 }
 
 .main  {
@@ -280,18 +254,9 @@ margin-top: 50px;
   position: relative;
 }
 
-
-
             /*     Layout of Home Page     */
 
-
-
-
-
-
-
 .home-wrapper  {
-  /*background-color: rgba(0,0,0, .4);*/
   margin-top: 10px;
 }
 
@@ -306,7 +271,6 @@ margin-top: 50px;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -20px;
-
 }
 
 .home-overlay {
@@ -318,16 +282,12 @@ margin-top: 50px;
 
 
 .home-content {
-  /*height: 100vh;*/
-  /*background-color: rgba(0,0,0, .55);*/
-  /*margin-top: 25px;*/
   margin-left: 0px;
   width: 100%;
   color: white;
   font-family: 'Open Sans', sans-serif;
   padding-top: 65px;
   overflow: hidden;
-  /*background-color: rgba(0,0,0,.2);*/
 }
 
 .main-top{
@@ -342,11 +302,10 @@ margin-top: 50px;
   font-size: 50px;
   margin-top: 22px;
   text-shadow:
-
-     7px 7px 12px #000,
-     -7px -7px 12px #000,
-     7px -7px 12px #000,
-     -7px 7px 12px #000
+  7px 7px 12px #000,
+  -7px -7px 12px #000,
+  7px -7px 12px #000,
+  -7px 7px 12px #000
 
 }
 
@@ -377,16 +336,15 @@ margin-top: 50px;
   width: 100%;
   text-align: center;
 }
+
 #home-event-wrap  {
   text-align: center;
   margin: auto;
   max-width: 600px;
   min-width: 330px;
-  /*background-color:#192228;*/
   background-color: rgba(0,0,0, .7);
   border-radius: 10px;
   padding: 30px 0px 10px 0px;
-
 }
 
 #main-back  {
@@ -412,10 +370,7 @@ margin-top: 50px;
 .cause-col  p {
 margin: 0px;
 margin-top: -7px;
-
-
 }
-
 
 .cause-col p:nth-child(2) {
  font-family: 'Fjalla One', sans-serif;
@@ -470,21 +425,15 @@ margin-top: -7px;
 
 #about-event-text, #main-tickets {
   display: inline-block;
-  /*background-color: rgba(255,255,255,1);*/
   color: #FF1899;
   font-size: 20px;
   margin: 5px;
   padding: 5px;
-  /*border-radius: 6px;*/
-  /*border-bottom: 2px solid #FF1899;
-  border-top: 2px solid #FF1899;*/
   border-left: 2px solid #FF1899;
   border-right: 2px solid #FF1899;
   transition: border 180ms ease-in-out;
   border-top: 2px solid rgba(1,1,1,0);
   border-bottom: 2px solid rgba(1,1,1,0);
-
-
 }
 
 #about-event-text:hover, #main-tickets:hover  {
@@ -494,16 +443,6 @@ margin-top: -7px;
   border-right:0px;
   margin-left: 17px;
   margin-right: 17px;
-}
-
-
-.landing-pic {
-  /* background-image:url('../images/landing-1.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 600px;
-  margin-top: 50px; */
-
 }
 
 .landing-pic img  {
@@ -648,20 +587,7 @@ margin-top: -7px;
   border-radius: 50%;
 }
 
-
-
-
-
-
               /*    Team Member Info Slider   */
-
-
-/*.headshot     {
-  height: 100%;
-  width: 100%;
-  max-width: 180px;
-  border-radius: 50%;
-}*/
 
 .team-close {
   float: right;
@@ -697,8 +623,6 @@ margin-top: -7px;
   opacity: 0;
 }
 
-
-
                     /*    Team Slide Test      */
 
 .slider  {
@@ -726,10 +650,6 @@ color: white;
   margin-top: 10px;
   color: white;
 }
-
-
-
-
 
             /*   Events Layout   */
 
@@ -760,7 +680,6 @@ color: white;
 
 }
 
-
 .event-title  {
   color: rgba(255,255,255, .8);
   text-align: center;
@@ -769,7 +688,6 @@ color: white;
   padding: 8px;
   margin-top: 0px;
   width: 100%;
-
 }
 
 #events-content {
@@ -777,14 +695,11 @@ color: white;
   text-align: center;
   order: 2;
   margin-bottom: 0px;
-
-
 }
 
 .events-div {
   padding: 0px;
 }
-
 
 .event-name {
   margin-top: 20px;
@@ -792,7 +707,6 @@ color: white;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   color:#FF1899;
-
 }
 
 #vol-two  {
@@ -800,9 +714,7 @@ color: white;
   margin-bottom: 20px;
 }
 
-
 .event-main   {
-
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   color: white;
@@ -810,8 +722,6 @@ color: white;
   letter-spacing: 5px;
   margin-bottom: 0px;
   margin-top: 25px;
-
-
 }
 
 .under  {
@@ -827,8 +737,6 @@ color: white;
   height: 3px;
 }
 
-
-
 .event-info {
   font-family: 'Open Sans', sans-serif;
   margin-top: 5px;
@@ -839,24 +747,12 @@ color: white;
   letter-spacing: .9px;
 }
 
-
 .events-col {
   padding: 0px;
 }
 
-/*
-#cause-head {
-  color: #FF1899;
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 95px;
-  margin-bottom: 0px;
-  font-stretch:extra-condensed;
-  margin-top: 0px;
-}*/
-
 .events-colm  {
   text-align: center;
-  /*background-color: rgba(0,0,0,.7);*/
 }
 
 .event-head {
@@ -868,7 +764,6 @@ color: white;
 margin: 0px;
 margin-top: -7px;
 color: white;
-
 }
 
 .first-date {
@@ -905,7 +800,6 @@ color: white;
 .events-colm p:nth-child(6) {
   font-family: 'Fjalla One', sans-serif;
   font-size: 21px;
-  /*letter-spacing: 1.5px;*/
 }
 
 .events-colm p:nth-child(7) {
@@ -919,7 +813,6 @@ color: white;
   background-image: url('../images/disco.jpg');
   background-position: center;
   background-size: cover;
-
   border: 3px solid white;
   padding: 0px;
   margin-top: 10px;
@@ -936,8 +829,6 @@ color: white;
 .event-wrap {
   margin: auto;
   width: 100%;
-  /*min-width: 310px;
-  max-width: 445px;*/
   display: inline-block;
   padding: 10px 0 0 0;
 }
@@ -973,7 +864,6 @@ color: white;
 
 .perks-container  {
   display: inline-block;
-  /*max-width: 445px;*/
 }
 
 #perks-title  {
@@ -1010,9 +900,8 @@ color: white;
 
 #event-tickets  {
   width: 100%;
-  /*background-color: rgba(0, 0, 0, .6);*/
-
 }
+
 #event-tickets-mob  {
   display: none;
 }
@@ -1020,8 +909,6 @@ color: white;
 .event-ticket-link  {
   margin-top: 0px !important;
 }
-
-
 
 .event-time {
   margin: auto;
@@ -1041,7 +928,6 @@ color: white;
   font-size: 16px;
 
 }
-
 
 .past-event-info  {
   width: 40%;
@@ -1075,8 +961,6 @@ justify-content: space-around!important;
 margin: auto;
 align-content: space-around;
 }
-
-
 
 .event-sponsors {
   color: white;
@@ -1142,15 +1026,6 @@ position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-
-
-
-
-}
-
-.donor-wrap   {
-  /* flex-grow: 1; */
 }
 
 .donor {
@@ -1161,9 +1036,6 @@ position: relative;
   margin-top: 0px;
   margin-bottom: 5px;
 }
-
-
-
 
 @media screen and (max-width: 1000px) {
   #sponsor-wrap {
@@ -1193,11 +1065,9 @@ position: relative;
 .my-slider-two    {
   max-height: 600px !important;
   margin-top: 30px;
-
 }
 
 .slide-img {
-  /*border: 2px solid white;*/
   width: 100%;
   margin: auto;
   border-radius: 8px;
@@ -1206,7 +1076,6 @@ position: relative;
 .slick-list {
   margin: auto !important;
 }
-
 
 .slider-controls-right {
   opacity: .6;
@@ -1218,15 +1087,12 @@ position: relative;
   width: 30px;
   z-index: 449999999944;
   opacity: .6;
-
 }
-
 
 .slide-div  {
   position: relative;
   overflow:hidden;
   height:525px;
-
 }
 
 .slide-image  {
@@ -1268,7 +1134,6 @@ position: relative;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
 .gal-wrap {
@@ -1283,7 +1148,6 @@ position: relative;
   border-radius: 3px;
 
 }
-
 
 .gallery  a {
 }
@@ -1301,16 +1165,6 @@ position: relative;
   margin: auto;
   margin-bottom: 10px;
 }
-
-
-/*#gal  {
-  color: #c6c6c6;
-  font-family: 'Open Sans', sans-serif;
-  padding:0px;
-  font-size: 17px;
-  margin-top: 50px;
-
-}*/
 
 @media (max-width: 700px) {
   .gal-thumbs {
@@ -1361,10 +1215,8 @@ height: auto;
 }
 }
 
-
-
-
           /*    Participate Page Layout   */
+
 .participate-content  {
   position: relative;
   text-align: center;
@@ -1395,6 +1247,7 @@ height: auto;
 iframe    {
   width: 50%;
   margin-left: -24px;
+  margin-bottom: 30px;
 }
 
 .involved {
@@ -1426,10 +1279,6 @@ iframe    {
   text-align-last: center;
 }
 
-iframe  {
-  margin-bottom: 30px;
-}
-
 @media screen and (max-width: 1000px) {
   #tics {
   margin-top: 30px;
@@ -1437,13 +1286,6 @@ iframe  {
   width: 100%;
   }
 }
-
-/*.tics {
-  margin-bottom: 20px;
-}*/
-
-
-
 
 
 /*  Testing   */
@@ -1464,8 +1306,6 @@ iframe  {
   margin-right: auto;
   left: 0;
   right: 0;
-
-
 }
 
 .logo-slide {
@@ -1480,13 +1320,10 @@ iframe  {
   left: 0;
   right: 0;
   opacity: 0;
-
-
 }
 
 #up, #down  {
   margin: auto;
-
 }
 
 
@@ -1527,9 +1364,6 @@ background-color:#192228;}
   opacity: 0;
 }
 
-
-
-
     /* !!!!!!!!!!!!!  MOBILE LAYOUT  !!!!!!!!!!!!!!   */
 
 
@@ -1561,17 +1395,11 @@ background-color:#192228;}
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom: 5px solid rgb(25,34,40);
-
-
   }
 
   .content-mobile {
     display: none;
   }
-
-  /*.mobile-bars  {
-    display: block;
-  }*/
 
   .team {
     display: inline-block;
@@ -1613,7 +1441,6 @@ background-color:#192228;}
   display: block;
 }
 
-
 .about-head-row, .main-top, .about-team-row {
   display: none;
 }
@@ -1633,7 +1460,6 @@ background-color:#192228;}
   height: 170px;
   padding: 10px;
 }
-
 
 .mob-about  {
   font: inherit;
@@ -1659,18 +1485,12 @@ background-color:#192228;}
   #main-nav {
     display: none;
   }
-  /*.nav-logo {
-    height: 90px;
-    margin-left: 10px;
-
-  }*/
 
   #nav-logo-design  {
     width: 47px;
   }
 
   #nav-mob-log   {
-
     top: 5;
     left: 48;
     right: 52;
@@ -1690,7 +1510,6 @@ background-color:#192228;}
     position: absolute;
     left: 10px;
     top: 10px;
-
   }
 
   #event-tickets-mob {
@@ -1713,9 +1532,7 @@ background-color:#192228;}
     z-index: 2343;
     margin: auto;
     margin-top: 35px;
-
   }
-
 
   .home   {
     background-size: cover;
@@ -1732,7 +1549,6 @@ background-color:#192228;}
     padding-top: 0px;
   }
 
-
   .home-bars  {
     margin-top: 20px;
   }
@@ -1743,8 +1559,6 @@ background-color:#192228;}
   .about-content, .gallery-content, .participate-content  {
     margin-top: 0px;
   }
-
-
 
   .team-pic {
     width: 70%;
@@ -1767,25 +1581,13 @@ background-color:#192228;}
     margin: 15px 0px 15px 0px;
   }
 
-
-
-
   .team-members {
     margin-top: 10px;
   }
 
-
   .team-name  {
     font-size: 24px;
   }
-
-  .headshot-row {
-
-  }
-
-
-
-
 
   .clicked {
     margin: auto;
@@ -1809,11 +1611,6 @@ background-color:#192228;}
   display: none;
 }
 
-/*.events-image  {
-  margin: auto;
-  width: 100%;
-  margin-bottom: 30px;
-}*/
 
 .team {
   height: auto;
@@ -1848,7 +1645,6 @@ background-color:#192228;}
 
 .cause-col  {
   padding: 0px;
-
 }
 
 .home {
@@ -1860,53 +1656,20 @@ background-color:#192228;}
   margin: auto;
 }
 
-
-
-
 .team-pic {
   background-position: center;
   text-align: center;
   margin: auto;
 }
 
-
-
-
-
-
-/*.event-wrap {
- display: table;
-}
-.row-events {
-  display: table-row;
-}
-
-.events-image {
-  overflow: auto;
-  display: table;
-  margin-bottom: 30px;
-}*/
-
 .event-info, .events-blurb  {
   text-align: justify;
 }
 
-/*.event-info {
-  padding: 10px;
-}
-.event-wrap {
-  margin: auto;
-}*/
-
 .about-content, .participate-content, .gallery-content, .home-content  {
   margin-top: 0px;
 }
-
-
-
-
 }
-
 
 .vol-one  {
   letter-spacing: 5px;
@@ -1925,7 +1688,6 @@ background-color:#192228;}
   top: 0px;
   z-index: 224;
 }
-
 
 #dropdown-toggle  {
  position: absolute;
@@ -1958,8 +1720,6 @@ background-color:#192228;}
   margin-bottom: 24px;
   width: 100%;
   text-decoration: underline;
-
-
 }
 
 .img-mob  {
@@ -1987,15 +1747,11 @@ background-color:#192228;}
 .content-mobile {
   text-align: center;
   margin: auto;
-
 }
 
 #iframe-wrap  {
   text-align: center;
 }
-
-
-
 
 .ticket-type  {
   display: none;
@@ -2013,7 +1769,6 @@ background-color:#192228;}
   margin-bottom: 20px;
 }
 
-
 .vol-one  {
   letter-spacing: 5px;
   text-shadow:
@@ -2022,7 +1777,6 @@ background-color:#192228;}
      7px -7px 10px #000,
      -7px 7px 10px #000
 }
-
 
 .content{
   height: 100vh
@@ -2101,23 +1855,3 @@ footer {
 .gallery-content, .participate-content  {
   margin-top: 30px;
 }
-
-
-
-
-/*@media screen and (min-width: 720px) {
-  .home {
-    margin-top: 80px;
-  }
-}
-@media screen and (min-width: 810px) {
-  .home {
-    margin-top: 180px;
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .home {
-    margin-top: -20px;
-  }
-}*/
