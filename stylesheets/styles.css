@@ -1,13 +1,10 @@
 
             /*    Index   */
 
-
 *             {
  margin: 0;
  padding: 0;
 }
-
-
 
  .home {
  display: none;
@@ -1118,13 +1115,18 @@ position: relative;
   margin-top: 25px;
 }
 
-.drop-icon, .up-icon  {
+.gal-select-wrap {
+  display: inline-block;
+  padding: 10px;
+}
+
+.drop-icon-17, .drop-icon-18, .up-icon-18, .up-icon-17  {
   width: 40px;
   margin-bottom: 10px;
   cursor: pointer;
 }
 
-.gal-thumbs {
+.party-17, .party-18 {
   display: none;
 }
 
@@ -1160,10 +1162,15 @@ position: relative;
   flex-grow: 1;
 }
 
-.up-icon  {
+.up-icon-17, .up-icon-18  {
   display: none;
   margin: auto;
   margin-bottom: 10px;
+}
+
+.gal-selector {
+  display: block;
+  color: white;
 }
 
 @media (max-width: 700px) {
